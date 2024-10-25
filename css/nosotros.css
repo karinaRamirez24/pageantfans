@@ -1,0 +1,227 @@
+.banner {
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 80px;
+  background-image: url(/assets/models.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.child {
+  padding: 150px 80px;
+  border-radius: 15px;
+  color: white;
+  background: rgba(0, 0, 0, 0.514);
+}
+
+.child h5 {
+  font-size: 50px;
+  margin: 5px 0px;
+}
+
+.child span {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.nossotros h4 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 60px;
+}
+
+.tabcontent {
+  display: none;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.tabcontent h3 {
+  color: rgb(77, 77, 77);
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.tabcontent p {
+  color: rgb(139, 139, 139);
+  padding: 10px 25%;
+  font-size: 20px;
+  text-align: center;
+}
+
+#tab1 {
+  display: block;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.tab button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 40px;
+  margin: 0px 20px;
+  font-size: 25px;
+
+}
+
+.tab button.active {
+  border-bottom-style: solid;
+  border-bottom-color: #be0060;
+}
+
+.mainMVV p {
+  font-size: 60px;
+  padding: 20px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid-valores {
+  padding: 20px 80px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(349px, 1fr));
+  grid-gap: 50px;
+  grid-auto-rows: minmax(35px, auto);
+}
+
+.valores-Carts {
+  background-color: white;
+  border-radius: 10px;
+  padding: 68px 20px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.valores-Carts i {
+  font-size: 105px;
+  margin: 20px 0px;
+}
+
+.valores-Carts h3 {
+  color: rgb(77, 77, 77);
+  margin: 10px 0px;
+  font-size: 35px;
+}
+
+.valores-Carts h4 {
+  color: rgb(172, 172, 172);
+  margin: 30px 45px 0px 45px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.box-vision {
+  border-radius: 10px;
+  text-align: right;
+  color: white;
+  margin: 50px 80px;
+  padding: 100px 80px;
+  background-image: url(/TTP-WEB/assets/back-vmv-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contentv p {
+  text-align: right;
+}
+
+.box-vision h3 {
+  text-align: right;
+}
+
+.contentv {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.elementos {
+  width: 45%;
+}
+
+.elementos h3 {
+  line-height: 150%;
+}
+
+.box-mision {
+  border-radius: 10px;
+  text-align: right;
+  color: white;
+  margin: 50px 80px;
+  padding: 100px 80px;
+  background-image: url(/TTP-WEB/assets/back-vmv-2.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.contentm {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.contentm p {
+  text-align: left;
+}
+
+.box-mision h3 {
+  text-align: left;
+}
+
+.tttQuien {
+  margin: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tttQuien img {
+  width: 500px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.historia-TTP h1 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+
+.historia-TTP h3 {
+  text-align: justify;
+  padding: 60px 90px;
+  top: 50%;
+  line-height: 160%;
+  color: rgb(172, 172, 172);
+}
+
+
+/* ---------------Elementos responcive--------------- */
+
+@media (max-width: 1100px) {
+
+
+}
+
+@media (max-width: 700px) {
+
+  .grid-valores {
+    padding: 20px 0px;
+  }
+}
