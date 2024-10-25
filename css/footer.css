@@ -10,7 +10,7 @@
   box-sizing: border-box;
   width: 100%;
   font: bold 16px sans-serif;
-  padding: 55px 50px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -45,4 +45,25 @@
   border: #8B898B solid;
   border-radius: 15px;
 
+}
+.redes-sociales{
+  height: 50px;
+  padding-left: 2.9%;
+  background-color: #000;
+  display: flex;
+  
+}
+.redes-sociales a{
+  width: 40px;
+  color: white;
+}
+.redes-sociales a i{
+  width: 8px;
+  color: white;
+}
+.terminos{
+  text-align: center;
+  background-color: #000;
+  color: white;
+  font-size: 10px;
 }
