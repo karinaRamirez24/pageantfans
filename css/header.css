@@ -1,34 +1,35 @@
 /* Estos son los estilos del header */
 
 .top-bar {
-  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
   width: 100%;
-  position: block;
-  justify-content: space-between;
-  color: black;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  top: 0;
-  left: 0;
+  position: fixed; /* Mantenerlo en la parte superior */
+  background-color: rgb(255, 255, 255); /* Fondo blanco */
+  color: rgb(255, 0, 0);
+
+}
+
+.menu-bar {
+  flex: 1; /* Espacio a la izquierda para el menú */
+  display: flex; /* Alinear los elementos del menú */
+  justify-content: flex-start; /* Alinear el menú a la izquierda */
+}
+
+.menuConteiner {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menuChild {
+  padding: 10px 20px;
 }
 
 .logo-bar {
-  display: flex;
-  align-items: center;
-  padding: 8px 70px;
-  justify-content: space-between;
-}
-
-.menu-but {
-  display: none;
-}
-
-.contain-logo {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding-left: 50px;
-  width: 100%;
+  flex: 0 0 auto; /* Permite que el logo no se expanda */
+  text-align: center; /* Centra el logo */
 }
 
 .logo {
@@ -37,120 +38,34 @@
   cursor: pointer;
 }
 
-.text-TTP {
-  font-weight: bold;
-  font-size: 30px;
-}
-
 .search-conten {
   display: flex;
-  align-items: center;
-
-}
-.search-conten i {
-  font-size: 27px;
-}
-.div-Busqueda {
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 10px;
-  width: 48px;
-  height: 48px;
+  justify-content: flex-end; /* Alinear los botones a la derecha */
+  flex: 1; /* Asegura que el contenedor de búsqueda use el espacio disponible */
+  min-width: 200px; /* Asegura que el contenedor no sea demasiado pequeño */
 }
 
-.input-search {
-  padding: 7px;
-  border: none;
-  background-color: transparent;
-  border-radius: 6px;
-  outline: none;
-}
-
-.buton-search {
-  border-style: none;
-  background-color: transparent;
+.buton-search,
+.buton-user {
+  border: 2px solid #E30426; /* Borde rojo */
+  border-radius: 20px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado */
+  color:#E30426;
   cursor: pointer;
-  padding-left: 5px;
-  width: 48px;
-  height: 48px;
+  margin-left: -30px; /* Espacio entre botones */
+  margin-right: 40px;
 }
 
 .buton-user {
-  border-style: none;
-  background-color: transparent;
-  cursor: pointer;
-  width: 48px;
-  height: 48px;
+  background-color: #E30426; /* Fondo rojo */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
 }
 
-.buton-cart {
-  border-style: none;
-  background-color: transparent;
-  cursor: pointer;
-  width: 48px;
-  height: 48px;
-}
-
-.menu-bar {
-  border: 1px solid rgb(214, 214, 214);
-  padding: 8px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menuConteiner {
-  display: flex;
-  list-style: none;
-}
-
-.menuChild {
-  padding: 10px 20px;
-}
-
-.dropdown-menu {
-  border: 1px solid rgb(214, 214, 214);
-  padding: 20px 60px;
-  backdrop-filter: blur(5px);
-  animation: scale-up-vertical-top 0.2s linear;
-}
-
-.expandedMenu {
-  list-style: none;
-}
-
-.menuChildExpanded {
-  font-size: 30px;
-  padding: 20px 20px;
-}
-
-.textExpand {
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
-  font-size: 30px;
-}
-
-.social-media-menu {
-  display: flex;
-  justify-content: center;
-}
-
-.social-button {
-  border-style: none;
-  background-color: transparent;
-  cursor: pointer;
-  margin: 0px 20px;
-}
 
 /* Estos son los coleres que se usan en la animacion de la barra de abajo del header */
 
 .color1 {
   color: #505050;
-  text-transform: uppercase;
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
@@ -177,7 +92,6 @@
 
 .color2 {
   color: #505050;
-  text-transform: uppercase;
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
@@ -204,7 +118,6 @@
 
 .color3 {
   color: #505050;
-  text-transform: uppercase;
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
