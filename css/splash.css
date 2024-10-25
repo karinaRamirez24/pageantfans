@@ -16,7 +16,6 @@
     margin-bottom: 20px; /* Espacio entre el logo y el video */
     opacity: 1; 
     transition: opacity 1s ease; /* Efecto de desvanecimiento */
-    box-shadow: 0 20px 200px rgba(0, 0, 0, 0.9); /* Sombra negra más difusa */
     position: relative; 
     z-index: 1; 
 }
