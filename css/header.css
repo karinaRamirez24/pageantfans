@@ -6,7 +6,7 @@
   padding: 10px 20px;
   width: 100%;
   position: fixed; /* Mantenerlo en la parte superior */
-  background-color: rgb(255, 255, 255); /* Fondo blanco */
+  background-color: rgba(0, 0, 0, 0.02); /* Fondo blanco */
   color: rgb(255, 0, 0);
 
 }
@@ -21,6 +21,7 @@
   display: flex;
   list-style: none;
   padding: 0;
+  margin-left: -20px;
 }
 
 .menuChild {
@@ -50,17 +51,19 @@
   border: 2px solid #E30426; /* Borde rojo */
   border-radius: 20px; /* Bordes redondeados */
   padding: 10px 20px; /* Espaciado */
-  color:#E30426;
-  cursor: pointer;
+  color: #E30426; /* Color del texto */
+  background-color: transparent; /* Fondo transparente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
   margin-left: -30px; /* Espacio entre botones */
-  margin-right: 40px;
+  margin-right: 40px; /* Espacio entre botones */
+  font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+  transition: background-color 0.3s; /* Para una transición suave */
 }
 
 .buton-user {
   background-color: #E30426; /* Fondo rojo */
   color: rgb(255, 255, 255); /* Color del texto blanco */
 }
-
 
 /* Estos son los coleres que se usan en la animacion de la barra de abajo del header */
 
