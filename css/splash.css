@@ -1,0 +1,36 @@
+#splash-screen {
+    position: absolute; /* Asegúrate de que ocupe toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente, si lo deseas */
+    display: flex; /* Para centrar el logo */
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Asegúrate de que el splash esté encima del video */
+}
+
+#logo {
+    width: 40rem; /* Ajusta el tamaño según necesites */
+    margin-bottom: 20px; /* Espacio entre el logo y el video */
+    opacity: 1; 
+    transition: opacity 1s ease; /* Efecto de desvanecimiento */
+    box-shadow: 0 20px 200px rgba(0, 0, 0, 0.9); /* Sombra negra más difusa */
+    position: relative; 
+    z-index: 1; 
+}
+
+
+video {
+    position: absolute; /* Posición absoluta para ocupar toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupar toda la anchura */
+    height: 100%; /* Ocupar toda la altura */
+    object-fit: cover; 
+    z-index: -0; /* Coloca el video detrás del logo */
+    opacity: 1;
+    transition: opacity .5s ease; /* Efecto de desvanecimiento */
+}
+
