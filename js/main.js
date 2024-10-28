@@ -21,3 +21,4 @@ document.addEventListener("DOMContentLoaded", function () {
             headersHTML(document.getElementById("modalStore"));
         });
 });
+

@@ -20,7 +20,6 @@ function headersHTML(headerElement) {
     });
 
     news.addEventListener("click", function() {
-        console.log("Hola perro");
         cargarContenido("../Pages/News/news.html");
     });
 
