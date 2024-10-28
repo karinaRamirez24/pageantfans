@@ -63,4 +63,55 @@
     border: 3px solid #E30426;
 }
 
-/*degradado ocuro */
+/*Video layer blur */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.video-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.012); 
+    backdrop-filter: blur(10px); /*intensidad del desenfoque */
+    pointer-events: none; 
+}
+
+/*segunda parte */
+
+.Video-texto{
+    width: 1480px;
+    margin-top: -960px;
+    margin-left: 1080px;
+    position: absolute;
+    z-index: 1; 
+    line-height: 1.5;
+}
+
+ h2{
+    color: #ffffff;
+    font-size: 2.6em;
+}
+
+.blur-box {
+    position: absolute;
+    top: 25%; 
+    left: -10%; 
+    width: 120%; 
+    height: 50%; 
+    background: rgba(15, 14, 14, 0.674); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.457); /* Sombra (opcional) */
+}
