@@ -85,8 +85,33 @@ video {
     right: 0;
     bottom: 0;
     background: rgba(255, 255, 255, 0.012); 
-    backdrop-filter: blur(10px); /*intensidad del desenfoque */
+    backdrop-filter: blur(30px); /*intensidad del desenfoque */
     pointer-events: none; 
+}
+
+/*separador*/
+.separador2 {
+    position: absolute;
+    top: -15%; 
+    left: -10%; 
+    width: 120%; 
+    height: 20%; 
+    background: rgba(0, 0, 0, 0.918); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Sombra (opcional) */
+ 
+}
+
+.separador3 {
+    position: absolute;
+    top: 95%; 
+    left: -10%; 
+    width: 120%; 
+    height: 20%; 
+    background: rgba(0, 0, 0, 0.99); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.93); /* Sombra (opcional) */
+ 
 }
 
 /*segunda parte */
@@ -110,8 +135,24 @@ video {
     top: 25%; 
     left: -10%; 
     width: 120%; 
-    height: 50%; 
-    background: rgba(15, 14, 14, 0.674); /* Fondo semitransparente */
+    height: 60%; 
+    background: rgba(27, 2, 2, 0.518)    ; /* Fondo semitransparente */
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.457); /* Sombra (opcional) */
+    box-shadow: 0 4px 15px rgba(27, 2, 2, 0.809); /* Sombra (opcional) */
+    z-index: 1; 
+    line-height: 1.5;
 }
+
+.blur-box h3{
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.texto-h{
+    width: 100%;
+    margin-top: 520px;
+    margin-right: 50%;
+    margin-left: 18%;
+}
+
+
