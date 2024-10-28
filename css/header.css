@@ -1,17 +1,18 @@
 .top-bar {
   display: flex;
+  position:absolute ;
   align-items: center;
   padding: 10px 20px;
   width: 100%;
-  position: fixed; 
-  background-color: rgba(0, 0, 0, 0.02);
+  position: fixed;
+  background: rgba(0, 0, 0, 0.20);
   color: rgb(255, 0, 0);
 
 }
 
 .menu-bar {
-  flex: 1; 
-  display: flex; 
+  flex: 1;
+  display: flex;
   justify-content: flex-start;
 }
 
@@ -52,7 +53,7 @@
   color: #E30426;
   background-color: transparent;
   cursor: pointer;
-  margin-left: -30px; 
+  margin-left: -30px;
   margin-right: 40px;
   font-size: 16px;
   transition: background-color 0.3s;
@@ -64,7 +65,7 @@
 }
 
 .color1 {
-  color: #505050;
+  color: var(--Colors-White, #FFF);
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
@@ -90,7 +91,7 @@
 }
 
 .color2 {
-  color: #505050;
+  color: var(--Colors-White, #FFF);
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
@@ -116,7 +117,7 @@
 }
 
 .color3 {
-  color: #505050;
+  color: var(--Colors-White, #FFF);
   font-weight: 400;
   transition: all 0.4s ease-in-out;
   position: relative;
@@ -158,6 +159,7 @@
   .menu-bar {
     display: none;
   }
+
   .menu-but {
     display: block;
     border-style: none;
@@ -173,12 +175,14 @@
 
 @media (max-width: 700px) {
 
-  .text-TTP{
+  .text-TTP {
     display: none;
   }
+
   .logo-bar {
     padding: 8px 30px;
   }
+
   .contain-logo {
     padding-left: 10px;
   }

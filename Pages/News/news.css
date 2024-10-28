@@ -1,0 +1,20 @@
+.headerFooter video {
+    position: inherit;
+    height: 800px;
+    flex-shrink: 0;
+}
+.news-header-content{
+ 
+    fill: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
+
+}
+.news-header-content p{
+    color: #FFF;
+    text-align: left;
+    font-family: "Andada Pro";
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 50% */
+}
+
