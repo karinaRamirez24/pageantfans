@@ -1,20 +1,18 @@
-/* Estos son los estilos del header */
-
 .top-bar {
   display: flex;
   align-items: center;
   padding: 10px 20px;
   width: 100%;
-  position: fixed; /* Mantenerlo en la parte superior */
-  background-color: rgba(0, 0, 0, 0.02); /* Fondo blanco */
+  position: fixed; 
+  background-color: rgba(0, 0, 0, 0.02);
   color: rgb(255, 0, 0);
 
 }
 
 .menu-bar {
-  flex: 1; /* Espacio a la izquierda para el menú */
-  display: flex; /* Alinear los elementos del menú */
-  justify-content: flex-start; /* Alinear el menú a la izquierda */
+  flex: 1; 
+  display: flex; 
+  justify-content: flex-start;
 }
 
 .menuConteiner {
@@ -29,43 +27,41 @@
 }
 
 .logo-bar {
-  flex: 0 0 auto; /* Permite que el logo no se expanda */
-  text-align: center; /* Centra el logo */
+  flex: 0 0 auto;
+  text-align: center;
 }
 
 .logo {
   width: 60px;
-  height: 60px;
+  height: 47px;
   cursor: pointer;
 }
 
 .search-conten {
   display: flex;
-  justify-content: flex-end; /* Alinear los botones a la derecha */
-  flex: 1; /* Asegura que el contenedor de búsqueda use el espacio disponible */
-  min-width: 200px; /* Asegura que el contenedor no sea demasiado pequeño */
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 200px;
 }
 
 .buton-search,
 .buton-user {
-  border: 2px solid #E30426; /* Borde rojo */
-  border-radius: 20px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espaciado */
-  color: #E30426; /* Color del texto */
-  background-color: transparent; /* Fondo transparente */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  margin-left: -30px; /* Espacio entre botones */
-  margin-right: 40px; /* Espacio entre botones */
-  font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
-  transition: background-color 0.3s; /* Para una transición suave */
+  border: 2px solid #E30426;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #E30426;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -30px; 
+  margin-right: 40px;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .buton-user {
-  background-color: #E30426; /* Fondo rojo */
-  color: rgb(255, 255, 255); /* Color del texto blanco */
+  background-color: #E30426;
+  color: rgb(255, 255, 255);
 }
-
-/* Estos son los coleres que se usan en la animacion de la barra de abajo del header */
 
 .color1 {
   color: #505050;
@@ -145,7 +141,6 @@
   }
 }
 
-/* Animaciones del header  */
 
 @keyframes scale-up-vertical-top {
   0% {
