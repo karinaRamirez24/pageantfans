@@ -38,15 +38,15 @@
   cursor: pointer;
 }
 
-.search-conten {
+.loginFrame {
   display: flex;
   justify-content: flex-end;
   flex: 1;
   min-width: 200px;
 }
 
-.buton-search,
-.buton-user {
+.button-login,
+.button-sing-up {
   border: 2px solid #E30426;
   border-radius: 20px;
   padding: 10px 20px;
@@ -59,7 +59,7 @@
   transition: background-color 0.3s;
 }
 
-.buton-user {
+.button-sing-up {
   background-color: #E30426;
   color: rgb(255, 255, 255);
 }

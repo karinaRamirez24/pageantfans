@@ -4,6 +4,7 @@ function headersHTML(headerElement) {
     let download = headerElement.querySelector("#download");
     let subscriptions = headerElement.querySelector("#subscriptions");
     let news = headerElement.querySelector("#news");
+    let joinUs = headerElement.querySelector("#singUp");
 
     cargarContenido("../Pages/main.html");
 
@@ -21,6 +22,10 @@ function headersHTML(headerElement) {
 
     news.addEventListener("click", function() {
         cargarContenido("../Pages/News/news.html");
+    });
+
+    joinUs.addEventListener("click", function() {
+        cargarContenido("../Pages/Joinus/joinus.html");
     });
 
 }
