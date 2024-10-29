@@ -26,6 +26,9 @@ function headersHTML(headerElement) {
 
     joinUs.addEventListener("click", function () {
         cargarContenido("../Pages/Joinus/joinus.html");
+        document.getElementById("header-container").style.display = "none";
+        document.getElementById("footer-container").style.display = "none";
+
     });
 }
 

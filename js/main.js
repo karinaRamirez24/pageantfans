@@ -14,13 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
             footerHTML(document.getElementById("footer-container"));
         });
 
-    fetch("../Pages/main.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("content");
-            contentmainHTML(document.getElementById("content"));
-        });
-
     fetch("../elements/modal.html")
         .then(response => response.text())
         .then(data => {

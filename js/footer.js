@@ -14,7 +14,6 @@ function footerHTML(footerElement) {
         cargarContenido("./Pages/main.html");
     });
 
-
     computo.addEventListener("click", function () {
         cargarContenido("./Pages/Computo/computo.html");
     });
