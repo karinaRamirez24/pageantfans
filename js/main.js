@@ -20,7 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("modalStore").innerHTML = data;
             headersHTML(document.getElementById("modalStore"));
         });
-
+        
 });
+
+
 
 

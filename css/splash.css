@@ -1,5 +1,5 @@
 #splash-screen {
-    position: absolute; /* Asegúrate de que ocupe toda la pantalla */
+     /* Asegúrate de que ocupe toda la pantalla */
     top: 0;
     left: 0;
     width: 100%;
@@ -22,7 +22,6 @@
 
 
 video {
-    /* Posición absoluta para ocupar toda la pantalla */
     top: 0;
     left: 0;
     width: 100%; /* Ocupar toda la anchura */
