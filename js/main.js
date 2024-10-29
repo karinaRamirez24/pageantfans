@@ -13,22 +13,21 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("footer-container").innerHTML = data;
             footerHTML(document.getElementById("footer-container"));
         });
-});
 
-
-let buttonext = document.getElementById('nextPage');
-buttonext.addEventListener("click", function() {
-    console.log("hi");
-    nextPages("../Pages/Partners/partners.html");
-});
-
-
-
-
-function nextPages(url) {
-    fetch(url)
+    fetch("../Pages/main.html")
         .then(response => response.text())
         .then(data => {
-            document.getElementById("content").innerHTML = data;
+            document.getElementById("content");
+            contentmainHTML(document.getElementById("content"));
         });
-}
+
+    fetch("../elements/modal.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("modalStore").innerHTML = data;
+            headersHTML(document.getElementById("modalStore"));
+        });
+
+});
+
+
