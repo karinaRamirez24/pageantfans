@@ -1,5 +1,5 @@
 .formJoinus {
-    padding: 60px;
+    padding: 60px 60px 0px 60px;
 }
 
 .formJoinus h1 {
@@ -31,7 +31,7 @@ form {
     max-width: 500px;
     background-color: white;
     border-radius: 24px;
-    padding: 70px 60px;
+    padding: 70px 70px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -40,13 +40,53 @@ form h3 {
 }
 
 .joinusFomr {
-    margin: 150px 0px;
+    margin: 90px 0px;
+    padding: 0px 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+.joinusFomr img {
+    width: 550px;
+    height: 550px;
+}
+
+.joinusFomr samp {
+    color: #E30426;
+    font-size: 20px;
+}
+
+
 .arrow-back {
     width: 50px;
     height: 50px;
 }
+
+.form-Button {
+    margin: 20px 0px;
+    border-radius: 6px;
+    background: var(--Colors-Red-Red-09, #E30426);
+    width: 100%;
+    padding: 11px 128px;
+    color: white;
+    border: none;
+}
+
+/* .text-gradient {
+    color: transparent;
+    background-image: linear-gradient(to left, #E30426, #FF6200, #ffdb11, #ffe600);    
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;    
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+} */
