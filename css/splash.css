@@ -22,7 +22,7 @@
 
 
 video {
-    position: absolute; /* Posición absoluta para ocupar toda la pantalla */
+    /* Posición absoluta para ocupar toda la pantalla */
     top: 0;
     left: 0;
     width: 100%; /* Ocupar toda la anchura */
