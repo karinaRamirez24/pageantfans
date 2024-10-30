@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.text())
         .then(data => {
             document.getElementById("modalStore").innerHTML = data;
-            headersHTML(document.getElementById("modalStore"));
+            modalHTML(document.getElementById("modalStore"));
         });
         
 });

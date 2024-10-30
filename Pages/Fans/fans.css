@@ -19,7 +19,7 @@
     border-radius: 30px;
     padding: 73px;
     opacity: 0.9;
-    background: rgba(63, 14, 13, 0.18);
+    background: rgba(63, 14, 13, 0.25);
     backdrop-filter: blur(7.5px);
     display: flex;
     align-items: center;

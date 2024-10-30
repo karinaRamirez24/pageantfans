@@ -1,16 +1,14 @@
 function footerHTML(footerElement) {
 
-    let main = footerElement.querySelector("#main");
     let aboutusf = footerElement.querySelector("#aboutusf");
     let downloadf = footerElement.querySelector("#downloadf");
     let subscriptionsf = footerElement.querySelector("#subscriptionsf");
     let newsf = footerElement.querySelector("#newsf");
 
-    main.addEventListener("click", function () {
-        cargarContenido("./Pages/main.html");
-    });
-
+    console.log(aboutusf);
+    
     aboutusf.addEventListener("click", function () {
+        console.log("BBB");
         cargarContenido("../Pages/AboutUs/aboutus.html");
     });
 
