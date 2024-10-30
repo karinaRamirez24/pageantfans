@@ -194,6 +194,14 @@ a {
   }
 }
 
+.hero{
+  background: black;
+}
+
+.hero video {
+  position: inherit;
+}
+
 /* ---------------Elementos responcive--------------- */
 
 @media (max-width: 1100px) {
