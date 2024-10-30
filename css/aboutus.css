@@ -1,0 +1,51 @@
+.fundadores{
+
+}
+h1{
+    color: #fff;
+    font-size: 64px;
+    margin: 6%;
+    font-family: "Source Sans Pro";
+}
+img{
+width: 800px;
+height: 600;
+}
+.content-information{
+    display: flex;
+    box-direction: column;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.pageant-description{
+ width: 80%;
+ text-align: center;
+}
+p{
+    text-align: justify;
+    color: #fff;
+    
+}
+h2{
+    color: #545F71;
+    text-align: center;
+}
+h3{
+    color: #E30426;
+    text-align: center;
+    padding-bottom: 2%;
+  
+}
+.ceos{
+padding-bottom: 6%;
+}
+h4{    
+ text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 3%;
+
+}
