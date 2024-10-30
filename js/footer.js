@@ -1,52 +1,33 @@
 function footerHTML(footerElement) {
 
     let main = footerElement.querySelector("#main");
-    let computo = footerElement.querySelector("#computo");
-    let consumibles = footerElement.querySelector("#consumibles");
-    let cartuchos = footerElement.querySelector("#cartuchos");
-    let gamer = footerElement.querySelector("#gamer");
-    let routYantes = footerElement.querySelector("#routYantes");
-    let nosotros = footerElement.querySelector("#nosotros");
-    let contacto = footerElement.querySelector("#contacto");
-
+    let aboutusf = footerElement.querySelector("#aboutusf");
+    let downloadf = footerElement.querySelector("#downloadf");
+    let subscriptionsf = footerElement.querySelector("#subscriptionsf");
+    let newsf = footerElement.querySelector("#newsf");
 
     main.addEventListener("click", function () {
         cargarContenido("./Pages/main.html");
     });
 
-    computo.addEventListener("click", function () {
-        cargarContenido("./Pages/Computo/computo.html");
-    });
-    
-
-    consumibles.addEventListener("click", function() {
-        cargarContenido("./Pages/Consumibles/consumibles.html");
+    aboutusf.addEventListener("click", function () {
+        cargarContenido("../Pages/AboutUs/aboutus.html");
     });
 
-    cartuchos.addEventListener("click", function() {
-        cargarContenido("./Pages/Cartuchos/cartuchos.html");
+    downloadf.addEventListener("click", function () {
+        cargarContenido("../Pages/Download/download.html");
     });
 
-
-    gamer.addEventListener("click", function () {
-        cargarContenido("./Pages/Gamer/gamer.html");
+    subscriptionsf.addEventListener("click", function () {
+        cargarContenido("../Pages/Subscriptions/subscriptions.html");
     });
 
-    routYantes.addEventListener("click", function () {
-        cargarContenido("./Pages/RoutersYAntenas/router_y_antenas.html");
-    });
-
-    nosotros.addEventListener("click", function () {
-        cargarContenido("./Pages/Nosotros/nosotros.html");
-    });
-
-    contacto.addEventListener("click", function () {
-        cargarContenido("./Pages/Contacto/contacto.html");
+    newsf.addEventListener("click", function () {
+        cargarContenido("../Pages/News/news.html");
     });
 }
 
 function cargarContenido(url) {
-    // Cargar el contenido de la página correspondiente
     fetch(url)
         .then(response => response.text())
         .then(data => {

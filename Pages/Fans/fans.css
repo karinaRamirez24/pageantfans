@@ -1,0 +1,27 @@
+.textcardsFans {
+    color: white;
+}
+
+.fanscards {
+    padding: 100px 160px 0px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fanscards img {
+    width: 45%;
+}
+
+.cardCarrucel {
+    width: 1645px;
+    height: 587px;
+    border-radius: 30px;
+    padding: 73px;
+    opacity: 0.9;
+    background: rgba(63, 14, 13, 0.18);
+    backdrop-filter: blur(7.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
