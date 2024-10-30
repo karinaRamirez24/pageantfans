@@ -1,126 +1,161 @@
 .headerFooter video {
-    position: inherit;
-    height: 800px;
-    flex-shrink: 0;
+  position: inherit;
+  height: 800px;
+  flex-shrink: 0;
 }
 
 .news-header-content {
-    position: absolute;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
-    padding: 350px 169px;
+  position: absolute;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) -3.67%,
+    rgba(0, 0, 0, 0.71) 96.33%
+  );
+  padding: 350px 169px;
+  text-align: justify;
 }
 
 .news-header-content p {
-    color: #FFF;
-    text-align: left;
-    font-family: "Andada Pro";
-    font-size: 200px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
+  text-align: justify;
+  color: #fff;
+  text-align: left;
+  font-family: "Andada Pro";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
 }
-
+.p-initial {
+  width: 600px;
+  text-align: justify;
+  color: #fff;
+  font-family: "Andada Pro";
+  font-size: 16px;
+  font-style: normal;
+}
 .separador {
-    position: absolute;
-    top: 650px;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0.04) 100%);
+  position: absolute;
+  top: 650px;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.04) 0%,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0.04) 100%
+  );
 }
-.separador-second{
-    padding-top: 30%;
-}
-
-.partners-content{
-  
-     
-
+.separador-second {
+  padding-top: 30%;
 }
 
 .hero-news video {
-    position: inherit;
+  position: inherit;
 }
-.content-first{
-    z-index: 1;
-    align-items: center;
-    width: 100%;
-    background-color:aqua ;
-    display: flex;
-    justify-content: space-around;
+.content-first {
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
 }
-.parrafo-system{
-    color: white;
-    width: 600px;
-    padding-top: 20px;
-    padding-bottom: 50px;
+.parrafo-system {
+  color: white;
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
 
+.button-download {
+  width: 280px;
+  height: 50px;
+  background-color: #e30426;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
+  margin: 28px;
 }
 
-.button-download{
-    width: 280px;
-    height: 50px;
-    background-color: #E30426;
-    color: #fff;
-    border-radius: 20px;
-    outline: none;
-    margin: 28px;
-}
-.button-download:hover{
-    width: 300px;
-    height: 50px;
-    background-color: #d85a6d;
-    color: #fff;
-    border-radius: 20px;
-    outline: none;
+.button-download:hover {
+  width: 300px;
+  height: 50px;
+  background-color: #d85a6d;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
 }
 
 .hero {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    object-fit: cover;
-  }
-  .textcardsFans{
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-
-    
-
-  }
-  .fanscards{
-    padding-top: 8%;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .fanscards h2{
-    padding-left: 5%;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
-  .fanscards p{
-    padding-top: 5%;
-    padding-left: 5%;
-    width: 600px;
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
 }
-  .image-second{
-    z-index: 4;
-  }
+.textcardsFans {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.fanscards {
+  padding-top: 8%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fanscards h2 {
+  padding-left: 5%;
+}
+.fanscards p {
+  text-align: justify;
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 600px;
+}
+.image-first {
+  width: 35rem;
+  height: 30rem;
+}
+.image-second {
+  padding-right: 0;
+  width: 1117px;
+  height: 690px;
+  z-index: 4;
+}
+.content-image {
+  padding-left: 12%;
+}
+
+.button-system {
+  text-align: end;
+  padding-left: 55%;
+}
+.button-system input {
+  width: 280px;
+  height: 50px;
+  background-color: #e30426;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
+  margin: 28px;
+}
