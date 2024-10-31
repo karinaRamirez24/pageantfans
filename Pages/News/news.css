@@ -57,13 +57,13 @@ padding-top: 6%;
    height: 31rem;
    padding-bottom: 4%;
 }
-h1{
+.tiltNew{
     font-family: "Source Sans Pro";
     font-size: 28px;
     text-align: center;
     padding-bottom: 5%;
 }
-p{
+.textNew{
     text-align: justify;
     font-family: "Source Sans Pro";
     font-size: 20px;
