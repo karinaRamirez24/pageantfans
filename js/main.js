@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
             footerHTML(document.getElementById("footer-container"));
         });
 
-    fetch("../elements/modal.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("modalStore").innerHTML = data;
-            modalHTML(document.getElementById("modalStore"));
-        });
+    // fetch("../elements/modal.html")
+    //     .then(response => response.text())
+    //     .then(data => {
+    //         document.getElementById("modalStore").innerHTML = data;
+    //         modalHTML(document.getElementById("modalStore"));
+    //     });
         
 });
 

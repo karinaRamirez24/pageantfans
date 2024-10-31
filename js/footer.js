@@ -5,10 +5,7 @@ function footerHTML(footerElement) {
     let subscriptionsf = footerElement.querySelector("#subscriptionsf");
     let newsf = footerElement.querySelector("#newsf");
 
-    console.log(aboutusf);
-    
     aboutusf.addEventListener("click", function () {
-        console.log("BBB");
         cargarContenido("../Pages/AboutUs/aboutus.html");
     });
 
