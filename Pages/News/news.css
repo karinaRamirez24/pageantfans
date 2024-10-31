@@ -34,3 +34,83 @@
 .hero-news video {
     position: inherit;
 }
+.content-sections{
+    padding-top: 1 0%;
+    display: flex;
+    color: #FFF;
+}
+.section-one{
+width: 70%;
+margin: 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 6%;
+}
+.section-two{
+    width: 30%;
+    padding-top: 9%;
+}
+.image-main{
+   align-items: center;
+   width: 25rem;
+   height: 31rem;
+   padding-bottom: 4%;
+}
+h1{
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+p{
+    text-align: justify;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+line {
+    z-index: 4;
+    height: 3px;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+}
+hr{
+    z-index: 4;
+    height: 3px;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+   
+}
+.part-two{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.p-two{
+    text-align: justify;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.section-two img{
+ width: 120px;
+ height: 160px;
+ display: flex;
+ flex-direction: column;
+}
+.elements-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+.elements-section p{
+    font-size: 16px;
+    padding: 3%;
+}
