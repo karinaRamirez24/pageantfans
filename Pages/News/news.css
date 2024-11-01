@@ -7,17 +7,17 @@
 .news-header-content {
     position: absolute;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
-    padding: 350px 169px;
+    padding: 350px 8%;
 }
 
 .news-header-content p {
     color: #FFF;
     text-align: left;
     font-family: "Andada Pro";
-    font-size: 200px;
+    font-size: 120px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 .separador {
