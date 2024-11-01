@@ -114,6 +114,7 @@ align-items: center;
     font-size: 16px;
     padding: 3%;
 }
-a{
+.hero a{
     color: blue;
+    text-decoration-line: underline;
 }

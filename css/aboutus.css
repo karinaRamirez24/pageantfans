@@ -24,10 +24,10 @@ height: 600;
  width: 80%;
  text-align: center;
 }
-p{
+.textabout{
     text-align: justify;
     color: #fff;
-    
+    padding: 0 10%;
 }
 h2{
     color: #545F71;

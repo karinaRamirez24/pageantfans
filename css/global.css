@@ -14,13 +14,12 @@ body {
 i {
   font-size: 32px;
 }
-
-a {
+ a {
   text-decoration: none;
   cursor: pointer;
   color: black;
   font-size: 18px;
-}
+} 
 
 #botonx {
   animation: rotate-center 0.4s;

@@ -109,8 +109,8 @@ video {
 
 .Video-texto {
     width: 1480px;
-    margin-top: -800px;
-    margin-left: 1080px;
+    margin-top: -47%;
+    margin-left: 43%;
     position: absolute;
     z-index: 1;
     line-height: 1.5;
@@ -214,6 +214,7 @@ h2 {
     margin-right: 15%;
     margin-top:28%;
     overflow: hidden; 
+    width: 30%;
 }
 
 .img1{
@@ -239,18 +240,20 @@ h2 {
 h5{
     color: #ffffff;
     font-size: 2.6em;
-    margin-left: 52.5%;
+    margin-left: 70.5%;
     margin-right: 3%;
-    margin-top:15.5%;
+    margin-top:5%;
     overflow: hidden; 
+    width: 30%;
 }
 
 h6{
     color: #ffffff;
     font-size: 2.6em;
-    margin-left: 52.5%;
+    margin-left: 70.5%;
     margin-right: 3%;
     overflow: hidden; 
+    width: 30%;
 }
 
 /* final*/
