@@ -1,7 +1,7 @@
 .top-bar {
   display: flex;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   align-items: center;
   padding: 10px 20px;
   width: 100%;
