@@ -111,6 +111,7 @@ align-items: center;
     padding: 3%;
 }
 .hero a{
-    color: blue;
+    color: #f7f7f7;
+    font-weight: 600;
     text-decoration-line: underline;
 }
