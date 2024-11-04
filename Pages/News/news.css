@@ -13,7 +13,6 @@
 .news-header-content p {
     color: #FFF;
     text-align: left;
-    font-family: "Andada Pro";
     font-size: 120px;
     font-style: normal;
     font-weight: 700;
@@ -28,8 +27,6 @@
     background: linear-gradient(0deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0.04) 100%);
  
 }
-
-.hero-news {}
 
 .hero-news video {
     position: inherit;
@@ -58,14 +55,12 @@ padding-top: 6%;
    padding-bottom: 4%;
 }
 .tiltNew{
-    font-family: "Source Sans Pro";
     font-size: 28px;
     text-align: center;
     padding-bottom: 5%;
 }
 .textNew{
     text-align: justify;
-    font-family: "Source Sans Pro";
     font-size: 20px;
     padding-bottom: 5%;
 }
@@ -91,7 +86,6 @@ align-items: center;
 }
 .p-two{
     text-align: justify;
-    font-family: "Source Sans Pro";
     font-size: 20px;
     padding-right: 5%;
     padding-bottom: 5%;
