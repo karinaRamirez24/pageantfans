@@ -9,10 +9,9 @@
     margin-top: -35px;
     position: absolute;
     top: 350px;
-    left: 40%;
+    left: 27%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    line-height: 1.5;
 }
 
 .overlay-Queens h1 {
