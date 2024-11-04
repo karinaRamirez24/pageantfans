@@ -25,14 +25,7 @@
   font-weight: 700;
   line-height: 100px;
 }
-.p-initial {
-  width: 600px;
-  text-align: justify;
-  color: #fff;
-  font-family: "Andada Pro";
-  font-size: 16px;
-  font-style: normal;
-}
+
 .separador {
   position: absolute;
   top: 650px;
