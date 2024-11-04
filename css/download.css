@@ -11,8 +11,13 @@ text-align: center;
 
 }
 .second-area{
-    isplay: flex;
+    width: 50%;
+    display: flex;
     flex-direction: column;
+    /* padding-left: 6rem; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
    
 }
 .content-imageqr{
@@ -21,7 +26,7 @@ display: flex;
 .codigo-qr{
     width: 10rem;
     height: 10rem;
-    padding-left: 18%;
+  
 }
 .button-download{
     width: 300px;
@@ -59,7 +64,6 @@ h1{
 }
 .content-button{
     padding-top: 2%;
-    padding-left: 11%;
 }
 .image-movil{
     margin-left: 4rem;
