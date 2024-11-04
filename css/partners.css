@@ -134,6 +134,23 @@
   padding-left: 5%;
   width: 600px;
 }
+.fanscards2 {
+  padding-top: 8%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fanscards2 h2 {
+  padding-left: 5%;
+}
+.fanscards2 p {
+  color: white;
+  text-align: justify;
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 600px;
+}
 .image-first {
   width: 35rem;
   height: 30rem;
