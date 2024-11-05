@@ -4,42 +4,46 @@ function headersHTML(headerElement) {
     let subscriptions = headerElement.querySelector("#subscriptions");
     let news = headerElement.querySelector("#news");
     let joinUs = headerElement.querySelector("#singUp");
+    let logohome = headerElement.querySelector("#logohome");
 
-    cargarContenido("../Pages/main.html", "/");
+    cargarContenidoHeader("../Pages/main.html", "/home/queens");
+
+    logohome.addEventListener("click", function () {
+        cargarContenidoHeader("../Pages/main.html", "/home/queens");
+    });
 
     aboutus.addEventListener("click", function () {
-        cargarContenidohead("../Pages/AboutUs/aboutus.html", "/aboutus");
+        cargarContenidoHeader("../Pages/AboutUs/aboutus.html", "/aboutus");
     });
 
     download.addEventListener("click", function () {
-        cargarContenidohead("../Pages/Download/download.html", "/download");
+        cargarContenidoHeader("../Pages/Download/download.html", "/downloadapp");
     });
 
     subscriptions.addEventListener("click", function () {
-        cargarContenidohead("../Pages/Subscriptions/subscriptions.html", "/subscriptions");
+        cargarContenidoHeader("../Pages/Subscriptions/subscriptions.html", "/subscribers");
     });
 
     news.addEventListener("click", function () {
-        cargarContenidohead("../Pages/News/news.html", "/news");
+        cargarContenidoHeader("../Pages/News/news.html", "/news");
     });
 
     joinUs.addEventListener("click", function () {
-        cargarContenidohead("../Pages/Joinus/joinus.html", "/joinus");
+        cargarContenidoHeader("../Pages/Joinus/joinus.html", "/joinus");
         document.getElementById("header-container").style.display = "none";
         document.getElementById("footer-container").style.display = "none";
     });
 }
 
-function cargarContenidohead(url, path) {
+function cargarContenidoHeader(url, path) {
     fetch(url)
         .then(response => response.text())
         .then(data => {
             document.getElementById("content").innerHTML = data;
-            history.pushState({}, "", path); // Actualiza la URL sin recargar
+            history.pushState(null, null, path);
         });
 }
 
-// Manejo del botón "Atrás" en el navegador
 window.addEventListener("popstate", function() {
-    cargarContenidohead(window.location.pathname);
+    cargarContenidoHeader(window.location.pathname);
 });

@@ -4,28 +4,39 @@ function footerHTML(footerElement) {
     let downloadf = footerElement.querySelector("#downloadf");
     let subscriptionsf = footerElement.querySelector("#subscriptionsf");
     let newsf = footerElement.querySelector("#newsf");
+    
+    let logohome = footerElement.querySelector("#logohome")
+
+    logohome.addEventListener("click", function () {
+        cargarContenidoFoter("../Pages/main.html", "/home/queens");
+    });
 
     aboutusf.addEventListener("click", function () {
-        cargarContenido("../Pages/AboutUs/aboutus.html");
+        cargarContenidoFoter("../Pages/AboutUs/aboutus.html", "/aboutus");
     });
 
     downloadf.addEventListener("click", function () {
-        cargarContenido("../Pages/Download/download.html");
+        cargarContenidoFoter("../Pages/Download/download.html", "/downloadapp");
     });
 
     subscriptionsf.addEventListener("click", function () {
-        cargarContenido("../Pages/Subscriptions/subscriptions.html");
+        cargarContenidoFoter("../Pages/Subscriptions/subscriptions.html", "/subscribers");
     });
 
     newsf.addEventListener("click", function () {
-        cargarContenido("../Pages/News/news.html");
+        cargarContenidoFoter("../Pages/News/news.html", "/news");
     });
 }
 
-function cargarContenido(url) {
+function cargarContenidoFoter(url, path) {
     fetch(url)
         .then(response => response.text())
         .then(data => {
             document.getElementById("content").innerHTML = data;
+            history.pushState("", "", path); // Actualiza la URL sin recargar
         });
 }
+
+window.addEventListener("popstate", function() {
+    cargarContenidoFoter(window.location.pathname);
+});
