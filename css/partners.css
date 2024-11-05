@@ -135,13 +135,14 @@
   align-items: center;
 }
 .fanscards2 h2 {
-  padding-left: 5%;
+
 }
 .fanscards2 p {
   color: white;
   text-align: justify;
   padding-top: 5%;
-  padding-left: 5%;
+  padding-bottom: 5%;
+ 
   width: 600px;
 }
 .image-first {
@@ -150,13 +151,11 @@
 }
 .image-second {
   padding-right: 0;
-  width: 1117px;
+  width: 1200px;
   height: 690px;
   z-index: 4;
 }
-.content-image {
-  padding-left: 12%;
-}
+
 
 .button-system {
   text-align: end;
@@ -170,5 +169,14 @@
   border-radius: 20px;
   outline: none;
   margin: 28px;
+  border: none;
+}
+.button-investor{
+  width: 280px;
+  height: 50px;
+  background-color: #e30426;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
   border: none;
 }
