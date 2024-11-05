@@ -25,3 +25,56 @@
     align-items: center;
     justify-content: center;
 }
+
+.textcardsFans {
+    color: white;
+}
+
+.fanscards {
+    padding: 100px 160px 0px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fanscards img {
+    width: 45%;
+}
+
+.cardCarrucel {
+    display: flex;
+    width: 1645px;
+    height: auto;
+    border-radius: 30px;
+    padding: 70px;
+    opacity: 0.9;
+    background: rgba(63, 14, 13, 0.5);
+    backdrop-filter: blur(7.5px);
+    text-align: center;
+    flex-direction: column;
+}
+
+.cardCarrucel h3 {
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 20px;
+}
+
+.cardCarrucel h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 30px 0px;
+
+
+}
+
+.cardCarrucel p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 30px 40px;
+}
+
+.cardCarrucel img {
+    width: 60%;
+}
