@@ -1,5 +1,6 @@
 .top-bar {
   display: flex;
+  justify-content: space-around;
   position: fixed;
   z-index: 3;
   align-items: center;
@@ -42,27 +43,9 @@
 .loginFrame {
   display: flex;
   justify-content: flex-end;
+  padding: 0px 50px;
   flex: 1;
   min-width: 200px;
-}
-
-.button-login,
-.button-sing-up {
-  border: 2px solid #E30426;
-  border-radius: 20px;
-  padding: 10px 20px;
-  color: #E30426;
-  background-color: transparent;
-  cursor: pointer;
-  margin-left: -30px;
-  margin-right: 40px;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-.button-sing-up {
-  background-color: #E30426;
-  color: rgb(255, 255, 255);
 }
 
 .color1 {
@@ -91,8 +74,6 @@
     }
   }
 }
-
-
 
 @keyframes scale-up-vertical-top {
   0% {

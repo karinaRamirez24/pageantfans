@@ -66,6 +66,7 @@ form h3 {
 .form-Button {
     margin: 20px 0px;
     border-radius: 6px;
+    cursor: pointer;
     background: var(--Colors-Red-Red-09, #E30426);
     width: 100%;
     padding: 11px 128px;
