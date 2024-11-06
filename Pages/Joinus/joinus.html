@@ -1,34 +1,36 @@
+<script src="../../js/joinUs.js"></script>
 <section>
     <div class="formJoinus">
         <div class="headerJoinUs">
             <a href="../../index.html"> <box-icon class="arrow-back" name='arrow-back'></box-icon></a>
             <h1> COMING SOON!</h1>
         </div>
-        <div class="joinusFomr">
-            <img src="../../assets/LaptopGirl.gif" alt="this slowpoke moves">
+        <div class="joinusFomr wobble-to-top-right-on-hover">
+            <img src="../../assets/LaptopGirl.gif" alt="this slowpoke moves" class="wobble-to-top-right-on-hover">
             <form action="https://formsubmit.co/karina.ramirez.aloga@gmail.com" method="post">
+
                 <h3>Join our community!</h3> <br>
                 <P>Exclusive content, community and commerce
                     with your favorite queens from around the world. Right here.
                     Right now!</P> <br>
 
-                <label for="text">Name <samp title="Optional">*</samp> </label>
-                <input type="text" name="Name">
+                <label>Name <samp title="Optional">*</samp> </label>
+                <input type="text" name="Name" id="nameInput" required>
 
-                <label for="">Email <samp title="Optional">*</samp></label>
-                <input type="email" name="Email">
+                <label>Email <samp title="Optional">*</samp></label>
+                <input type="email" name="Email" id="emailInput" required>
 
-                <label for="">Tell Us Who You Are <samp title="Optional">*</samp></label>
-                <select class="formularioselect" name="Type of lead">
+                <label >Tell Us Who You Are <samp title="Optional">*</samp></label>
+                <select class="formularioselect" name="Type of lead" id="typeSelect" required>
                     <option value="" selected>Choose one</option>
                     <option value="Queen">Queen</option>
                     <option value="Fan">Fan</option>
                     <option value="Partner">Partner</option>
                 </select>
-                <label for="" title="Optional">Phone number <samp title="Optional">*</samp></label>
-                <input type="number" name="Phone-Number">
+                <label title="Optional">Phone number <samp title="Optional">*</samp></label>
+                <input type="number" name="Phone-Number" id="phoneInput" required>
 
-                <button class="form-Button" type="submit" value="Submit" >Submit</button>
+                <button class="form-Button" type="submit" value="Submit">Submit</button>
             </form>
         </div>
     </div>

@@ -73,7 +73,9 @@ form h3 {
     color: white;
     border: none;
 }
-
+.input-red{
+    border:1px solid red;
+}
 /* .text-gradient {
     color: transparent;
     background-image: linear-gradient(to left, #E30426, #FF6200, #ffdb11, #ffe600);    
