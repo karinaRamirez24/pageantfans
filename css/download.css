@@ -8,18 +8,13 @@
 .text-download{
 padding-top: 5rem;
 text-align: center;
+font-size: 7rem;
+color: #ffffff;
+font-family: "Andada Pro";
+font-weight: normal;
 
 }
-.second-area{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    /* padding-left: 6rem; */
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-   
-}
+
 .content-imageqr{
 display: flex;
 }
@@ -53,7 +48,6 @@ h1{
 }
 .texto-download{
     margin-top: 2rem;
-    width: 50%;
     text-align: justify;
 }
 .down-text{
@@ -66,18 +60,34 @@ h1{
     padding-top: 2%;
 }
 .image-movil{
-    margin-left: 4rem;
-    width: 15rem;
+    width: 18rem;
 }
 .initial-content{
+    background-color: #ffffff59;
+    width: 50%;
     display: flex;
+    padding: 3%;
     align-items: center;
     flex-direction: row;
-    padding-left: 18%;
     flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 20px;
 }
 .second-area{
+    width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+.content-image-phone{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-main{
+ display: flex;
+ justify-content: center;
 }
