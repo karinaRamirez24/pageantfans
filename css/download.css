@@ -23,24 +23,7 @@ display: flex;
     height: 10rem;
   
 }
-.button-download{
-    width: 300px;
-    height: 50px;
-    background-color: #E30426;
-    color: #fff;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-}
-.button-download:hover{
-    width: 300px;
-    height: 50px;
-    background-color: #d85a6d;
-    color: #fff;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-}
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 5rem;

@@ -11,12 +11,13 @@
 }
 
 .news-header-content p {
-    color: #FFF;
     text-align: left;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 50px;
+    font-size: 7rem;
+    color: #ffffff;
+    font-family: "Andada Pro";
+    font-weight: normal;
+
 }
 
 .separador {

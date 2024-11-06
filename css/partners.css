@@ -156,21 +156,11 @@
   z-index: 4;
 }
 
-
 .button-system {
   text-align: end;
   padding-left: 55%;
 }
-.button-system input {
-  width: 280px;
-  height: 50px;
-  background-color: #e30426;
-  color: #fff;
-  border-radius: 20px;
-  outline: none;
-  margin: 28px;
-  border: none;
-}
+
 .button-investor{
   width: 280px;
   height: 50px;

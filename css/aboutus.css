@@ -1,51 +1,101 @@
-.fundadores{
-
-}
-h1{
+h1 {
     color: #fff;
     font-size: 64px;
     margin: 6%;
     font-family: "Source Sans Pro";
 }
-img{
-width: 800px;
-height: 600;
+
+img {
+    width: 800px;
+    height: 600;
 }
-.content-information{
+
+.content-information {
     display: flex;
     box-direction: column;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 15%;
     z-index: 2;
 }
-.pageant-description{
- width: 80%;
- text-align: center;
+
+.pageant-description {
+    width: 80%;
+    text-align: center;
 }
-.textabout{
+
+.textabout {
     text-align: justify;
     color: #fff;
     padding: 0 10%;
 }
-h2{
+
+h2 {
     color: #545F71;
     text-align: center;
 }
-h3{
+
+h3 {
     color: #E30426;
     text-align: center;
     padding-bottom: 2%;
-  
+
 }
-.ceos{
-padding-bottom: 6%;
+
+.ceos {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    width: 80%;
 }
-h4{    
- text-align: center;
+
+.ceos img {
+    width: 30%;
+}
+
+.ceoContent {
+    display: flex;
+}
+
+.ceoText {
+    padding: 50px;
+    text-align: justify;
+}
+
+.ceoText p {
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+h4 {
+    text-align: center;
     font-size: 48px;
     color: white;
     padding-bottom: 3%;
 
+}
+
+.ceoContent {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.ceoContent video {
+    opacity: .7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
 }
