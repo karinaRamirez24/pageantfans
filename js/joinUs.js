@@ -13,6 +13,7 @@ function requiresInputs() {
         function updateValue(input) {
             if (input.value.trim() === "") {
                 input.style.border = "2px solid red";
+                input.classList.add("shake-horizontal");
             } else {
                 input.style.border = "";
             }
