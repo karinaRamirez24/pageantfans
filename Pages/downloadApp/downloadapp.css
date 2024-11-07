@@ -56,11 +56,26 @@
     object-fit: cover;
 }
 
+.gridtext h2, p {
+    color: #545F71;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.gridtext h2 {
+    font-size: 50px;
+}
+
+.gridtext p {
+    font-size: 20px;
+}
+
 .gridvideo {
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20%;
+    padding: 50px 20%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(1, 1fr);
+    gap: 20%;
 }
