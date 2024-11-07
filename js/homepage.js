@@ -25,14 +25,22 @@ function nextPagePartners() {
         });
 }
 
-function singUp(){
+function singUp() {
     fetch("../Pages/Joinus/joinus.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("content").innerHTML = data;
-        history.pushState("", "", "/home/joinus");
-        document.getElementById("header-container").style.display = "none";
-        document.getElementById("footer-container").style.display = "none";
-    });
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("content").innerHTML = data;
+            history.pushState("", "", "/home/joinus");
+            document.getElementById("header-container").style.display = "none";
+            document.getElementById("footer-container").style.display = "none";
+        });
 }
 
+function downloadApp() {
+    fetch("../Pages/downloadApp/downloadapp.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("content").innerHTML = data;
+            history.pushState("", "", "/Download/Download-App");
+        });
+}
