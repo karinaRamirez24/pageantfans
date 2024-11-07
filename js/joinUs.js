@@ -1,4 +1,3 @@
-
 function requiresInputs() {
     const inputs = [
         document.getElementById("nameInput"),
@@ -6,14 +5,12 @@ function requiresInputs() {
         document.getElementById("typeSelect"),
         document.getElementById("phoneInput")
     ];
- console.log(inputs);
-
 
     inputs.forEach(input => {
-        input.addEventListener("input", updateValue);
+        input.addEventListener("input", updateValue(input));
 
 
-        function updateValue(e) {
+        function updateValue(input) {
             if (input.value.trim() === "") {
                 input.style.border = "2px solid red";
             } else {
