@@ -74,7 +74,7 @@ p {
 .gridvideo {
     align-items: center;
     justify-content: space-between;
-    padding: 50px 20%;
+    padding: 50px 20% 0px 20%;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(1, 1fr);
@@ -84,15 +84,18 @@ p {
 .shake-horizontal {
     animation: shake-horizontal 0.5s linear both
 }
-.video-download{
-    height: 600px;
+
+.video-download {
+    height: 550px;
 }
-.content-exclusive{
+
+.content-exclusive {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.content-exclusive p{
+
+.content-exclusive p {
     width: 500px;
     height: auto;
 }
@@ -104,38 +107,14 @@ hr {
     background: linear-gradient(to right, #E30426, #f0eded, #E30426);
     height: 3px;
     border: none;
- }
+}
 
- .image-lap{
+.image-lap {
     width: 1000px;
- }
+}
 
-
-@keyframes shake-horizontal {
-
-    0%,
-    100% {
-        transform: translateX(0)
-    }
-
-    10%,
-    30%,
-    50%,
-    70% {
-        transform: translateX(-10px)
-    }
-
-    20%,
-    40%,
-    60% {
-        transform: translateX(10px)
-    }
-
-    80% {
-        transform: translateX(8px)
-    }
-
-    90% {
-        transform: translateX(-8px)
-    }
+.hero--diagonal {
+    padding: 20%;
+    clip-path: polygon(0% 0%, 100% 40px, 100% 100%, 0% 100%);
+    background: #fdece6;
 }
