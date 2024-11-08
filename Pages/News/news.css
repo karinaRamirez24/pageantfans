@@ -55,8 +55,16 @@ padding-top: 6%;
    align-items: center;
    width: 25rem;
    height: 31rem;
+ 
    padding-bottom: 4%;
 }
+.image-main:hover{
+    align-items: center;
+    width: 28rem;
+    height: 33rem;
+    padding-bottom: 4%;
+    border-radius: 15px;
+ }
 .tiltNew{
     font-size: 28px;
     text-align: center;
@@ -66,6 +74,7 @@ padding-top: 6%;
     text-align: justify;
     font-size: 20px;
     padding-bottom: 5%;
+    color: #FFF;
 }
 line {
     z-index: 4;
@@ -92,6 +101,7 @@ align-items: center;
     font-size: 20px;
     padding-right: 5%;
     padding-bottom: 5%;
+    color: #FFF;
 }
 
 .section-two img{

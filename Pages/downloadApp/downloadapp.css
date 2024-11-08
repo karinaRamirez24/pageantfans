@@ -84,6 +84,32 @@ p {
 .shake-horizontal {
     animation: shake-horizontal 0.5s linear both
 }
+.video-download{
+    height: 600px;
+}
+.content-exclusive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-exclusive p{
+    width: 500px;
+    height: auto;
+}
+
+hr {
+    margin: 3% 0 3% 0;
+    width: 80%;
+    background: #a502ee;
+    background: linear-gradient(to right, #E30426, #f0eded, #E30426);
+    height: 3px;
+    border: none;
+ }
+
+ .image-lap{
+    width: 1000px;
+ }
+
 
 @keyframes shake-horizontal {
 
