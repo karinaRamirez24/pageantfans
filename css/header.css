@@ -1,6 +1,4 @@
 .top-bar {
-  display: flex;
-  justify-content: space-around;
   position: fixed;
   z-index: 3;
   align-items: center;
@@ -9,7 +7,11 @@
   background: rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(10px);
   color: rgb(255, 0, 0);
+}
 
+.menu-but {
+  color: white;
+  display: none;
 }
 
 .menu-bar {
@@ -75,6 +77,61 @@
   }
 }
 
+.menu-bar {
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuConteiner {
+  display: flex;
+  list-style: none;
+}
+
+.menuChild {
+  padding: 10px 20px;
+}
+
+.dropdown-menu {
+  padding: 60px 60px;
+  animation: scale-up-vertical-top 0.2s linear;
+}
+
+.expandedMenu {
+  list-style: none;
+}
+
+.menuChildExpanded {
+
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.textExpand {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.social-media-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+
+.menugrande {
+  display: flex;
+  justify-content: space-between;
+}
+
 @keyframes scale-up-vertical-top {
   0% {
     transform: scaleY(0.2);
@@ -99,8 +156,19 @@
     cursor: pointer;
   }
 
+  .menu-but {
+    display: block;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
   .contain-logo {
     padding-left: 20px;
+  }
+
+  .loginFrame {
+    flex: none;
   }
 
 }
@@ -126,21 +194,23 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .top-bar {
-    flex-direction: column;
     padding: 10px;
   }
+
   .menu-bar {
     justify-content: center;
     padding-bottom: 10px;
   }
+
   .menuConteiner {
-    flex-direction: column;
     align-items: center;
     margin-left: 0;
   }
+
   .menuChild {
     padding: 5px;
   }
+
   .loginFrame {
     justify-content: center;
     padding: 0;
@@ -153,12 +223,15 @@
   .top-bar {
     padding: 10px 20px;
   }
+
   .menuConteiner {
     margin-left: -10px;
   }
+
   .menuChild {
     padding: 8px 15px;
   }
+
   .loginFrame {
     padding: 0 30px;
   }
@@ -169,12 +242,15 @@
   .top-bar {
     padding: 10px 30px;
   }
+
   .menuConteiner {
     margin-left: -15px;
   }
+
   .menuChild {
     padding: 10px 20px;
   }
+
   .loginFrame {
     padding: 0 40px;
   }
@@ -185,26 +261,16 @@
   .top-bar {
     padding: 10px 40px;
   }
+
   .menuConteiner {
     margin-left: -20px;
   }
+
   .menuChild {
     padding: 10px 25px;
   }
+
   .loginFrame {
     padding: 0 50px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .menuConteiner {
-    margin-left: -25px;
-  }
-  .menuChild {
-    padding: 10px 30px;
-  }
-  .loginFrame {
-    padding: 0 60px;
   }
 }
