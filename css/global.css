@@ -229,19 +229,7 @@ a {
   padding: 350px 33% 350px 24%;
 }
 
-/* ---------------Elementos responcive--------------- */
 
-/* @media (max-width: 1100px) {}
-
-@media (max-width: 700px) {
-
-  .main-contain {
-    padding: 40px 20px;
-
-  }
-} */
-
-/* ---------------Buttons--------------- */
 
 .button-1,
 .button-2 {
@@ -295,5 +283,141 @@ a {
 
   100% {
     transform: scale3d(1, 1, 1)
+  }
+}
+
+
+/*Respnsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .p-initial {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .tilte-page p {
+    font-size: 28px;
+  }
+
+  .grid-Menu {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .ttp-empresa h1 {
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  .ttp-img img {
+    max-width: 100%;
+  }
+
+  .grid-data {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .box-text h5, .conten-grid-data h3 {
+    font-size: 32px;
+  }
+
+  .button-1, .button-2 {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .p-initial {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .tilte-page p {
+    font-size: 32px;
+  }
+
+  .grid-Menu {
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ttp-empresa h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .grid-data {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .p-initial {
+    width: 80%;
+  }
+
+  .tilte-page p {
+    font-size: 36px;
+  }
+
+  .ttp-empresa h1 {
+    font-size: 32px;
+  }
+
+  .grid-Menu, .grid-data {
+    padding: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .tilte-page p {
+    font-size: 40px;
+  }
+
+  .ttp-empresa h1 {
+    font-size: 36px;
+  }
+
+  .ttp-img img {
+    max-width: 800px;
+  }
+
+  .grid-data {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .box-text h5, .conten-grid-data h3 {
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .p-initial {
+    width: 600px;
+    font-size: 16px;
+  }
+
+  .tilte-page p {
+    font-size: 50px;
+  }
+
+  .grid-Menu {
+    padding: 60px 100px;
+  }
+
+  .ttp-img img {
+    max-width: 980px;
+  }
+
+  .grid-data {
+    padding: 40px 80px;
   }
 }
