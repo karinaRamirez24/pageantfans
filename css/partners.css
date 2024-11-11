@@ -172,6 +172,9 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
   .image-first {
     width: 90%;
     height: 80%;
