@@ -99,20 +99,43 @@ form h3 {
 
 }
 
+/*-----------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .joinusFomr{
+        padding: 0 5px;
+    }
+    .arrow-back {
+        width: 80px;
+        height: 0px;
+    }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+    .formJoinus h1 {
+        font-size: 32px;
+        padding: 0px 0px 0px 15%; 
+    }
 
-}
+    .joinusFomr img{
+        display: none;
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+    form{
+        width: 150px;
+    }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+    form h3{
+        font-size: 18px;
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+    p{
+        font-size: 7px;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+    label{
+        font-size: 12px;
+    }
+
+
+
+  }
