@@ -111,17 +111,18 @@
   display: flex;
   flex-direction: column;
 }
-.fanscards {
+.partners-cards {
   padding-top: 8%;
   width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.fanscards h2 {
+.partners-cards h2 {
   padding-left: 5%;
 }
-.fanscards p {
+.partners-cards p {
+  color: #fff;
   text-align: justify;
   padding-top: 5%;
   padding-left: 5%;
@@ -135,14 +136,13 @@
   align-items: center;
 }
 .fanscards2 h2 {
-
 }
 .fanscards2 p {
   color: white;
   text-align: justify;
   padding-top: 5%;
   padding-bottom: 5%;
- 
+
   width: 600px;
 }
 .image-first {
@@ -161,7 +161,7 @@
   padding-left: 55%;
 }
 
-.button-investor{
+.button-investor {
   width: 280px;
   height: 50px;
   background-color: #e30426;
@@ -169,4 +169,86 @@
   border-radius: 20px;
   outline: none;
   border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards{
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 500px;
+}
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image-second {
+  padding-right: 0;
+  width: 400px;
+  height: 250px;
+  z-index: 4;
+}
+.textcardsFans2{
+  padding: 5%;
+}
+
+.fanscards2 p {
+  color: white;
+  text-align: justify;
+  padding-top: 5%;
+  width: 500px;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards{
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 500px;
+}
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image-second {
+  padding-right: 0;
+  width: 400px;
+  height: 250px;
+  z-index: 4;
+}
+.textcardsFans2{
+  padding: 5%;
+}
+
+.fanscards2 p {
+  color: white;
+  text-align: justify;
+  padding-top: 5%;
+  width: 500px;
+}
 }
