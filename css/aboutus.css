@@ -127,3 +127,44 @@ h4 {
     line-height: 1.5;
     font-size: 18px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .news-header-content p{
+        text-align: justify;
+        color: #fff;
+        text-align: left;
+        font-family: "Andada Pro";
+        font-size: 7rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+    }
+    .ceoContent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .awardscard img {
+        width: 200px;
+    }
+    .content-information {
+        display: flex;
+        box-direction: column;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 25% 9%;
+        z-index: 2;
+    }
+    h1 {
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-family: "Source Sans Pro";
+    }
+
+}
