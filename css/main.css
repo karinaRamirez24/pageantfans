@@ -283,7 +283,15 @@ h6 {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .overlay-Queens h1 {
+        font-size: 3.5rem;
+        color: #ffffff;
+        font-family: "Andada Pro";
+        font-weight: normal;
+    }
+    
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
