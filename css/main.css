@@ -193,7 +193,7 @@ h6 {
     width: 30%;
 }
 
-.textcardsQueens{
+.textcardsQueens {
     padding: 0px 7%;
 }
 
@@ -286,10 +286,21 @@ h6 {
 @media only screen and (max-width: 600px) {
     .overlay-Queens h1 {
         font-size: 3.5rem;
-        color: #ffffff;
-        font-family: "Andada Pro";
-        font-weight: normal;
-    } 
+    }
+
+    .next-button-rigth {
+        top: 280px;
+        right: 20px;
+    }
+
+    .next-button-lefth {
+        top: 280px;
+        left: 20px;
+    }
+
+    .textcardsQueens {
+        padding: 30px 7%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
