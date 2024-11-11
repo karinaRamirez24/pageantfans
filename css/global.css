@@ -332,7 +332,7 @@ a {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .p-initial {
-    width: 90%;
+    width: 100%;
     font-size: 15px;
   }
 

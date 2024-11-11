@@ -1,5 +1,5 @@
 .textcardsFans {
-    color: white;
+    color: rgba(255, 255, 255, 0.8)
 }
 
 .fanscards {
@@ -52,12 +52,36 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .fanscards img {
+        width: 100%;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .fanscards {
+        padding: 5rem 5rem 0px 5rem;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: center;
+    }
+    .cardCarrucel {
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+        padding: 70px;
+        opacity: 0.9;
+        background: rgba(63, 14, 13, 0.5);
+        backdrop-filter: blur(7.5px);
+        text-align: center;
+    }
+    .cardCarrucel h1 {
+        font-size: 1.5rem;
+    }
 }
- 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
