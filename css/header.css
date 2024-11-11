@@ -129,7 +129,7 @@
 
 .menugrande {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 @keyframes scale-up-vertical-top {
@@ -189,8 +189,6 @@
 
 }
 
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .top-bar {
@@ -213,7 +211,7 @@
 
   .loginFrame {
     justify-content: center;
-    padding: 0;
+    padding: 13px 0px;
     min-width: auto;
   }
 }
