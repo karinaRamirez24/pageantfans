@@ -1,23 +1,45 @@
-.headerFooter video {
-    position: inherit;
-    height: 800px;
-    flex-shrink: 0;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.news-header-content {
+.headerFooter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.textNews {
     position: absolute;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
-    padding: 350px 8%;
+    bottom: 0;
+    top: 0;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 3rem;
+    color: #FFF;
+    z-index: 999;
+    padding: 10px;
+    max-width: 80%; 
 }
 
-.news-header-content p {
-    text-align: left;
-    line-height: 50px;
-    font-size: 7rem;
-    color: #ffffff;
-    font-family: "Andada Pro";
-    font-weight: normal;
+.headerFooter video {
+    display: block;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
 
+.textNew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+    color: #FFF;
 }
 
 .separador {
@@ -26,103 +48,239 @@
     width: 100%;
     height: 300px;
     background: linear-gradient(0deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0.04) 100%);
- 
 }
 
-.hero-news video {
-    position: inherit;
-}
-.content-sections{
-    padding-top: 1 0%;
+.content-sections {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10%;
     color: #FFF;
+    gap: 2rem;
 }
-.section-one{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-width: 70%;
-margin: 5%;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 6%;
-}
-.section-two{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    width: 30%;
-    padding-top: 9%;
-}
-.image-main{
-   align-items: center;
-   width: 25rem;
-   height: 31rem;
- 
-   padding-bottom: 4%;
-}
-.image-main:hover{
+
+.section-one {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 5%;
+    padding-top: 6%;
+    box-sizing: border-box;
+}
+
+.image-main {
+    width: 25rem;
+    height: 31rem;
+    object-fit: cover;
+    margin-bottom: 4%;
+    transition: all 0.3s ease;
+}
+
+.image-main:hover {
     width: 28rem;
     height: 33rem;
-    padding-bottom: 4%;
     border-radius: 15px;
- }
-.tiltNew{
-    font-size: 28px;
+}
+
+.tiltNew {
+    font-size: 2.5rem;
     text-align: center;
     padding-bottom: 5%;
+    line-height: 1.4;
 }
-.textNew{
-    text-align: justify;
-    font-size: 20px;
-    padding-bottom: 5%;
-    color: #FFF;
-}
-line {
+
+hr {
     z-index: 4;
     height: 3px;
     width: 30%;
     display: inline-block;
     border: 1px solid #d9d9d9;
 }
-hr{
-    z-index: 4;
-    height: 3px;
-    width: 30%;
-    display: inline-block;
-    border: 1px solid #d9d9d9;
-   
+
+.part-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
-.part-two{
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.p-two{
+
+.p-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.5rem;
     padding-right: 5%;
     padding-bottom: 5%;
     color: #FFF;
+    max-width: 80%;
+    margin-top: 2rem;
 }
 
-.section-two img{
- width: 120px;
- height: 160px;
- display: flex;
- flex-direction: column;
-}
-.elements-section{
+.section-two {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin: 10%;
+    gap: 1rem;
+}
+
+.elements-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 5%;
+    text-align: center;
 }
-.elements-section p{
-    font-size: 16px;
+
+.elements-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.elements-section p {
+    font-size: 1.5rem;
     padding: 3%;
+    max-width: 90%;
 }
-.hero a{
+
+.hero a {
     color: #0722f3;
     font-weight: 600;
+    margin-top: 5%;
     text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .textNews {
+        font-size: 2rem;
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .textNew {
+        font-size: 1.3rem;
+    }
+
+    .image-main {
+        width: 80%;
+        height: auto;
+    }
+
+    .tiltNew {
+        font-size: 1.8rem;
+        padding-bottom: 3%;
+    }
+
+    .section-one {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-two {
+        margin: 0;
+        padding: 0;
+    }
+
+    .elements-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-two {
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+    }
+
+    .p-two {
+        font-size: 1.3rem;
+        padding-right: 0;
+        padding-bottom: 3%;
+    }
+
+    hr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .textNews {
+        font-size: 2.5rem;
+        max-width: 80%;
+    }
+
+    .section-one {
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-main {
+        width: 50%;
+        height: auto;
+    }
+
+    .tiltNew {
+        font-size: 2.2rem;
+    }
+
+    .elements-section p {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-sections {
+        padding-top: 2%;
+    }
+
+    .section-one {
+        width: 100%;
+    }
+
+    .section-two {
+        width: 100%;
+    }
+
+    .elements-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .textNew {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .content-sections {
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .section-one {
+        width: 50%;
+    }
+
+    .section-two {
+        width: 30%;
+        margin: 2%;
+    }
+
+    .elements-section {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    .textNew {
+        font-size: 1.7rem;
+    }
 }
