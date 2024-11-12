@@ -128,13 +128,13 @@ h4 {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
     .news-header-content p{
         text-align: justify;
         color: #fff;
         text-align: left;
         font-family: "Andada Pro";
-        font-size: 7rem;
+        font-size: 500%;
         font-style: normal;
         font-weight: 700;
         line-height: 100px;
@@ -151,12 +151,10 @@ h4 {
     }
     .content-information {
         display: flex;
-        box-direction: column;
-        flex-direction: column;
         align-content: center;
         justify-content: center;
         align-items: center;
-        padding: 25% 9%;
+        padding: 25% 0 0 0;
         z-index: 2;
     }
     h1 {
@@ -165,6 +163,29 @@ h4 {
         margin-top: 4%;
         margin-bottom: 5%;
         font-family: "Source Sans Pro";
+    }
+    .news-header-content{
+        width: 50%;
+    }
+    .ceos img {
+        width: 100%;
+        height: 15vh;
+        object-fit: fill;
+    }
+    .awars-text p {
+        color: rgba(255, 255, 255, 0.815);
+        margin-top: 30px;
+        line-height: 1.5;
+        font-size: 0.75rem;
+    }
+    .awardscard {
+        background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
     }
 
 }
