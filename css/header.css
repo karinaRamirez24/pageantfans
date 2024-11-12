@@ -213,7 +213,7 @@
   .loginFrame {
     justify-content: center;
     padding: 13px 0px;
-    min-width: auto;
+    width: 0px;
   }
 }
 
@@ -264,3 +264,24 @@
   }
 
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-bar {
+    padding: 10px 40px;
+  }
+
+  .menuConteiner {
+    margin-left: -20px;
+  }
+
+  .loginFrame {
+    justify-content: center;
+    padding: 13px 0px;
+    width: 0px;
+  }
+
+}
+
+
+

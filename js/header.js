@@ -38,6 +38,9 @@ function headersHTML(headerElement) {
 
     logohome.addEventListener("click", function () {
         cargarContenidoHeader("../Pages/main.html", "/home/queens");
+        expandedMenu.style.display = "none"
+        borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        contBut = 0
     });
 
     aboutus.addEventListener("click", function () {
@@ -58,18 +61,30 @@ function headersHTML(headerElement) {
 
     aboutusDown.addEventListener("click", function () {
         cargarContenidoHeader("../Pages/AboutUs/aboutus.html", "/aboutus");
+        expandedMenu.style.display = "none"
+        borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        contBut = 0
     });
 
     downloadDown.addEventListener("click", function () {
         cargarContenidoHeader("../Pages/Download/download.html", "/downloadapp");
+        expandedMenu.style.display = "none"
+        borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        contBut = 0
     });
 
     subscriptionsDown.addEventListener("click", function () {
         cargarContenidoHeader("../Pages/Subscriptions/subscriptions.html", "/subscribers");
+        expandedMenu.style.display = "none"
+        borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        contBut = 0
     });
 
     newsDown.addEventListener("click", function () {
         cargarContenidoHeader("../Pages/News/news.html", "/news");
+        expandedMenu.style.display = "none"
+        borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        contBut = 0
     });
 
     joinUs.addEventListener("click", function () {
