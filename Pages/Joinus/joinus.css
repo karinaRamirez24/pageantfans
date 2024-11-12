@@ -5,8 +5,9 @@
 .formJoinus h1 {
     font-size: 72px;
     font-weight: lighter;
-    padding: 0px 0px 0px 35%;
     text-align: center;
+    margin-right: 10%;
+    margin-left: 35%;
 }
 
 .headerJoinUs {
@@ -108,7 +109,10 @@ form h3 {
         padding: 10px;
     }
     .headerJoinUs{
-        margin-left: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
     .arrow-back {
         width: 40px;
@@ -119,7 +123,8 @@ form h3 {
         font-size: 25px;
         margin-top: -5px;         
         text-align: center; 
-        margin-left: -80px;    
+        margin-left: 5px; 
+           
     }
 
     .joinusFomr img{
@@ -193,8 +198,9 @@ form h3 {
     .formJoinus h1 {
         font-size: 30px;
         margin-top: -5px;         
-        text-align: center; 
-        margin-left: -100px;    
+        font-weight: lighter;
+        text-align: center;
+        margin-left: 20%;    
     }
 
     .joinusFomr img{
@@ -277,7 +283,7 @@ form h3 {
         font-size: 30px;
         margin-top: -5px;         
         text-align: center; 
-        margin-left: -70px;    
+        margin-left: 30%;    
     }
 
     .joinusFomr img{
@@ -367,8 +373,7 @@ form h3 {
         display: flex;
         flex-direction: column;   
         align-items: center;  
-        margin-right: 190px;  
-        margin-left: -50px; 
+        margin-left: 30%; 
                   
     }
 
@@ -446,9 +451,8 @@ form h3 {
         margin-top: -100px;        
         display: flex;
         flex-direction: column;   
-        align-items: center;  
-        margin-right: 190px;  
-        margin-left: -100px; 
+        align-items: center;   
+        margin-left: 12%; 
                   
     }
     
@@ -457,7 +461,6 @@ form h3 {
         height: 350px;
         margin-bottom: 90px;
         margin-left: -100px;
-       
     }
 
     p {                 
@@ -482,7 +485,7 @@ form h3 {
     }
   }
 
-  @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  @media only screen and (min-width: 901px) and (max-width: 1213px) {
     .arrow-back {
         width: 50px;
         height: 50px;
@@ -495,9 +498,8 @@ form h3 {
         margin-top: -100px;        
         display: flex;
         flex-direction: column;   
-        align-items: center;  
-        margin-right: 190px;  
-        margin-left: -100px; 
+        align-items: center;   
+        margin-left: 17%; 
                   
     }
     
