@@ -236,3 +236,63 @@ h4 {
     }
 
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1500px) {
+    .about-header-content p {
+        font-size: 500%;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .textabout {
+        text-align: justify;
+        color: #fff;
+        font-size: .75rem;
+    }
+    .ceoContent {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
+    h2 {
+        color: #7c8696;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    h3 {
+        color: #E30426;
+        text-align: center;
+        padding-bottom: 2%;
+        font-size: 1rem;
+    }
+    .ceoText {
+        padding: 0 5% 0 5%;
+        text-align: justify;
+    }
+    .ceoText p {
+        color: rgba(255, 255, 255, 0.815);
+        margin-top: 40px;
+        line-height: 1.5;
+        font-size: 60%;
+    }
+    .ceos img {
+        width: 45%;
+        object-fit: fill;
+    }
+
+    .awardscard {
+        margin: auto;
+        padding: auto;
+    }
+    .awardscard img {
+        width: 50%;
+        padding-right: 5%;
+    }
+    .awars-text {
+      padding: 0;
+    }
+    .awars-text p {
+        font-size: 80%;
+    }
+   
+}
