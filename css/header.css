@@ -45,10 +45,11 @@
 .loginFrame {
   display: flex;
   justify-content: flex-end;
-  padding: 0px 50px;
+  padding: 13px 50px;
   flex: 1;
   min-width: 200px;
 }
+
 
 .color1 {
   color: var(--Colors-White, #FFF);
@@ -230,9 +231,6 @@
     padding: 8px 15px;
   }
 
-  .loginFrame {
-    padding: 0 30px;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -249,9 +247,6 @@
     padding: 10px 20px;
   }
 
-  .loginFrame {
-    padding: 0 40px;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -268,7 +263,4 @@
     padding: 10px 25px;
   }
 
-  .loginFrame {
-    padding: 0 50px;
-  }
 }

@@ -142,18 +142,46 @@ p {
     text-align: center;
 }
 
-.layout {
-    padding: 0px 20%;
-    display: flex;
-    gap: 16px;
-}
+.grid-valores {
+    padding: 20px 140px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(349px, 1fr));
+    grid-gap: 50px;
+    grid-auto-rows: minmax(35px, auto);
+  }
+  
+  .valores-Carts {
+    background-color: white;
+    border-radius: 10px;
+    padding: 68px 20px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .valores-Carts i {
+    font-size: 105px;
+    margin: 20px 0px;
+  }
+  
+  .valores-Carts h3 {
+    color: rgb(77, 77, 77);
+    margin: 10px 0px;
+    font-size: 35px;
+  }
+  
+  .valores-Carts h4 {
+    color: rgb(172, 172, 172);
+    margin: 30px 45px 0px 45px;
+    text-align: justify;
+    line-height: 150%;
+  }
 
-.grow1 {
-    border-radius: 24px;
-    padding: 20px;
-    flex-grow: 1;
-    background: #daffb1;
-}
+  .valores-Carts img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+     width: 110px;
+  }
 
 .hero__contentStories {
     display: flex;
