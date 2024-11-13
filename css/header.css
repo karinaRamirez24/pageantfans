@@ -45,9 +45,10 @@
 .loginFrame {
   display: flex;
   justify-content: flex-end;
-  padding: 13px 50px;
+  padding: 13px 0px;
   flex: 1;
-  min-width: 200px;
+  width: 200px;
+  min-width: 100px;
 }
 
 
@@ -211,10 +212,10 @@
   }
 
   .loginFrame {
-    justify-content: center;
+    justify-content: flex-end;
     padding: 13px 0px;
     width: 0px;
-  }
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
