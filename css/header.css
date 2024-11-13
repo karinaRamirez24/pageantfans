@@ -34,12 +34,14 @@
 .logo-bar {
   flex: 0 0 auto;
   text-align: center;
+  position: absolute;
 }
 
 .logo {
   width: 60px;
   height: 47px;
   cursor: pointer;
+  
 }
 
 .loginFrame {
@@ -216,6 +218,8 @@
     padding: 13px 0px;
     width: 0px;
 }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
