@@ -210,7 +210,7 @@ form h3 {
     form{
         width: 100%;             
         max-width: 350px;         
-        height: 750px; 
+        height: auto; 
         padding: 50px; 
         margin-top: -50px; 
         border-radius: 10px;
@@ -293,7 +293,7 @@ form h3 {
     form{
         width: 100%;             
         max-width: 450px;         
-        height: 950px; 
+        height: auto; 
         padding: 50px; 
         margin-top: -50px; 
         border-radius: 10px;
