@@ -31,6 +31,18 @@
     object-fit: cover;
 }
 
+.container-text-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__makeStories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .heroDownload {
     text-align: center;
     padding: 3% 0px;
@@ -63,22 +75,20 @@ p {
     text-align: justify;
 }
 
-.gridtext h2 {
-    font-size: 50px;
-}
-
-.gridtext p {
-    font-size: 20px;
-}
-
 .gridvideo {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 50px 20% 0px 20%;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 20%;
+}
+
+.gridtext {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .shake-horizontal {
@@ -89,7 +99,14 @@ p {
     height: 550px;
 }
 
-.content-exclusive {}
+.content-exclusive {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .content-exclusive p {
     text-align: center;
@@ -97,6 +114,11 @@ p {
     font-weight: bold;
     padding: 20px 70px;
     font-size: 25px;
+}
+
+.content-exclusive .image-lap {
+    display: flex;
+    width: 100%;
 }
 
 hr {
@@ -108,22 +130,23 @@ hr {
     border: none;
 }
 
-.image-lap {
-    margin: 30px;
-    width: 1000px;
-}
-
 .hero--diagonal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: visible;
-    padding: 40px 200px;
+    width: 100%;
     clip-path: polygon(0% 0%, 100% 40px, 100% 100%, 0% 100%);
     background: #fdece6;
 }
 
 .hero__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
+    flex-direction: row;
 }
 
 .hero__content img {
@@ -134,7 +157,7 @@ hr {
 p {
     color: #545F71;
     margin-bottom: 50px;
-    text-align: justify;
+    text-align: center;
 }
 
 .hero__content p {
@@ -142,52 +165,53 @@ p {
     text-align: center;
 }
 
-.grid-valores {
-    padding: 20px 140px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(349px, 1fr));
-    grid-gap: 50px;
-    grid-auto-rows: minmax(35px, auto);
-  }
+.valores-flexContent {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
   
-  .valores-Carts {
-    background-color: white;
-    border-radius: 10px;
-    padding: 68px 20px;
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+.valores-Carts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
   
-  .valores-Carts i {
+.valores-Carts i {
     font-size: 105px;
     margin: 20px 0px;
-  }
+}
   
-  .valores-Carts h3 {
+.valores-Carts h3 {
     color: rgb(77, 77, 77);
     margin: 10px 0px;
     font-size: 35px;
-  }
+}
   
-  .valores-Carts h4 {
+.valores-Carts h4 {
     color: rgb(172, 172, 172);
     margin: 30px 45px 0px 45px;
     text-align: center;
     line-height: 150%;
-  }
+}
 
-  .valores-Carts img{
+.valores-Carts img{
     margin-top: 20px;
     margin-bottom: 10px;
      width: 110px;
-  }
+}
 
 .hero__contentStories {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    padding: 40px 200px;
 }
 
 .hero__contentStories img {
@@ -196,12 +220,53 @@ p {
 
 .hero__contentStories h1,
 p {
+    display: flex;
+    justify-items: center;
+    width: 100%;
     color: #545F71;
-    margin-bottom: 50px;
     text-align: justify;
 }
 
 .hero__contentStories p {
     font-size: 25px;
     text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .valores-flexContent {
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+
+    .hero__content {
+        margin-top: 10%;
+        background-color: red;
+    }
+    
+    .hero__content p {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-text-main {
+        width: 100%;
+    }
+
+    .valores-Carts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .valores-Carts {
+        display: flex;
+        flex-direction: column;
+    }
 }

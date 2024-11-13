@@ -69,6 +69,7 @@
     text-align: justify;
     font-size: 20px;
     padding-bottom: 5%;
+    gap: 20px;
     color: #FFF;
     flex-direction: column;
     align-items: center;
@@ -98,11 +99,14 @@ align-items: center;
 }
 
 .p-two{
+    display: flex;
     text-align: justify;
     font-size: 20px;
     padding-right: 5%;
     padding-bottom: 5%;
     color: #FFF;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-two img{
@@ -185,6 +189,19 @@ align-items: center;
         color: #ffffff;
         font-family: "Andada Pro";
         font-weight: normal;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .image-main {
+        width: 85%;
+        height: 10%;
+    }
+
+    .part-two img {
+        width: 85%;
+        height: 10%;
     }
 }
 
