@@ -143,7 +143,7 @@
   border: none;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (min-width: 300px) and (max-width: 400px) {
   .overlay-Queens h1 {
     font-size: 3rem;
 }
@@ -154,17 +154,15 @@
   .partners-cards {
     flex-direction: column;
   }
-  .partners-h2{
+  .partners-cards h2 {
     padding: 5% 0 0 5%;
   }
   .partners-cards p {
     color: white;
     text-align: justify;
-    padding: 5% 0 5% 0;
-    margin: auto;
     width: 90%;
-}
-  .parteners-cards2 {
+  }
+  .fanscards2 {
     padding-top: 8%;
     width: 70%;
     display: flex;
@@ -172,23 +170,284 @@
   }
   .image-second {
     padding-right: 0;
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     z-index: 4;
   }
-  .textcards-partners {
-    padding: 5%;
-  }
 
-  .parteners-cards2 p {
+  .fanscards2 p {
     color: white;
     text-align: justify;
     padding: 5% 0 8% 0;
-    width: 90%;
+    width: 100%;
   }
+
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+
 }
 
-@media only screen and (min-width: 901px) and (max-width: 1340px) {
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 100%;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 100%;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 100%;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+  h2{
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 100%;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+  h2{
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .textcardsFans2 {
+    margin-top: 10px;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 100%;
+  }
+
+  .button-system{
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+  h2{
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1214px) {
   .image-first {
     width: 50%;
     height: 40%;
@@ -199,7 +458,30 @@
     padding-top: 5%;
     width: 100%;
   }
-  .parteners-cards2 p {
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 100%;
+  }
+  .image-second{
+    width: 300%;
+    height: 200%;
+  }
+}
+
+@media only screen and (min-width: 1215px) and (max-width: 1348px) {
+  .image-first {
+    width: 50%;
+    height: 40%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 100%;
+  }
+  .fanscards2 p {
     color: white;
     text-align: justify;
     padding-top: 5%;
