@@ -1,3 +1,4 @@
+/* -------------------Start of Global styles------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,231 @@ body {
   min-height: 100vh;
   background-color: #f6f6f6;
 }
+
+.button-1,
+.button-2 {
+  border: 2px solid #E30426;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #E30426;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button-1 {
+  border: none;
+  background-color: #E30426;
+  color: rgb(255, 255, 255);
+}
+
+.button-1:hover {
+  background-color: white;
+  color: #E30426;
+  backdrop-filter: blur(5px);
+  animation: button-1 .9s linear both
+}
+
+/* -------------------Media elements------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .header-content {
+    padding: 350px 33% 350px 41%;
+  }
+
+  .p-initial {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .tilte-page p {
+    font-size: 28px;
+  }
+
+  .grid-Menu {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+
+
+  .ttp-img img {
+    max-width: 100%;
+  }
+
+  .grid-data {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .box-text h5,
+  .conten-grid-data h3 {
+    font-size: 32px;
+  }
+
+  .button-1,
+  .button-2 {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .p-initial {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .tilte-page p {
+    font-size: 32px;
+  }
+
+  .grid-Menu {
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-data {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .p-initial {
+    width: 80%;
+  }
+
+  .tilte-page p {
+    font-size: 36px;
+  }
+
+  .ttp-empresa h1 {
+    font-size: 32px;
+  }
+
+  .grid-Menu,
+  .grid-data {
+    padding: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .tilte-page p {
+    font-size: 40px;
+  }
+
+  .ttp-empresa h1 {
+    font-size: 36px;
+  }
+
+  .ttp-img img {
+    max-width: 800px;
+  }
+
+  .grid-data {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .box-text h5,
+  .conten-grid-data h3 {
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .p-initial {
+    width: 600px;
+    font-size: 16px;
+  }
+
+  .tilte-page p {
+    font-size: 50px;
+  }
+
+  .grid-Menu {
+    padding: 60px 100px;
+  }
+
+  .ttp-img img {
+    max-width: 980px;
+  }
+
+  .grid-data {
+    padding: 40px 80px;
+  }
+}
+
+/* -------------------Animations------------------- */
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-horizontal-center {
+  0% {
+    transform: rotateX(0);
+  }
+
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+
+@keyframes scale-up-horizontal-right {
+  0% {
+    transform: scaleX(0.4);
+    transform-origin: right center;
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: right center;
+  }
+}
+
+@keyframes button-1 {
+  0% {
+    transform: scale3d(1, 1, 1)
+  }
+
+  30% {
+    transform: scale3d(.75, 1.25, 1)
+  }
+
+  40% {
+    transform: scale3d(1.25, .75, 1)
+  }
+
+  50% {
+    transform: scale3d(.85, 1.15, 1)
+  }
+
+  65% {
+    transform: scale3d(1.05, .95, 1)
+  }
+
+  75% {
+    transform: scale3d(.95, 1.05, 1)
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1)
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 i {
   font-size: 42px;
@@ -39,8 +265,6 @@ a {
   margin-bottom: 30px;
 }
 
-/* -----------------CUERPO DE LA PAGIAN------------------- */
-
 .body-contain {
   display: block;
 }
@@ -60,7 +284,6 @@ a {
   grid-gap: 20px;
   grid-auto-rows: minmax(35px, auto);
 }
-
 
 .aling-box {
   padding: 40px 100px;
@@ -136,40 +359,6 @@ a {
   justify-content: space-between;
 }
 
-/* ---------------ANIMACIONES--------------- */
-
-@keyframes rotate-center {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-horizontal-center {
-  0% {
-    transform: rotateX(0);
-  }
-
-  100% {
-    transform: rotateX(-360deg);
-  }
-}
-
-@keyframes scale-up-horizontal-right {
-  0% {
-    transform: scaleX(0.4);
-    transform-origin: right center;
-  }
-
-  100% {
-    transform: scaleX(1);
-    transform-origin: right center;
-  }
-}
-
 .hero {
   position: relative;
   width: 100%;
@@ -191,13 +380,14 @@ a {
   object-fit: cover;
 }
 
-.heroQueens{
+.heroQueens {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
-  padding-bottom: 100px; 
+  padding-bottom: 100px;
 }
+
 .backgroundVideo {
   position: absolute;
   top: 50%;
@@ -215,191 +405,4 @@ a {
   width: 100%;
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.0) -3.67%, rgba(0, 0, 0, 0.71) 60%);
   padding: 350px 33% 350px 24%;
-}
-
-.button-1,
-.button-2 {
-  border: 2px solid #E30426;
-  border-radius: 20px;
-  padding: 10px 20px;
-  color: #E30426;
-  background-color: transparent;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-.button-1 {
-  border: none;
-  background-color: #E30426;
-  color: rgb(255, 255, 255);
-}
-
-.button-1:hover {
-  background-color: white;
-  color: #E30426;
-  backdrop-filter: blur(5px);
-  animation: button-1 .9s linear both
-}
-
-@keyframes button-1 {
-  0% {
-    transform: scale3d(1, 1, 1)
-  }
-
-  30% {
-    transform: scale3d(.75, 1.25, 1)
-  }
-
-  40% {
-    transform: scale3d(1.25, .75, 1)
-  }
-
-  50% {
-    transform: scale3d(.85, 1.15, 1)
-  }
-
-  65% {
-    transform: scale3d(1.05, .95, 1)
-  }
-
-  75% {
-    transform: scale3d(.95, 1.05, 1)
-  }
-
-  100% {
-    transform: scale3d(1, 1, 1)
-  }
-}
-
-
-/*Respnsive*/
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  .header-content {
-    padding: 350px 33% 350px 41%;
-  }
-
-  .p-initial {
-    width: 100%;
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-  
-  .tilte-page p {
-    font-size: 28px;
-  }
-
-  .grid-Menu {
-    padding: 20px;
-    grid-template-columns: 1fr;
-  }
-
-  
-  .ttp-img img {
-    max-width: 100%;
-  }
-
-  .grid-data {
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-
-  .box-text h5, .conten-grid-data h3 {
-    font-size: 32px;
-  }
-
-  .button-1, .button-2 {
-    font-size: 14px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .p-initial {
-    width: 100%;
-    font-size: 15px;
-  }
-
-  .tilte-page p {
-    font-size: 32px;
-  }
-
-  .grid-Menu {
-    padding: 30px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .grid-data {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .p-initial {
-    width: 80%;
-  }
-
-  .tilte-page p {
-    font-size: 36px;
-  }
-
-  .ttp-empresa h1 {
-    font-size: 32px;
-  }
-
-  .grid-Menu, .grid-data {
-    padding: 40px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .tilte-page p {
-    font-size: 40px;
-  }
-
-  .ttp-empresa h1 {
-    font-size: 36px;
-  }
-
-  .ttp-img img {
-    max-width: 800px;
-  }
-
-  .grid-data {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .box-text h5, .conten-grid-data h3 {
-    font-size: 40px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .p-initial {
-    width: 600px;
-    font-size: 16px;
-  }
-
-  .tilte-page p {
-    font-size: 50px;
-  }
-
-  .grid-Menu {
-    padding: 60px 100px;
-  }
-
-  .ttp-img img {
-    max-width: 980px;
-  }
-
-  .grid-data {
-    padding: 40px 80px;
-  }
 }
