@@ -39,8 +39,24 @@
 
 .hero__makeStories {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
+}
+
+/* .hero__makeStories img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+
+.hero__contentImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
 }
 
 .heroDownload {
@@ -119,6 +135,7 @@ p {
 .content-exclusive .image-lap {
     display: flex;
     width: 100%;
+    margin-top: 15%;
 }
 
 hr {
@@ -169,6 +186,7 @@ p {
     display: flex;
     width: 100%;
     gap: 20px;
+    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
 }
@@ -203,7 +221,7 @@ p {
 .valores-Carts img{
     margin-top: 20px;
     margin-bottom: 10px;
-     width: 110px;
+     width: 105px;
 }
 
 .hero__contentStories {
@@ -221,7 +239,8 @@ p {
 .hero__contentStories h1,
 p {
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     color: #545F71;
     text-align: justify;
@@ -235,6 +254,7 @@ p {
 @media only screen and (max-width: 1024px) {
     .valores-flexContent {
         flex-wrap: wrap;
+        margin-top: 10%;
         margin-bottom: 10%;
     }
 
@@ -257,7 +277,34 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 70%;
+    }
+
+    .heroDownload h1 {
+        font-size: 20px;
+        display: flex;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__contentImg {
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .content-exclusive p {
+        padding: 0;
+        text-align: center;
+        height: auto;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .hero__makeStories {
+        margin-top: 15%;
     }
 }
 
@@ -266,6 +313,7 @@ p {
 
     .valores-Carts {
         display: flex;
+        width: 27%;
         flex-direction: column;
     }
 }
