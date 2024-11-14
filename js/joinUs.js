@@ -19,6 +19,5 @@ function requiresInputs() {
             }
           }
 
- 
     });
 }
