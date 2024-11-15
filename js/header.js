@@ -1,6 +1,7 @@
 let contBut = 0;
 function headersHTML(headerElement) {
     let borrar = headerElement.querySelector('#menuButton');
+    let topBarr = headerElement.querySelector('.top-bar');
     let collapsedMenu = headerElement.querySelector('#optionsMenu');
     let expandedMenu = headerElement.querySelector('#dropdownMenu');
 
@@ -9,10 +10,16 @@ function headersHTML(headerElement) {
     borrar.addEventListener('click', () => {
         if (contBut == 1) {
             expandedMenu.style.display = 'none';
+            topBarr.style.height = "auto";
+            topBarr.style.background = "rgba(0, 0, 0, 0.35)"
             borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
             contBut = 0;
+
         } else {
             expandedMenu.style.display = 'block';
+            topBarr.style.animation = "scale-up-top 0.4s linear"
+            topBarr.style.background = "rgba(35, 35, 35)"
+            topBarr.style.height = "100%";
             borrar.innerHTML = "<i id='botonx' class='bx bx-x'></i>";
             contBut = 1;
         }
@@ -36,7 +43,9 @@ function headersHTML(headerElement) {
     logohome.addEventListener('click', function () {
         cargarContenidoHeader('../Pages/main.html', '/home/queens');
         expandedMenu.style.display = 'none';
+        topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        topBarr.style.height = "auto";
         contBut = 0;
     });
 
@@ -59,28 +68,36 @@ function headersHTML(headerElement) {
     aboutusDown.addEventListener('click', function () {
         cargarContenidoHeader('../Pages/AboutUs/aboutus.html', '/aboutus');
         expandedMenu.style.display = 'none';
+        topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        topBarr.style.height = "auto";
         contBut = 0;
     });
 
     downloadDown.addEventListener('click', function () {
         cargarContenidoHeader('../Pages/Download/download.html', '/downloadapp');
         expandedMenu.style.display = 'none';
+        topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        topBarr.style.height = "auto";
         contBut = 0;
     });
 
     subscriptionsDown.addEventListener('click', function () {
         cargarContenidoHeader('../Pages/Subscriptions/subscriptions.html', '/subscribers');
         expandedMenu.style.display = 'none';
+        topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        topBarr.style.height = "auto";
         contBut = 0;
     });
 
     newsDown.addEventListener('click', function () {
         cargarContenidoHeader('../Pages/News/news.html', '/news');
         expandedMenu.style.display = 'none';
+        topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
+        topBarr.style.height = "auto";
         contBut = 0;
     });
 
@@ -125,7 +142,7 @@ function cargarContenido(url, path) {
     } else if (url.includes('/subscribers')) {
         url = '../Pages/Subscriptions/subscriptions.html';
         path = '/home/subscribers';
-    }else {
+    } else {
         url = '../Pages/main.html';
         path = '/home/queens';
     }
