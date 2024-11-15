@@ -231,8 +231,7 @@ h4 {
         color: #ffffff;
         font-family: "Andada Pro";
         font-weight: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+
     }
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
