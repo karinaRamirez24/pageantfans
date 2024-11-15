@@ -53,7 +53,8 @@ console.log(`El sistema operativo detectado es: ${os}`);
     if (os === "Android") {
         let link = document.createElement("link");
         link.rel = "stylesheet";
-        link.href = "../css/global.css"; 
+        // link.href = "../css/global.css"; 
+        link.href = "../css/main.css";
         console.log(link.href.toString())
         document.head.appendChild(link);
         console.log("Cargado Nuevamente el GLOBAL CSS")
