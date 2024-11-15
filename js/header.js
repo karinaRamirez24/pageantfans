@@ -57,7 +57,7 @@ function toggleMenu({ borrar, topBarr, expandedMenu, contenido }) {
         topBarr.style.background = "rgba(35, 35, 35)";
         topBarr.style.height = "100%";
         borrar.innerHTML = "<i id='botonx' class='bx bx-x i-nav'></i>";
-        contenido.style.overflow = "hidden";
+        topBarr.style.overflow = "auto";
         contBut = 1;
     }
 }
