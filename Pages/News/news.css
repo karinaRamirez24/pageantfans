@@ -69,7 +69,7 @@
 
 .textNew{
     display: flex;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     padding-bottom: 5%;
     gap: 20px;
@@ -103,7 +103,7 @@ align-items: center;
 
 .p-two{
     display: flex;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     gap: 20px;
     padding-right: 5%;
@@ -118,12 +118,12 @@ align-items: center;
  height: 160px;
  display: flex;
  flex-direction: column;
+ padding-top: 4%;
 }
 .elements-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding: 5%;
 }
 .elements-section p{
@@ -166,7 +166,6 @@ align-items: center;
     }
 
     .p-two{
-        text-align: justify;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -178,12 +177,14 @@ align-items: center;
         padding-right: 0%;
         padding-bottom: 0%;
         color: #FFF;
+        text-align: justify;
     }
 
     .section-two {
         display: flex;
         flex-direction: column;
         width: 100%;
+        text-align: justify;
     }
     
     .textNew {
@@ -193,6 +194,7 @@ align-items: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
     }
     
     .news-header-content p {
