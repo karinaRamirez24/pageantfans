@@ -59,14 +59,18 @@
 }
 
 .tiltNew{
+    display: flex;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
+    width: 85%;
     padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .textNew{
     display: flex;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
     padding-bottom: 5%;
     gap: 20px;
@@ -100,8 +104,9 @@ align-items: center;
 
 .p-two{
     display: flex;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
+    gap: 20px;
     padding-right: 5%;
     padding-bottom: 5%;
     color: #FFF;
@@ -131,6 +136,12 @@ align-items: center;
     font-weight: 600;
     text-decoration-line: underline;
 }
+
+/* .button-links {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+} */
 
 @media only screen and (max-width: 1024px) {
     .content-sections {
