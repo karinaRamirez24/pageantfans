@@ -4,8 +4,7 @@ function headersHTML(headerElement) {
     let topBarr = headerElement.querySelector('.top-bar');
     let collapsedMenu = headerElement.querySelector('#optionsMenu');
     let expandedMenu = headerElement.querySelector('#dropdownMenu');
-
-    let contenido = document.getElementById('content');
+    let contenido = document.querySelector('#content');
 
     borrar.addEventListener('click', () => {
         if (contBut == 1) {
@@ -21,6 +20,7 @@ function headersHTML(headerElement) {
             topBarr.style.background = "rgba(35, 35, 35)"
             topBarr.style.height = "100%";
             borrar.innerHTML = "<i id='botonx' class='bx bx-x'></i>";
+            contenido.style.overflow = "hidden";
             contBut = 1;
         }
     });
@@ -71,6 +71,7 @@ function headersHTML(headerElement) {
         topBarr.style.background = "rgba(0, 0, 0, 0.35)"
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu'></i>";
         topBarr.style.height = "auto";
+      
         contBut = 0;
     });
 
