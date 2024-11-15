@@ -146,6 +146,7 @@ h4 {
 
 .awardscard img{
     width: 300px;
+    min-width: 136px;
 }
 .awars-text{
     padding: 50px 90px;

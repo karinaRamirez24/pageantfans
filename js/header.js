@@ -49,7 +49,6 @@ function toggleMenu({ borrar, topBarr, expandedMenu, contenido }) {
         topBarr.style.height = "auto";
         topBarr.style.background = "rgba(0, 0, 0, 0.35)";
         borrar.innerHTML = "<i id='botonmenu' class='bx bx-menu i-nav'></i>";
-        contenido.style.overflow = "auto";
         contBut = 0;
     } else {
         expandedMenu.style.display = 'block';
