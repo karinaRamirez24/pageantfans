@@ -22,3 +22,40 @@ document.addEventListener("DOMContentLoaded", function () {
     //     });
 
 });
+
+function detectOS() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Phone";
+    }
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+    if (/Win/i.test(navigator.platform)) {
+        return "Windows Desktop";
+    }
+    if (/Mac/i.test(navigator.platform)) {
+        return "MacOS";
+    }
+    if (/Linux/i.test(navigator.platform)) {
+        return "Linux";
+    }
+    return "Unknown";
+}
+
+const os = detectOS();
+console.log(`El sistema operativo detectado es: ${os}`);
+
+    if (os === "Android") {
+        let link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "../css/global.css"; 
+        console.log(link.href.toString())
+        document.head.appendChild(link);
+        console.log("Cargado Nuevamente el GLOBAL CSS")
+    }
+
