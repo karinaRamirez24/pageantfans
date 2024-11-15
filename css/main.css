@@ -18,8 +18,8 @@
 .overlay-Queens h1 {
     font-size: 7rem;
     color: #ffffff;
-    font-family: "Andada Pro";
-    font-weight: normal;
+    /* font-family: "Andada Pro";
+    font-weight: normal; */
 }
 
 .overlay-content {
