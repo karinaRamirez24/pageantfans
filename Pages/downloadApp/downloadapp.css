@@ -203,7 +203,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     color: #545F71;
     text-align: justify;
 }
