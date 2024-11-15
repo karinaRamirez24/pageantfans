@@ -74,7 +74,7 @@
         width: auto;
         height: auto;
         border-radius: 30px;
-        padding: 0px;
+        padding: 10px;
         opacity: 0.9;
         background: rgba(63, 14, 13, 0.5);
         backdrop-filter: blur(7.5px);
