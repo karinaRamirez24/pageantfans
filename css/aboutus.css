@@ -93,6 +93,8 @@ h3 {
     margin-top: 40px;
     line-height: 1.5;
     font-size: 18px;
+    hyphens: auto;
+    word-spacing: -0.05em;
 }
 
 h4 {
@@ -141,6 +143,8 @@ h4 {
 .awars-text{
     padding: 50px 90px;
     text-align: justify;
+    hyphens: auto;
+    word-spacing: -0.05em;
 }
 
 .awars-text p{
@@ -200,9 +204,7 @@ h4 {
     }
     .awars-text p {
         color: rgba(255, 255, 255, 0.815);
-        
-        line-height: 1.5;
-        font-size: 0.75rem;
+        hyphens: auto;
     }
     .awardscard {
         background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
@@ -224,7 +226,7 @@ h4 {
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         line-height: 1.5;
-        font-size: 0.7rem;
+
     }
     .pageants-awards{
         width: 100%;
@@ -240,6 +242,10 @@ h4 {
     .ceoText {
         padding: 1.5rem;
         text-align: justify;
+    }
+    .textabout{
+        font-size: 13px;
+        hyphens: auto;
     }
 
 }
@@ -280,7 +286,8 @@ h4 {
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
         line-height: 1.5;
-        font-size: 60%;
+        
+        
     }
     .ceos img {
         
@@ -303,4 +310,73 @@ h4 {
         font-size: 80%;
     }
    
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .ceoText p{
+        font-size: 9px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        word-break: break-word;
+    }
+
+    .awars-text p{
+        font-size: 10px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .ceoText p{
+        font-size: 11px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        word-break: break-word;
+    }
+    .awars-text p{
+        font-size: 12px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .ceoText p{
+        font-size: 13px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        word-break: break-word;
+    }
+    .awars-text p{
+        font-size: 15px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .ceoText p{
+        font-size: 15px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        word-break: break-word;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .ceoText p{
+        font-size: 11px;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        word-break: break-word;
+        
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    .ceoText p{
+        font-size: 13px;
+        hyphens: auto;
+        
+    }
 }
