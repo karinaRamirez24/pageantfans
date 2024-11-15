@@ -50,6 +50,11 @@ img {
 .textabout {
     text-align: justify;
     color: #fff;
+    margin-bottom: 20px;
+}
+.textabout-second{
+    text-align: justify;
+    color: #fff;
 }
 
 .h2-about {
