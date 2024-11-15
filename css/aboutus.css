@@ -51,8 +51,10 @@ img {
     text-align: justify;
     color: #fff;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 .textabout-second{
+    font-size: 16px;
     text-align: justify;
     color: #fff;
 }
@@ -252,6 +254,10 @@ h4 {
         font-size: 13px;
         hyphens: auto;
     }
+    .textabout-second{
+        font-size: 13px;
+    
+    }
 
 }
 
@@ -265,6 +271,9 @@ h4 {
     .textabout {
         text-align: justify;
         color: #fff;
+        font-size: 1rem;
+    }
+    .textabout-second{
         font-size: 1rem;
     }
     .ceoContent {
@@ -291,11 +300,8 @@ h4 {
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
         line-height: 1.5;
-        
-        
     }
     .ceos img {
-        
         object-fit: cover;
         object-position: 50% 5%;
     }
