@@ -47,7 +47,7 @@
     transition: all 0.4s ease-in-out;
     color: red;
     position: absolute;
-    top: 0;
+    top: -0.01px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -239,7 +239,6 @@
   .loginFrame {
     flex: none;
   }
-
 }
 
 /* -------------------Animations------------------- */
