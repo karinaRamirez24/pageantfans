@@ -346,6 +346,14 @@ h4 {
         font-size: 10px;
         letter-spacing: -0.5px;
     }
+    .textabout {
+        font-size: 10px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 10px;
+        letter-spacing: -0.5px;
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 500px) {
@@ -356,6 +364,14 @@ h4 {
     .awars-text p{
         font-size: 12px;
         word-spacing: -0.05em;
+    }
+    .textabout {
+        font-size: 12px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 12px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -369,12 +385,28 @@ h4 {
         text-align: justify;
         letter-spacing: -0.9px;
     }
+    .textabout {
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 700px) {
     .ceoText p{
         font-size: 15px;
         letter-spacing: -0.9px;
+    }
+    .textabout {
+        font-size: 15px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 15px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -386,6 +418,14 @@ h4 {
     .awars-text p{
         text-align: justify;
         letter-spacing: -0.9px;
+    }
+    .textabout {
+        font-size: 16px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 16px;
+        letter-spacing: -0.5px;
     }
 }
 
