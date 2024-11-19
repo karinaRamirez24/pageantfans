@@ -62,8 +62,20 @@ h2 {
     color: #ffffff;
     font-size: 2.6em;
     text-align: center;
+    word-spacing: normal;
 }
-
+.h2-text-queen{
+    color: #ffffff;
+    font-size: 2.6em;
+    text-align: justify;
+    word-spacing: normal;
+}
+.text-queens{
+    color: #ffffff;
+    font-size: 2.6em;
+    text-align: justify;
+    word-spacing: normal;
+}
 .blur-box {
     position: absolute;
     top: 15%;
@@ -79,9 +91,10 @@ h2 {
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.5;
-    text-align: left;
     overflow: hidden;
     padding: 90px 15%;
+    text-align: justify;
+    word-spacing: normal;
 }
 
 .carrusel {
