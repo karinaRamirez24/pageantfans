@@ -1,7 +1,9 @@
 /* -------------------Start of About-Us styles------------------- */
-.headerFooter {}
-
-.about-header-content {}
+.about-header-content {
+    position: absolute;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
+    padding: 350px 8%;
+}
 
 .separador {}
 
@@ -27,161 +29,6 @@
 
 .awars-text {}
 /* -------------------Media elements------------------- */
-
-/* -------------------Animations------------------- */
-
-h1 {
-    color: #fff;
-    font-size: 64px;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    font-family: "Source Sans Pro";
-}
-
-img {
-    width: 800px;
-    height: 600;
-}
-
-.content-information {
-    display: flex;
-    box-direction: column;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 6% 9%;
-    z-index: 2;
-}
-
-.about-header-content{
-    position: absolute;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
-    padding: 350px 8%;
-}
-
-.about-header-content p {
-    text-align: left;
-    line-height: 50px;
-    font-size: 7rem;
-    color: #ffffff;
-    font-family: "Andada Pro";
-    font-weight: normal;
-
-}
-
-.hero-about video {
-    position: inherit;
-}
-
-.pageant-description {
-    width: 80%;
-    text-align: center;
-}
-
-.textabout {
-    text-align: justify;
-    color: #fff;
-}
-
-.h2-about {
-    color: #7c8696;
-    text-align: center;
-}
-
-h3 {
-    color: #E30426;
-    text-align: center;
-    padding-bottom: 2%;
-    font-size: 23px;
-}
-
-.ceos {
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(20px);
-    border-radius: 24px;
-    overflow: hidden;
-    margin-bottom: 50px;
-    width: 80%;
-}
-
-.ceos img {
-    width: 330px;
-    object-fit: cover;
-    object-position: 50% 5%;
-}
-
-.ceoContent {
-    display: flex;
-}
-
-.ceoText {
-    padding: 50px;
-    text-align: justify;
-}
-
-.ceoText p {
-    color: rgba(255, 255, 255, 0.815);
-    margin-top: 40px;
-    line-height: 1.5;
-    font-size: 18px;
-}
-
-h4 {
-    text-align: center;
-    font-size: 48px;
-    color: white;
-    padding-bottom: 3%;
-
-}
-
-.ceoContent {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.ceoContent video {
-    opacity: .7;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    object-fit: cover;
-}
-
-.awardscard{
-    background: linear-gradient(0deg, rgba(2,0,36,0.35) 0%, rgba(49,73,106,0.35) 50%, rgba(65,88,125,0.35) 100%);
-    backdrop-filter: blur(20px);
-    border-radius: 24px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    margin: 0px 150px;
-}
-
-.awardscard img{
-    width: 300px;
-}
-.awars-text{
-    padding: 50px 90px;
-    text-align: justify;
-}
-
-.awars-text p{
-    color: rgba(255, 255, 255, 0.815);
-    margin-top: 30px;
-    line-height: 1.5;
-    font-size: 18px;
-}
-
 @media only screen and (min-width: 300px) and (max-width: 799px) {
     .news-header-content p{
         text-align: justify;
@@ -335,4 +182,152 @@ h4 {
         font-size: 80%;
     }
    
+}
+/* -------------------Animations------------------- */
+
+h1 {
+    color: #fff;
+    font-size: 64px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: "Source Sans Pro";
+}
+
+img {
+    width: 800px;
+    height: 600;
+}
+
+.content-information {
+    display: flex;
+    box-direction: column;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 9%;
+    z-index: 2;
+}
+
+
+.about-header-content p {
+    text-align: left;
+    line-height: 50px;
+    font-size: 7rem;
+    color: #ffffff;
+    font-family: "Andada Pro";
+    font-weight: normal;
+
+}
+
+.hero-about video {
+    position: inherit;
+}
+
+.pageant-description {
+    width: 80%;
+    text-align: center;
+}
+
+.textabout {
+    text-align: justify;
+    color: #fff;
+}
+
+.h2-about {
+    color: #7c8696;
+    text-align: center;
+}
+
+h3 {
+    color: #E30426;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 23px;
+}
+
+.ceos {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.ceos img {
+    width: 330px;
+    object-fit: cover;
+    object-position: 50% 5%;
+}
+
+.ceoContent {
+    display: flex;
+}
+
+.ceoText {
+    padding: 50px;
+    text-align: justify;
+}
+
+.ceoText p {
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 3%;
+
+}
+
+.ceoContent {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.ceoContent video {
+    opacity: .7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.awardscard{
+    background: linear-gradient(0deg, rgba(2,0,36,0.35) 0%, rgba(49,73,106,0.35) 50%, rgba(65,88,125,0.35) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 0px 150px;
+}
+
+.awardscard img{
+    width: 300px;
+}
+.awars-text{
+    padding: 50px 90px;
+    text-align: justify;
+}
+
+.awars-text p{
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 18px;
 }
