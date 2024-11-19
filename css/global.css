@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #f6f6f6;
-  hyphens: auto;
+  word-spacing: normal;
 }
 
 .button-1,

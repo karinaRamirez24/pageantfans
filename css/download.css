@@ -403,9 +403,10 @@ h1{
     font-size: 100px;
   }
   .down-text{
+    text-align: justify;
     font-size: 15px;
     padding-left: 10px;
-    
+    word-spacing: normal;
   }
 }
 
