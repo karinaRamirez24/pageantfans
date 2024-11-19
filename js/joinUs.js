@@ -24,6 +24,3 @@ function updateValue(input) {
         input.style.border = "";
     }
 }
-
-    });
-}
