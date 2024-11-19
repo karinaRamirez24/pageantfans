@@ -1,43 +1,4 @@
-.hero-news video {
-  position: inherit;
-}
-.content-first {
-  z-index: 1;
-  align-items: center;
-  width: 100%;
-  background-color: aqua;
-  display: flex;
-  justify-content: space-around;
-}
-.parrafo-system {
-  color: white;
-  width: 600px;
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-
-.button-download {
-  width: 280px;
-  height: 50px;
-  background-color: #e30426;
-  color: #fff;
-  border-radius: 20px;
-  outline: none;
-  margin: 28px;
-  border: none;
-}
-
-.button-download:hover {
-  width: 300px;
-  height: 50px;
-  background-color: #d85a6d;
-  color: #fff;
-  border-radius: 20px;
-  outline: none;
-  border: none;
-}
-
-
+/* -------------------Start of Partners styles------------------- */
 
 .partners-cards {
   padding-top: 8%;
@@ -47,9 +8,6 @@
   align-items: center;
 }
 
-.partners-h2{
-  padding-left: 5%;
-}
 .partners-cards p {
   color: #fff;
   text-align: justify;
@@ -57,31 +15,9 @@
   padding-left: 5%;
   width: 600px;
 }
-.fanscards2 {
-  padding-top: 8%;
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.fanscards2 h2 {
-}
-.fanscards2 p {
-  color: white;
-  text-align: justify;
-  padding-top: 5%;
-  padding-bottom: 5%;
 
-  width: 600px;
-}
 .image-first {
   width: 35rem;
-}
-.image-second {
-  padding-right: 0;
-  width: 1200px;
-  height: 690px;
-  z-index: 4;
 }
 
 .button-system {
@@ -89,15 +25,14 @@
   padding-left: 55%;
 }
 
-.button-investor {
-  width: 280px;
-  height: 50px;
-  background-color: #e30426;
-  color: #fff;
-  border-radius: 20px;
-  outline: none;
-  border: none;
+.image-second {
+  padding-right: 0;
+  width: 1200px;
+  height: 690px;
+  z-index: 4;
 }
+
+/* -------------------Media elements------------------- */
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
   .overlay-Queens h1 {
@@ -131,7 +66,7 @@
     height: 250px;
     z-index: 4;
   }
-  .textcardsFans2 {
+  .text-cards-partners {
     padding: 5%;
   }
 
@@ -161,3 +96,5 @@
     width: 100%;
   }
 }
+
+/* -------------------Animations------------------- */
