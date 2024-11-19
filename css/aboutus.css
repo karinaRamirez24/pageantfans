@@ -33,7 +33,7 @@ img {
     line-height: 50px;
     font-size: 7rem;
     color: #ffffff;
-    font-family: "Andada Pro, serif";
+    font-family: 'Andada Pro', serif;
     font-weight: normal;
 
 }
@@ -168,7 +168,7 @@ h4 {
         text-align: justify;
         color: #fff;
         text-align: left;
-        font-family: "Andada Pro, serif";
+        font-family: 'Andada Pro', serif;
         font-size: 500%;
         font-style: normal;
         font-weight: 700;
@@ -229,7 +229,7 @@ h4 {
         line-height: 50px;
         font-size: 400%;
         color: #ffffff;
-        font-family: "Andada Pro, serif";
+        font-family: 'Andada Pro', serif;
         font-weight: normal;
 
     }
