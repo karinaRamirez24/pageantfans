@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 40%;
 }
 
 .heroDownload {
@@ -69,8 +69,7 @@ p {
 
 .gridtext {
     display: flex;
-    width: 45%;
-    margin: 20px;
+    width: 35%;
     flex-direction: column;
     justify-content: center;
     align-items: left;
@@ -108,7 +107,6 @@ p {
 .content-exclusive .image-lap {
     display: flex;
     width: 75%;
-    margin-top: 15%;
 }
 
 .hero--diagonal {
@@ -189,7 +187,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
-    width: 100%;
+    width: 45%;
     justify-content: center;
     align-items: center;
 }
@@ -202,6 +200,7 @@ p {
 p {
     display: flex;
     justify-content: center;
+    width: 100%;
     align-items: center;
     color: #545F71;
     text-align: left;
@@ -210,7 +209,7 @@ p {
 .hero__contentStories p {
     margin-top: 3%;
     font-size: 25px;
-    width: 80%;
+    width: 100%;
     text-align: justify;
 }
 
@@ -284,7 +283,13 @@ p {
     }
 
     .hero__makeStories {
+        display: flex;
+        flex-direction: column;
         margin-top: 5%;
+    }
+    
+    .hero__contentImg {
+        width: 100%;
     }
 }
 
@@ -321,18 +326,37 @@ p {
 
 
 
-@media only screen and (min-width: 300px) and (max-width:1920px) {
+@media only screen and (min-width: 300px) and (max-width:2400px) {
 
     .hero__contentss{
         text-align: center;
-         width: 250px;
-         height: 540px;
-         border-radius: 60px;
+        width: 250px;
+        height: 540px;
+        margin-left: 90%;
+        border-radius: 60px;
         overflow: hidden;
         position: relative;
     }
 
     .hero__content p {
         font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1450px) {
+    .hero__contentss {
+        margin-left: 2%; 
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero__contentss {
+        margin-left: 50%; 
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .hero__contentss {
+        margin-left: 0%; 
     }
 }
