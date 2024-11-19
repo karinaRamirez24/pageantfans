@@ -80,7 +80,7 @@ p {
 }
 
 .shake-horizontal {
-    animation: shake-horizontal 0.5s linear both
+    animation: shake-horizontal 0.5s linear both;
 }
 
 .video-download {
