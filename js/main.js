@@ -13,12 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("footer-container").innerHTML = data;
             footerHTML(document.getElementById("footer-container"));
         });
-
-    // fetch("../elements/modal.html")
-    //     .then(response => response.text())
-    //     .then(data => {
-    //         document.getElementById("modalStore").innerHTML = data;
-    //         modalHTML(document.getElementById("modalStore"));
-    //     });
-
 });

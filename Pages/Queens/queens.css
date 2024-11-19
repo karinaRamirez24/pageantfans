@@ -1,0 +1,147 @@
+/* --------------------------Start of Queens styles-------------------------- */
+.heroQueens {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.QueesToptext {
+    text-align: right;
+    padding: 50px 15px;
+}
+
+.carrusel {
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel-inner {
+    display: flex;
+    animation: scroll 25s linear infinite;
+    width: calc(100% * 2);
+}
+
+.video-item {
+    flex: 0 0 auto;
+    margin: 0 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.video-item video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.me1 {
+    margin-top: 2.5%;
+    width: 180px;
+    height: 280px;
+}
+
+.me2 {
+    width: 350px;
+    height: 450px;
+}
+
+.me3 {
+    margin-top: 2%;
+    width: 250px;
+    height: 350px;
+}
+
+.me4 {
+    margin-top: .5%;
+    width: 350px;
+    height: 430px;
+}
+
+.me5 {
+    margin-top: 1.5%;
+    width: 350px;
+    height: 380px;
+}
+
+.texto-h {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+    overflow: hidden;
+    padding: 90px 15%;
+}
+
+.textcardsQueens {
+    padding: 0px 7%;
+}
+
+/* --------------------------Media elements-------------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .overlay-Queens h1 {
+        font-size: 3.5rem;
+    }
+
+    .next-button-rigth {
+        top: 280px;
+        right: 20px;
+    }
+
+    .next-button-lefth {
+        top: 280px;
+        left: 20px;
+    }
+
+    .textcardsQueens {
+        padding: 30px 7%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* --------------------------Animations-------------------------- */
+@keyframes scroll {
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* TODO */
+
+h5 {
+    color: #ffffff;
+    font-size: 2.6em;
+    margin-left: 70.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    overflow: hidden;
+    width: 30%;
+}

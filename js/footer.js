@@ -8,7 +8,7 @@ function footerHTML(footerElement) {
     let logohome = footerElement.querySelector("#logohome")
 
     logohome.addEventListener("click", function () {
-        cargarContenidoFoter("../Pages/main.html", "/home/queens");
+        cargarContenidoFoter("../Pages/Queens/queens.html", "/home/queens");
     });
 
     aboutusf.addEventListener("click", function () {
@@ -33,7 +33,7 @@ function cargarContenidoFoter(url, path) {
         .then(response => response.text())
         .then(data => {
             document.getElementById("content").innerHTML = data;
-            history.pushState("", "", path); // Actualiza la URL sin recargar
+            history.pushState("", "", path);
         });
 }
 
