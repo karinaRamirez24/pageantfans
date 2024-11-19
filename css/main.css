@@ -3,6 +3,17 @@
     height: 100%;
     object-fit: cover;
 }
+.queens-cards{
+        padding: 20px 160px 20px 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+   
+}
+.queens-cards img {
+    width: 45%;
+}
 
 .overlay-Queens {
     width: 55%;
@@ -67,8 +78,9 @@ h2 {
 .h2-text-queen{
     color: #ffffff;
     font-size: 2.6em;
-    text-align: justify;
+    text-align: left;
     word-spacing: normal;
+    letter-spacing: -1;
 }
 .text-queens{
     color: #ffffff;
@@ -314,6 +326,13 @@ h5 {
 
     .textcardsQueens {
         padding: 30px 7%;
+    }
+    .h2-text-queen{
+        word-spacing: -0.04em;
+        letter-spacing: 0.04em;
+    }
+    .texto-h{
+        word-spacing: -4px;
     }
 }
 
