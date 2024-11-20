@@ -17,7 +17,8 @@ body {
 h2 {
   color: #ffffff;
   font-size: 2.6em;
-  text-align: center;
+  text-align: left;
+
 }
 
 .headerFooter video {
@@ -282,6 +283,10 @@ h2 {
   .cardCarrucel p {
     font-size: 1rem;
     margin: 30px 15px;
+  }
+  h2 {
+    font-size: 1.6em;
+  
   }
 }
 
