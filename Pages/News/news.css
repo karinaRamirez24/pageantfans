@@ -164,9 +164,11 @@
     .image-main {
         width: 85%;
         height: 10%;
+        padding: 9% 0 10% 0;
     }
 
     .part-two img {
+        padding-top: 10%;
         width: 85%;
         height: 10%;
     }
