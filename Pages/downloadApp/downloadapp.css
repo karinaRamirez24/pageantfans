@@ -74,7 +74,7 @@ video {
 .gridtext h2,
 p {
     color: #545F71;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
@@ -240,7 +240,8 @@ p {
     }
     
     .gridtext {
-        width: 100%;
+        padding-top: 20px;
+        width: 75%;
     }
     
     .content-exclusive .image-lap {
