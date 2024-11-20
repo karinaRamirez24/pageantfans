@@ -1,62 +1,24 @@
-.parent {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    overflow: hidden;
-}
-
-.div1 {
-    grid-area: 1 / 3 / 2 / 4;
-    overflow: hidden;
-}
-
-.div2 {
-    grid-area: 2 / 1 / 3 / 2;
-    overflow: hidden;
-}
-
-.div3 {
-    grid-area: 2 / 2 / 3 / 4;
-    overflow: hidden;
-}
-
-.div4 {
-    grid-area: 1 / 1 / 2 / 3;
-    overflow: hidden;
-}
-
-.parent img {
-    width: 100%;
-    max-height: 280px;
-    object-fit: cover;
-}
-
-.container-text-main {
-    width: 50%;
+.p-responsive {
     display: flex;
-    flex-direction: column;
+    width: 55%;
+    font-size: 19px; 
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__makeStories {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
-
-/* .hero__makeStories img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-} */
 
 .hero__contentImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 40%;
 }
 
 .heroDownload {
@@ -67,6 +29,12 @@
 .heroDownload h1 {
     color: black;
     font-size: 60px;
+}
+
+.container-text-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .iphone-frame {
@@ -101,14 +69,17 @@ p {
 
 .gridtext {
     display: flex;
-    margin: 20px;
+    width: 35%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+}
+.container-text-main h1{
+    text-align: left;
 }
 
 .shake-horizontal {
-    animation: shake-horizontal 0.5s linear both
+    animation: shake-horizontal 0.5s linear both;
 }
 
 .video-download {
@@ -125,8 +96,9 @@ p {
 }
 
 .content-exclusive p {
-    text-align: center;
+    text-align: left;
     height: auto;
+    width: 80%;
     font-weight: bold;
     padding: 20px 70px;
     font-size: 25px;
@@ -134,17 +106,7 @@ p {
 
 .content-exclusive .image-lap {
     display: flex;
-    width: 100%;
-    margin-top: 15%;
-}
-
-hr {
-    margin: 3% 0 3% 0;
-    width: 80%;
-    background: #a502ee;
-    background: linear-gradient(to right, #E30426, #f0eded, #E30426);
-    height: 3px;
-    border: none;
+    width: 75%;
 }
 
 .hero--diagonal {
@@ -173,13 +135,11 @@ hr {
 .hero__content h1,
 p {
     color: #545F71;
-    margin-bottom: 50px;
-    text-align: center;
 }
 
 .hero__content p {
     font-size: 25px;
-    text-align: center;
+    text-align: left;
 }
 
 .valores-flexContent {
@@ -188,7 +148,6 @@ p {
     gap: 20px;
     margin-bottom: 5%;
     justify-content: center;
-    align-items: center;
 }
   
 .valores-Carts {
@@ -227,7 +186,8 @@ p {
 .hero__contentStories {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin-top: 5%;
+    width: 45%;
     justify-content: center;
     align-items: center;
 }
@@ -240,15 +200,17 @@ p {
 p {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
+    align-items: center;
     color: #545F71;
-    text-align: justify;
+    text-align: left;
 }
 
 .hero__contentStories p {
+    margin-top: 3%;
     font-size: 25px;
-    text-align: center;
+    width: 100%;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -256,6 +218,16 @@ p {
         flex-wrap: wrap;
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+    
+    .gridtext {
+        width: 100%;
+    }
+    
+    .content-exclusive .image-lap {
+        display: flex;
+        width: 100%;
+        margin-top: 15%;
     }
 
     .hero__content {
@@ -268,9 +240,13 @@ p {
         align-items: center;
         justify-content: center;
     }
+
+    .p-responsive {
+        width: 100%;
+    }
     
     .container-text-main {
-        width: 100%;
+        width: 75%;
     }
 
     .valores-Carts {
@@ -281,33 +257,63 @@ p {
     }
 
     .heroDownload h1 {
-        font-size: 20px;
+        font-size: 25px;
         display: flex;
         margin-top: 10%;
         align-items: center;
         justify-content: center;
+    }    
+    
+    .hero__contentStories p {
+        font-size: 18px;
+        width: 100%;
     }
+
+    .content-exclusive p {
+        padding: 15px;
+        text-align: left;
+        height: auto;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .hero__contentStories {
+        width: 75%;
+    }
+
+    .hero__makeStories {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .hero__contentImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
 
     .hero__contentImg {
         display: flex;
         width: 100%;
         height: 300px;
     }
+
+    .heroDownload h1 {
+        font-size: 20px;
+        display: flex;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+    }    
     
-    .content-exclusive p {
-        padding: 0;
-        text-align: center;
-        height: auto;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 1.5;
+    .hero__contentStories p {
+        font-size: 19px;
     }
 
-    .hero__makeStories {
-        margin-top: 15%;
-    }
 }
-
 
 @media only screen and (min-width: 1024px) {
 
@@ -315,5 +321,42 @@ p {
         display: flex;
         width: 27%;
         flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width:2400px) {
+
+    .hero__contentss{
+        text-align: center;
+        width: 250px;
+        height: 540px;
+        margin-left: 90%;
+        border-radius: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .hero__content p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1450px) {
+    .hero__contentss {
+        margin-left: 2%; 
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero__contentss {
+        margin-left: 50%; 
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .hero__contentss {
+        margin-left: 0%; 
     }
 }

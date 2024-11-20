@@ -22,10 +22,13 @@
     padding-bottom: 4%;
 }
 
-.tiltNew {
+.tiltNew{
+    display: flex;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .textNew {
@@ -49,6 +52,7 @@
     display: flex;
     text-align: justify;
     font-size: 20px;
+    gap: 20px;
     padding-right: 5%;
     padding-bottom: 5%;
     color: #FFF;
@@ -72,7 +76,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding: 5%;
 }
 
@@ -84,12 +87,21 @@
 
 /* -------------------Media elements------------------- */
 
+/* .button-links {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+} */
+
 @media only screen and (max-width: 1024px) {
     .content-sections {
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
+    }
+    .tiltNew{
+        width: 85%;
     }
 
     .section-one {
@@ -117,12 +129,14 @@
         padding-right: 0%;
         padding-bottom: 0%;
         color: #FFF;
+        text-align: justify;
     }
 
     .section-two {
         display: flex;
         flex-direction: column;
         width: 100%;
+        text-align: justify;
     }
 
     .textNew {
@@ -132,6 +146,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
     }
 
     .news-header-content p {
@@ -139,7 +154,7 @@
         line-height: 50px;
         font-size: 4rem;
         color: #ffffff;
-        font-family: "Andada Pro";
+        font-family: 'Andada Pro', serif;
         font-weight: normal;
     }
 }

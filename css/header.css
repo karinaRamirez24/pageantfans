@@ -47,7 +47,7 @@
     transition: all 0.4s ease-in-out;
     color: red;
     position: absolute;
-    top: 0;
+    top: -0.01px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -85,8 +85,16 @@
   justify-content: flex-end;
   padding: 13px 0px;
   flex: 1;
-  width: 200px;
-  min-width: 100px;
+  min-width: 86.69px;
+}
+
+.loginFrame h6 {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.icon-join {
+  display: none;
 }
 
 .dropdown-menu {
@@ -109,6 +117,9 @@
   cursor: pointer;
   font-size: 30px;
 }
+.i-nav{
+  font-size: 42px;
+}
 
 #botonx {
   animation: rotate-center 0.4s;
@@ -123,7 +134,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .top-bar {
-    padding: 10px;
+    padding: 10px 0px;
   }
 
   .menu-bar {
@@ -146,13 +157,20 @@
     width: 0px;
   }
 
+  .loginFrame h6 {
+    display: none;
+  }
+
+  .icon-join {
+    display: block;
+  }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .top-bar {
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
 
   .menuConteiner {
@@ -171,10 +189,6 @@
     display: none;
   }
 
-  .logo-bar {
-    padding: 8px 30px;
-  }
-
   .contain-logo {
     padding-left: 10px;
   }
@@ -184,7 +198,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .top-bar {
-    padding: 10px 30px;
+    padding: 10px 0px;
   }
 
   .menuConteiner {
@@ -194,29 +208,12 @@
   .menuChild {
     padding: 10px 20px;
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .top-bar {
-    padding: 10px 40px;
-  }
-
-  .menuConteiner {
-    margin-left: -20px;
-  }
-
-  .menuChild {
-    padding: 10px 25px;
-  }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .top-bar {
-    padding: 10px 40px;
+    padding: 10px 0px;
   }
 
   .menuConteiner {
@@ -226,7 +223,10 @@
   .loginFrame {
     justify-content: center;
     padding: 13px 0px;
-    width: 0px;
+  }
+
+  .menuChild {
+    padding: 10px 25px;
   }
 
 }
@@ -250,7 +250,6 @@
   .loginFrame {
     flex: none;
   }
-
 }
 
 /* -------------------Animations------------------- */

@@ -7,9 +7,11 @@
 
 body {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #f6f6f6;
+  word-spacing: normal;
 }
 
 h2 {
@@ -135,7 +137,7 @@ h2 {
 .button-2 {
   border: 2px solid #E30426;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 12px;
   color: #E30426;
   background-color: transparent;
   cursor: pointer;
@@ -172,7 +174,7 @@ h2 {
 @media only screen and (max-width: 600px) {
 
   .header-content {
-    padding: 350px 33% 350px 41%;
+    padding: 340px 33% 350px 42%;
   }
 
   .p-initial {

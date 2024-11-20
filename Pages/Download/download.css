@@ -14,7 +14,7 @@ padding-top: 5rem;
 text-align: center;
 font-size: 7rem;
 color: #ffffff;
-font-family: "Andada Pro";
+font-family: 'Andada Pro', serif;
 font-weight: normal;
 
 }
@@ -29,7 +29,7 @@ display: flex;
 }
 
 h1{
-    font-family: "Andada Pro";
+    font-family: 'Andada Pro', serif;
     font-size: 5rem;
     color: white;
 }
@@ -403,9 +403,10 @@ h1{
     font-size: 100px;
   }
   .down-text{
+    text-align: justify;
     font-size: 15px;
     padding-left: 10px;
-    
+    word-spacing: normal;
   }
 }
 

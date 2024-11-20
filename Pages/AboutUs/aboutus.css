@@ -10,8 +10,9 @@
     line-height: 50px;
     font-size: 7rem;
     color: #ffffff;
-    font-family: "Andada Pro";
+    font-family: 'Andada Pro', serif;
     font-weight: normal;
+    letter-spacing: -0.5px;
 
 }
 
@@ -34,6 +35,8 @@
 .textabout {
     text-align: justify;
     color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .ceos {
@@ -43,6 +46,7 @@
     overflow: hidden;
     margin-bottom: 50px;
     width: 80%;
+    word-spacing: normal;
 }
 
 .ceos img {
@@ -105,11 +109,14 @@
 
 .awardscard img {
     width: 300px;
+    min-width: 136px;
+    object-fit: contain;
 }
 
 .awars-text {
     padding: 50px 90px;
     text-align: justify;
+    word-spacing: normal;
 }
 
 .awars-text p {
@@ -117,6 +124,8 @@
     margin-top: 30px;
     line-height: 1.5;
     font-size: 18px;
+    word-spacing: normal;
+    text-align: justify;
 }
 
 /* -------------------Media elements------------------- */
@@ -125,7 +134,7 @@
         text-align: justify;
         color: #fff;
         text-align: left;
-        font-family: "Andada Pro";
+        font-family: 'Andada Pro', serif;
         font-size: 500%;
         font-style: normal;
         font-weight: 700;
@@ -198,14 +207,15 @@
         line-height: 50px;
         font-size: 400%;
         color: #ffffff;
-        font-family: "Andada Pro";
+        font-family: 'Andada Pro', serif;
         font-weight: normal;
+
     }
 
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         line-height: 1.5;
-        font-size: 0.7rem;
+
     }
 
     .pageants-awards {
@@ -226,6 +236,15 @@
         padding: 1.5rem;
         text-align: justify;
     }
+    .textabout{
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    }
+    .textabout-second{
+        font-size: 13px;
+        letter-spacing: -0.5px;
+    
+    }
 
 }
 
@@ -242,6 +261,7 @@
         text-align: justify;
         color: #fff;
         font-size: 1rem;
+        letter-spacing: -0.5px;
     }
 
     .ceoContent {
@@ -269,7 +289,7 @@
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
         line-height: 1.5;
-        font-size: 60%;
+        word-spacing: normal;
     }
 
     .ceos img {
