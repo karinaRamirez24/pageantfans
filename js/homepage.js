@@ -8,7 +8,7 @@ function nextPageFans() {
 }
 
 function nextPageQueens() {
-    fetch('../Pages/main.html')
+    fetch('../Pages/Queens/queens.html')
         .then((response) => response.text())
         .then((data) => {
             document.getElementById('content').innerHTML = data;
@@ -50,7 +50,7 @@ function cargarContenido(url, path) {
         url = '../Pages/Fans/fans.html';
         path = '/home/fans';
     } else if (url.includes('/queens')) {
-        url = '../Pages/main.html';
+        url = '../Pages/Queens/queens.html';
         path = '/home/queens';
     } else if (url.includes('/partners')) {
         url = '../Pages/Partners/partners.html';
@@ -59,10 +59,10 @@ function cargarContenido(url, path) {
         url = '../Pages/Download/download.html';
         path = '/home/downloadapp';
     } else if (url.includes('/Download-App')) {
-        url = '../Pages/main.html';
+        url = '../Pages/Queens/queens.html';
         path = '/queens';
     } else if (url.includes('/joinus')) {
-        url = '../Pages/main.html';
+        url = '../Pages/Queens/queens.html';
         path = '/queens';
     } else if (url.includes('/news')) {
         url = '../Pages/News/news.html';
@@ -71,7 +71,7 @@ function cargarContenido(url, path) {
         url = '../Pages/Subscriptions/subscriptions.html';
         path = '/home/subscribers';
     } else {
-        url = '../Pages/main.html';
+        url = '../Pages/Queens/queens.html';
         path = '/home/queens';
     }
     document.getElementById('header-container').style.display = 'block';

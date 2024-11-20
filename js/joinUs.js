@@ -8,8 +8,6 @@ function requiresInputs() {
 
     inputs.forEach(input => {
         input.addEventListener("input", updateValue(input));
-
-
     });
 }
 function updateValue(input) {
@@ -25,5 +23,4 @@ function updateValue(input) {
     } else {
         input.style.border = "";
     }
-  }
-
+}

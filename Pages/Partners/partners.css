@@ -1,0 +1,100 @@
+/* -------------------Start of Partners styles------------------- */
+
+.partners-cards {
+  padding-top: 8%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partners-cards p {
+  color: #fff;
+  text-align: justify;
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 600px;
+}
+
+.image-first {
+  width: 35rem;
+}
+
+.button-system {
+  text-align: end;
+  padding-left: 55%;
+}
+
+.image-second {
+  padding-right: 0;
+  width: 1200px;
+  height: 690px;
+  z-index: 4;
+}
+
+/* -------------------Media elements------------------- */
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .overlay-Queens h1 {
+    font-size: 3rem;
+}
+  .image-first {
+    width: 90%;
+    height: 80%;
+  }
+  .partners-cards {
+    flex-direction: column;
+  }
+  .partners-cards h2 {
+    padding: 5% 0 0 5%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 5% 0;
+    width: 90%;
+  }
+  .fanscards2 {
+    padding-top: 8%;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image-second {
+    padding-right: 0;
+    width: 400px;
+    height: 250px;
+    z-index: 4;
+  }
+  .text-cards-partners {
+    padding: 5%;
+  }
+
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding: 5% 0 8% 0;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1340px) {
+  .image-first {
+    width: 50%;
+    height: 40%;
+  }
+  .partners-cards p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 100%;
+  }
+  .fanscards2 p {
+    color: white;
+    text-align: justify;
+    padding-top: 5%;
+    width: 100%;
+  }
+}
+
+/* -------------------Animations------------------- */

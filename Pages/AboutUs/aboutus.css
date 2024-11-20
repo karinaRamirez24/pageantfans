@@ -1,28 +1,5 @@
-h1 {
-    color: #fff;
-    font-size: 64px;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    font-family: "Source Sans Pro";
-}
-
-img {
-    width: 800px;
-    height: 600;
-}
-
-.content-information {
-    display: flex;
-    box-direction: column;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 6% 9%;
-    z-index: 2;
-}
-
-.about-header-content{
+/* -------------------Start of About-Us styles------------------- */
+.about-header-content {
     position: absolute;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) -3.67%, rgba(0, 0, 0, 0.71) 96.33%);
     padding: 350px 8%;
@@ -39,8 +16,15 @@ img {
 
 }
 
-.hero-about video {
-    position: inherit;
+.content-information {
+    display: flex;
+    box-direction: column;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 9%;
+    z-index: 2;
 }
 
 .pageant-description {
@@ -53,25 +37,6 @@ img {
     color: #fff;
     margin-bottom: 20px;
     font-size: 16px;
-}
-.textabout-second{
-    font-size: 16px;
-    text-align: justify;
-    color: #fff;
-    
-}
-
-.h2-about {
-    color: #7c8696;
-    text-align: center;
-}
-
-h3 {
-    color: #E30426;
-    text-align: center;
-    padding-bottom: 2%;
-    font-size: 23px;
-    letter-spacing: -0.5px;
 }
 
 .ceos {
@@ -90,37 +55,12 @@ h3 {
     object-position: 50% 5%;
 }
 
-.ceoContent {
-    display: flex;
-}
-
-.ceoText {
-    padding: 50px;
-    text-align: justify;
-    letter-spacing: -0.5px;
-}
-
-.ceoText p {
-    color: rgba(255, 255, 255, 0.815);
-    margin-top: 40px;
-    line-height: 1.5;
-    font-size: 18px;
-    letter-spacing: -0.5px;
-    text-align: justify;
-}
-
-h4 {
-    text-align: center;
-    font-size: 48px;
-    color: white;
-    padding-bottom: 3%;
-
-}
 
 .ceoContent {
     width: 100%;
     height: auto;
     overflow: hidden;
+    display: flex;
 }
 
 .ceoContent video {
@@ -137,8 +77,25 @@ h4 {
     object-fit: cover;
 }
 
-.awardscard{
-    background: linear-gradient(0deg, rgba(2,0,36,0.35) 0%, rgba(49,73,106,0.35) 50%, rgba(65,88,125,0.35) 100%);
+.ceoText {
+    padding: 50px;
+    text-align: justify;
+}
+
+.ceoText p {
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.h2-about {
+    color: #7c8696;
+    text-align: center;
+}
+
+.awardscard {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
     backdrop-filter: blur(20px);
     border-radius: 24px;
     overflow: hidden;
@@ -149,18 +106,19 @@ h4 {
     margin: 0px 150px;
 }
 
-.awardscard img{
+.awardscard img {
     width: 300px;
     min-width: 136px;
     object-fit: contain;
 }
-.awars-text{
+
+.awars-text {
     padding: 50px 90px;
     text-align: justify;
     word-spacing: normal;
 }
 
-.awars-text p{
+.awars-text p {
     color: rgba(255, 255, 255, 0.815);
     margin-top: 30px;
     line-height: 1.5;
@@ -169,9 +127,9 @@ h4 {
     text-align: justify;
 }
 
+/* -------------------Media elements------------------- */
 @media only screen and (min-width: 300px) and (max-width: 799px) {
-    .news-header-content p{
-        text-align: justify;
+    .news-header-content p {
         color: #fff;
         text-align: left;
         font-family: 'Andada Pro', serif;
@@ -180,9 +138,11 @@ h4 {
         font-weight: 700;
         line-height: 100px;
     }
-    .h2-about{
+
+    .h2-about {
         margin: 0;
     }
+
     .ceoContent {
         width: 100%;
         height: auto;
@@ -190,9 +150,7 @@ h4 {
         overflow: hidden;
         flex-direction: column;
     }
-    .awardscard img {
-        width: 200px;
-    }
+
     .content-information {
         display: flex;
         align-content: center;
@@ -201,26 +159,32 @@ h4 {
         padding: 25% 0 0 0;
         z-index: 2;
     }
+
     h1 {
         color: #fff;
         font-size: 2rem;
         margin-top: 4%;
         margin-bottom: 5%;
-        font-family: "Source Sans Pro";
     }
-    .news-header-content{
+
+    .news-header-content {
         width: 50%;
     }
+
     .ceos img {
         width: 100%;
         height: 50vh;
         object-fit: cover;
         object-position: 50% 5%;
     }
+
     .awars-text p {
         color: rgba(255, 255, 255, 0.815);
-        word-spacing: normal;
+
+        line-height: 1.5;
+        font-size: 0.75rem;
     }
+
     .awardscard {
         background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
         backdrop-filter: blur(20px);
@@ -230,6 +194,7 @@ h4 {
         flex-direction: column;
         margin: 2rem;
     }
+
     .about-header-content p {
         text-align: left;
         line-height: 50px;
@@ -237,36 +202,40 @@ h4 {
         color: #ffffff;
         font-family: 'Andada Pro', serif;
         font-weight: normal;
-
     }
+
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         line-height: 1.5;
-
     }
-    .pageants-awards{
+
+    .pageants-awards {
         width: 100%;
     }
+
     .awardscard img {
         width: 60%;
         height: auto;
     }
+
     .awars-text {
         padding: 0;
         text-align: justify;
     }
+
     .ceoText {
         padding: 1.5rem;
         text-align: justify;
     }
-    .textabout{
+
+    .textabout {
         font-size: 13px;
         letter-spacing: -0.5px;
     }
-    .textabout-second{
+
+    .textabout-second {
         font-size: 13px;
         letter-spacing: -0.5px;
-    
     }
 
 }
@@ -275,45 +244,44 @@ h4 {
     .about-header-content p {
         font-size: 500%;
     }
+
     h1 {
         font-size: 1.5rem;
     }
+
     .textabout {
         text-align: justify;
         color: #fff;
         font-size: 1rem;
         letter-spacing: -0.5px;
     }
-    .textabout-second{
-        font-size: 1rem;
-        letter-spacing: -0.5px;
-    }
+
     .ceoContent {
         width: 100%;
         height: 50vh;
         overflow: hidden;
     }
+
     h2 {
         color: #7c8696;
         text-align: center;
         font-size: 1.5rem;
     }
+
     h3 {
         color: #E30426;
         text-align: center;
         padding-bottom: 2%;
         font-size: 1rem;
     }
-    .ceoText {
-        padding: 0 5% 0 5%;
-        text-align: justify;
-    }
+
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
         line-height: 1.5;
         word-spacing: normal;
     }
+
     .ceos img {
         object-fit: cover;
         object-position: 50% 5%;
@@ -323,136 +291,49 @@ h4 {
         margin: auto;
         padding: auto;
     }
+
     .awardscard img {
         width: 25%;
         padding-right: 5%;
     }
+
     .awars-text {
-      padding: 0;
+        padding: 0;
     }
+
     .awars-text p {
         font-size: 80%;
     }
-   
 }
 
-@media only screen and (min-width: 300px) and (max-width: 400px) {
-    .ceoText p{
-        font-size: 9px;
-        letter-spacing: -0.5px;
-    }
+/* -------------------Animations------------------- */
 
-    .awars-text p{
-        font-size: 10px;
-        letter-spacing: -0.5px;
-    }
-    .textabout {
-        font-size: 10px;
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        font-size: 10px;
-        letter-spacing: -0.5px;
-    }
+
+/* TODO */
+
+h1 {
+    color: #fff;
+    font-size: 64px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: "Source Sans Pro";
 }
 
-@media only screen and (min-width: 401px) and (max-width: 500px) {
-    .ceoText p{
-        font-size: 11px;
-        letter-spacing: -0.5px;
-    }
-    .awars-text p{
-        font-size: 12px;
-        word-spacing: -0.05em;
-    }
-    .textabout {
-        font-size: 12px;
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        font-size: 12px;
-        letter-spacing: -0.5px;
-    }
+img {
+    width: 800px;
+    height: 600;
 }
 
-@media only screen and (min-width: 501px) and (max-width: 600px) {
-    .ceoText p{
-        font-size: 13px;
-        letter-spacing: -0.9px;
-    }
-    .awars-text p{
-        font-size: 15px;
-        text-align: justify;
-        letter-spacing: -0.9px;
-    }
-    .textabout {
-        font-size: 13px;
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        font-size: 13px;
-        letter-spacing: -0.5px;
-    }
+h3 {
+    color: #E30426;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 23px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 700px) {
-    .ceoText p{
-        font-size: 15px;
-        letter-spacing: -0.9px;
-    }
-    .textabout {
-        font-size: 15px;
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        font-size: 15px;
-        letter-spacing: -0.5px;
-    }
-}
-
-@media only screen and (min-width: 701px) and (max-width: 800px) {
-    .ceoText p{
-        font-size: 15px;
-        letter-spacing: -0.9px;
-    }
-    .awars-text p{
-        text-align: justify;
-        letter-spacing: -0.9px;
-    }
-    .textabout {
-        font-size: 16px;
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        font-size: 16px;
-        letter-spacing: -0.5px;
-    }
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-    .ceoText p{
-        font-size: 11px;
-        letter-spacing: -0.9px;
-        
-    }
-    .awars-text p{
-        text-align: justify;
-        letter-spacing: -0.9px;
-    }
-}
-@media only screen and (min-width: 1000px) and (max-width: 1300px) {
-    .ceoText p{
-        font-size: 13px;
-        letter-spacing: -0.9px;
-    }
-    .awars-text p{
-        text-align: justify;
-        letter-spacing: -1px;
-    }
-    .textabout {
-        letter-spacing: -0.5px;
-    }
-    .textabout-second{
-        letter-spacing: -0.5px;
-    }
+h4 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 3%;
 }
