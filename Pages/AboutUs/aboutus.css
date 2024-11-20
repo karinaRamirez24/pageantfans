@@ -78,7 +78,6 @@
 }
 
 .ceoText {
-    /* padding: 0 5% 0 5%; */
     padding: 50px;
     text-align: justify;
 }
@@ -131,7 +130,6 @@
 /* -------------------Media elements------------------- */
 @media only screen and (min-width: 300px) and (max-width: 799px) {
     .news-header-content p {
-        text-align: justify;
         color: #fff;
         text-align: left;
         font-family: 'Andada Pro', serif;
@@ -153,10 +151,6 @@
         flex-direction: column;
     }
 
-    .awardscard img {
-        width: 200px;
-    }
-
     .content-information {
         display: flex;
         align-content: center;
@@ -171,7 +165,6 @@
         font-size: 2rem;
         margin-top: 4%;
         margin-bottom: 5%;
-        font-family: "Source Sans Pro";
     }
 
     .news-header-content {
@@ -209,13 +202,11 @@
         color: #ffffff;
         font-family: 'Andada Pro', serif;
         font-weight: normal;
-
     }
 
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         line-height: 1.5;
-
     }
 
     .pageants-awards {
@@ -236,14 +227,15 @@
         padding: 1.5rem;
         text-align: justify;
     }
-    .textabout{
+
+    .textabout {
         font-size: 13px;
         letter-spacing: -0.5px;
     }
-    .textabout-second{
+
+    .textabout-second {
         font-size: 13px;
         letter-spacing: -0.5px;
-    
     }
 
 }
@@ -283,8 +275,6 @@
         font-size: 1rem;
     }
 
-
-
     .ceoText p {
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
@@ -293,7 +283,6 @@
     }
 
     .ceos img {
-
         object-fit: cover;
         object-position: 50% 5%;
     }
@@ -315,7 +304,6 @@
     .awars-text p {
         font-size: 80%;
     }
-
 }
 
 /* -------------------Animations------------------- */
