@@ -69,6 +69,8 @@ h1 {
   color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1rem;
+  text-align: left;
+  letter-spacing: -1px;
 }
 
 .content-button {
@@ -123,6 +125,7 @@ h1 {
   .down-text {
     font-size: 10px;
     padding-bottom: 20px;
+  
 
   }
 
