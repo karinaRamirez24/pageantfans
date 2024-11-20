@@ -96,6 +96,7 @@ form h3 {
 } */
 
 .required-text{
+    padding: 20px 0 20px 0;
     color: #E30426;
 
 }
@@ -165,6 +166,7 @@ form h3 {
     }
 
     .required-text{
+        padding: 0;
         font-size: 14px;
     }
 
