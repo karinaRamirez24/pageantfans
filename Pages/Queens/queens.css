@@ -90,6 +90,11 @@
 .textcardsQueens {
     padding: 0px 7%;
 }
+.queens-h2{
+    color: #ffffff;
+    font-size: 2.6em;
+    text-align: center;
+}
 
 /* --------------------------Media elements-------------------------- */
 
@@ -101,6 +106,10 @@
 
     .textcardsQueens {
         padding: 30px 7%;
+    }
+    .queens-h2 {
+        text-align: left;
+        margin: 8%;
     }
 }
 
