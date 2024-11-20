@@ -53,6 +53,7 @@ h2 {
 
 .header-content {
   width: 100%;
+  min-height: 250px;
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.0) -3.67%, rgba(0, 0, 0, 0.71) 60%);
   padding: 350px 33% 350px 24%;
 }
@@ -130,7 +131,6 @@ h2 {
 }
 
 .cardCarrucel {
-  width: 1645px;
   height: auto;
   border-radius: 30px;
   padding: 70px;
@@ -266,7 +266,6 @@ h2 {
   }
 
   .cardCarrucel {
-    width: auto;
     height: auto;
     border-radius: 30px;
     padding: 10px;
