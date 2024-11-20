@@ -75,8 +75,8 @@ h2 {
 
 .button-1 {
   border: none;
-    background-color: #E30426;
-    color: rgb(255, 255, 255);
+  background-color: #E30426;
+  color: rgb(255, 255, 255);
 }
 
 .next-button-rigth {
@@ -138,6 +138,13 @@ h2 {
   background: rgba(63, 14, 13, 0.5);
   backdrop-filter: blur(7.5px);
   text-align: center;
+}
+
+.cardCarrucel h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0px;
 }
 
 .button-1,
@@ -283,9 +290,10 @@ h2 {
     font-size: 1rem;
     margin: 30px 15px;
   }
+
   h2 {
     font-size: 1.6em;
-  
+
   }
 }
 
@@ -381,11 +389,12 @@ h2 {
   .cardCarrucel p {
     font-size: 1rem;
   }
+}
 
+@media only screen and (max-width: 1200px) {
   .cardCarrucel h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-
 }
 
 @media only screen and (min-width: 1600px) {
@@ -478,12 +487,7 @@ h2 {
   font-size: 20px;
 }
 
-.cardCarrucel h1 {
-  color: white;
-  font-size: 64px;
-  font-weight: bold;
-  margin: 30px 0px;
-}
+
 
 .cardCarrucel p {
   color: rgba(255, 255, 255, 0.8);
