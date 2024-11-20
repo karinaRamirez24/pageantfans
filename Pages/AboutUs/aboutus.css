@@ -5,197 +5,14 @@
     padding: 350px 8%;
 }
 
-.separador {}
+.about-header-content p {
+    text-align: left;
+    line-height: 50px;
+    font-size: 7rem;
+    color: #ffffff;
+    font-family: "Andada Pro";
+    font-weight: normal;
 
-.hero {}
-
-.content-information {}
-
-.pageant-description {}
-
-.textabout {}
-
-.ceos {}
-
-.ceoContent {}
-
-.ceoText {}
-
-.h2-about {}
-
-.pageants-awards {}
-
-.awardscard {}
-
-.awars-text {}
-/* -------------------Media elements------------------- */
-@media only screen and (min-width: 300px) and (max-width: 799px) {
-    .news-header-content p{
-        text-align: justify;
-        color: #fff;
-        text-align: left;
-        font-family: "Andada Pro";
-        font-size: 500%;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100px;
-    }
-    .h2-about{
-        margin: 0;
-    }
-    .ceoContent {
-        width: 100%;
-        height: auto;
-        display: flex;
-        overflow: hidden;
-        flex-direction: column;
-    }
-    .awardscard img {
-        width: 200px;
-    }
-    .content-information {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        padding: 25% 0 0 0;
-        z-index: 2;
-    }
-    h1 {
-        color: #fff;
-        font-size: 2rem;
-        margin-top: 4%;
-        margin-bottom: 5%;
-        font-family: "Source Sans Pro";
-    }
-    .news-header-content{
-        width: 50%;
-    }
-    .ceos img {
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
-        object-position: 50% 5%;
-    }
-    .awars-text p {
-        color: rgba(255, 255, 255, 0.815);
-        
-        line-height: 1.5;
-        font-size: 0.75rem;
-    }
-    .awardscard {
-        background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
-        backdrop-filter: blur(20px);
-        border-radius: 24px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 2rem;
-    }
-    .about-header-content p {
-        text-align: left;
-        line-height: 50px;
-        font-size: 400%;
-        color: #ffffff;
-        font-family: "Andada Pro";
-        font-weight: normal;
-    }
-    .ceoText p {
-        color: rgba(255, 255, 255, 0.815);
-        line-height: 1.5;
-        font-size: 0.7rem;
-    }
-    .pageants-awards{
-        width: 100%;
-    }
-    .awardscard img {
-        width: 60%;
-        height: auto;
-    }
-    .awars-text {
-        padding: 0;
-        text-align: justify;
-    }
-    .ceoText {
-        padding: 1.5rem;
-        text-align: justify;
-    }
-
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-    .about-header-content p {
-        font-size: 500%;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    .textabout {
-        text-align: justify;
-        color: #fff;
-        font-size: 1rem;
-    }
-    .ceoContent {
-        width: 100%;
-        height: 50vh;
-        overflow: hidden;
-    }
-    h2 {
-        color: #7c8696;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    h3 {
-        color: #E30426;
-        text-align: center;
-        padding-bottom: 2%;
-        font-size: 1rem;
-    }
-    .ceoText {
-        padding: 0 5% 0 5%;
-        text-align: justify;
-    }
-    .ceoText p {
-        color: rgba(255, 255, 255, 0.815);
-        margin-top: 40px;
-        line-height: 1.5;
-        font-size: 60%;
-    }
-    .ceos img {
-        
-        object-fit: cover;
-        object-position: 50% 5%;
-    }
-
-    .awardscard {
-        margin: auto;
-        padding: auto;
-    }
-    .awardscard img {
-        width: 25%;
-        padding-right: 5%;
-    }
-    .awars-text {
-      padding: 0;
-    }
-    .awars-text p {
-        font-size: 80%;
-    }
-   
-}
-/* -------------------Animations------------------- */
-
-h1 {
-    color: #fff;
-    font-size: 64px;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    font-family: "Source Sans Pro";
-}
-
-img {
-    width: 800px;
-    height: 600;
 }
 
 .content-information {
@@ -209,21 +26,6 @@ img {
     z-index: 2;
 }
 
-
-.about-header-content p {
-    text-align: left;
-    line-height: 50px;
-    font-size: 7rem;
-    color: #ffffff;
-    font-family: "Andada Pro";
-    font-weight: normal;
-
-}
-
-.hero-about video {
-    position: inherit;
-}
-
 .pageant-description {
     width: 80%;
     text-align: center;
@@ -232,18 +34,6 @@ img {
 .textabout {
     text-align: justify;
     color: #fff;
-}
-
-.h2-about {
-    color: #7c8696;
-    text-align: center;
-}
-
-h3 {
-    color: #E30426;
-    text-align: center;
-    padding-bottom: 2%;
-    font-size: 23px;
 }
 
 .ceos {
@@ -261,34 +51,12 @@ h3 {
     object-position: 50% 5%;
 }
 
-.ceoContent {
-    display: flex;
-}
-
-.ceoText {
-    padding: 50px;
-    text-align: justify;
-}
-
-.ceoText p {
-    color: rgba(255, 255, 255, 0.815);
-    margin-top: 40px;
-    line-height: 1.5;
-    font-size: 18px;
-}
-
-h4 {
-    text-align: center;
-    font-size: 48px;
-    color: white;
-    padding-bottom: 3%;
-
-}
 
 .ceoContent {
     width: 100%;
     height: auto;
     overflow: hidden;
+    display: flex;
 }
 
 .ceoContent video {
@@ -305,8 +73,26 @@ h4 {
     object-fit: cover;
 }
 
-.awardscard{
-    background: linear-gradient(0deg, rgba(2,0,36,0.35) 0%, rgba(49,73,106,0.35) 50%, rgba(65,88,125,0.35) 100%);
+.ceoText {
+    /* padding: 0 5% 0 5%; */
+    padding: 50px;
+    text-align: justify;
+}
+
+.ceoText p {
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.h2-about {
+    color: #7c8696;
+    text-align: center;
+}
+
+.awardscard {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
     backdrop-filter: blur(20px);
     border-radius: 24px;
     overflow: hidden;
@@ -317,17 +103,229 @@ h4 {
     margin: 0px 150px;
 }
 
-.awardscard img{
+.awardscard img {
     width: 300px;
 }
-.awars-text{
+
+.awars-text {
     padding: 50px 90px;
     text-align: justify;
 }
 
-.awars-text p{
+.awars-text p {
     color: rgba(255, 255, 255, 0.815);
     margin-top: 30px;
     line-height: 1.5;
     font-size: 18px;
+}
+
+/* -------------------Media elements------------------- */
+@media only screen and (min-width: 300px) and (max-width: 799px) {
+    .news-header-content p {
+        text-align: justify;
+        color: #fff;
+        text-align: left;
+        font-family: "Andada Pro";
+        font-size: 500%;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+    }
+
+    .h2-about {
+        margin: 0;
+    }
+
+    .ceoContent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+    .awardscard img {
+        width: 200px;
+    }
+
+    .content-information {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 25% 0 0 0;
+        z-index: 2;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-family: "Source Sans Pro";
+    }
+
+    .news-header-content {
+        width: 50%;
+    }
+
+    .ceos img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
+
+    .awars-text p {
+        color: rgba(255, 255, 255, 0.815);
+
+        line-height: 1.5;
+        font-size: 0.75rem;
+    }
+
+    .awardscard {
+        background: linear-gradient(0deg, rgba(2, 0, 36, 0.35) 0%, rgba(49, 73, 106, 0.35) 50%, rgba(65, 88, 125, 0.35) 100%);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .about-header-content p {
+        text-align: left;
+        line-height: 50px;
+        font-size: 400%;
+        color: #ffffff;
+        font-family: "Andada Pro";
+        font-weight: normal;
+    }
+
+    .ceoText p {
+        color: rgba(255, 255, 255, 0.815);
+        line-height: 1.5;
+        font-size: 0.7rem;
+    }
+
+    .pageants-awards {
+        width: 100%;
+    }
+
+    .awardscard img {
+        width: 60%;
+        height: auto;
+    }
+
+    .awars-text {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .ceoText {
+        padding: 1.5rem;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .about-header-content p {
+        font-size: 500%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .textabout {
+        text-align: justify;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .ceoContent {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
+
+    h2 {
+        color: #7c8696;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: #E30426;
+        text-align: center;
+        padding-bottom: 2%;
+        font-size: 1rem;
+    }
+
+
+
+    .ceoText p {
+        color: rgba(255, 255, 255, 0.815);
+        margin-top: 40px;
+        line-height: 1.5;
+        font-size: 60%;
+    }
+
+    .ceos img {
+
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
+
+    .awardscard {
+        margin: auto;
+        padding: auto;
+    }
+
+    .awardscard img {
+        width: 25%;
+        padding-right: 5%;
+    }
+
+    .awars-text {
+        padding: 0;
+    }
+
+    .awars-text p {
+        font-size: 80%;
+    }
+
+}
+
+/* -------------------Animations------------------- */
+
+
+/* TODO */
+
+h1 {
+    color: #fff;
+    font-size: 64px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: "Source Sans Pro";
+}
+
+img {
+    width: 800px;
+    height: 600;
+}
+
+h3 {
+    color: #E30426;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 23px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 3%;
 }
