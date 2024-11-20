@@ -25,6 +25,10 @@
     padding: 50px 15px;
 }
 
+.QueesToptext h2{
+    text-align: center;
+}
+
 .carrusel {
     overflow: hidden;
     position: relative;
