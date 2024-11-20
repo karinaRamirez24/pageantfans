@@ -115,7 +115,6 @@
 .awars-text {
     padding: 50px 90px;
     text-align: justify;
-    word-spacing: normal;
 }
 
 .awars-text p {
@@ -123,7 +122,6 @@
     margin-top: 30px;
     line-height: 1.5;
     font-size: 18px;
-    word-spacing: normal;
     text-align: justify;
 }
 
@@ -231,10 +229,13 @@
     .textabout {
         font-size: 13px;
         letter-spacing: -0.5px;
+        text-align: justify;
     }
 
     .textabout-second {
         font-size: 13px;
+        letter-spacing: -0.6px;
+        text-align: justify;
         letter-spacing: -0.5px;
     }
 
@@ -253,7 +254,6 @@
         text-align: justify;
         color: #fff;
         font-size: 1rem;
-        letter-spacing: -0.5px;
     }
 
     .ceoContent {
@@ -279,7 +279,6 @@
         color: rgba(255, 255, 255, 0.815);
         margin-top: 40px;
         line-height: 1.5;
-        word-spacing: normal;
     }
 
     .ceos img {
