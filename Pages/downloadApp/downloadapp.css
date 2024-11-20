@@ -1,24 +1,6 @@
-.p-responsive {
-    display: flex;
-    width: 55%;
-    font-size: 19px; 
-    justify-content: center;
-    align-items: center;
-}
-
-.hero__makeStories {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-}
-
-.hero__contentImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
+/* -------------------Start of Download App styles------------------- */
+.video-download {
+    height: 550px;
 }
 
 .heroDownload {
@@ -29,34 +11,6 @@
 .heroDownload h1 {
     color: black;
     font-size: 60px;
-}
-
-.container-text-main {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.iphone-frame {
-    text-align: center;
-    width: 250px;
-    height: 540px;
-    border-radius: 60px;
-    overflow: hidden;
-    position: relative;
-}
-
-.iphone-frame video {
-    top: -2px;
-    position: absolute;
-    object-fit: cover;
-}
-
-.gridtext h2,
-p {
-    color: #545F71;
-    margin-bottom: 50px;
-    text-align: justify;
 }
 
 .gridvideo {
@@ -74,39 +28,35 @@ p {
     justify-content: center;
     align-items: left;
 }
-.container-text-main h1{
-    text-align: left;
+
+.gridtext h2,
+p {
+    color: #545F71;
+    margin-bottom: 50px;
+    text-align: justify;
 }
 
-.shake-horizontal {
-    animation: shake-horizontal 0.5s linear both;
-}
-
-.video-download {
-    height: 550px;
-}
-
-.content-exclusive {
+.p-responsive {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 55%;
+    font-size: 19px;
     justify-content: center;
     align-items: center;
-
 }
 
-.content-exclusive p {
-    text-align: left;
-    height: auto;
-    width: 80%;
-    font-weight: bold;
-    padding: 20px 70px;
-    font-size: 25px;
+.iphone-frame {
+    text-align: center;
+    width: 250px;
+    height: 540px;
+    border-radius: 60px;
+    overflow: hidden;
+    position: relative;
 }
 
-.content-exclusive .image-lap {
-    display: flex;
-    width: 75%;
+.iphone-frame video {
+    top: -2px;
+    position: absolute;
+    object-fit: cover;
 }
 
 .hero--diagonal {
@@ -142,6 +92,242 @@ p {
     text-align: left;
 }
 
+.hero__contents {}
+
+.hero__contentss {}
+
+.VdStream {}
+
+.container-text-main {}
+
+.hero__makeStories {}
+
+.hero__contentStories {}
+
+.hero__contentImg {}
+
+.content-exclusive {}
+
+.image-lap {}
+
+.valores-flexContent {}
+
+.valores-Carts {}
+
+.button-1 {}
+
+/* -------------------Media elements------------------- */
+@media only screen and (max-width: 1024px) {
+    .valores-flexContent {
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .gridtext {
+        width: 100%;
+    }
+
+    .content-exclusive .image-lap {
+        display: flex;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .hero__content {
+        margin-top: 10%;
+    }
+
+    .hero__content p {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p-responsive {
+        width: 100%;
+    }
+
+    .container-text-main {
+        width: 75%;
+    }
+
+    .valores-Carts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .heroDownload h1 {
+        font-size: 25px;
+        display: flex;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__contentStories p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .content-exclusive p {
+        padding: 15px;
+        text-align: left;
+        height: auto;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .hero__contentStories {
+        width: 75%;
+    }
+
+    .hero__makeStories {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .hero__contentImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .hero__contentImg {
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+
+    .heroDownload h1 {
+        font-size: 20px;
+        display: flex;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__contentStories p {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .valores-Carts {
+        display: flex;
+        width: 27%;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:2400px) {
+
+    .hero__contentss {
+        text-align: center;
+        width: 250px;
+        height: 540px;
+        margin-left: 90%;
+        border-radius: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .hero__content p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1450px) {
+    .hero__contentss {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero__contentss {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .hero__contentss {
+        margin-left: 0%;
+    }
+}
+
+/* -------------------Animations------------------- */
+
+
+.hero__makeStories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hero__contentImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.container-text-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.container-text-main h1 {
+    text-align: left;
+}
+
+.shake-horizontal {
+    animation: shake-horizontal 0.5s linear both;
+}
+
+
+
+.content-exclusive {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-exclusive p {
+    text-align: left;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+    padding: 20px 70px;
+    font-size: 25px;
+}
+
+.content-exclusive .image-lap {
+    display: flex;
+    width: 75%;
+}
+
 .valores-flexContent {
     display: flex;
     width: 100%;
@@ -149,7 +335,7 @@ p {
     margin-bottom: 5%;
     justify-content: center;
 }
-  
+
 .valores-Carts {
     display: flex;
     flex-direction: column;
@@ -158,18 +344,18 @@ p {
     width: 100%;
     flex-wrap: wrap;
 }
-  
+
 .valores-Carts i {
     font-size: 105px;
     margin: 20px 0px;
 }
-  
+
 .valores-Carts h3 {
     color: rgb(77, 77, 77);
     margin: 10px 0px;
     font-size: 35px;
 }
-  
+
 .valores-Carts h4 {
     color: rgb(172, 172, 172);
     margin: 30px 45px 0px 45px;
@@ -177,10 +363,10 @@ p {
     line-height: 150%;
 }
 
-.valores-Carts img{
+.valores-Carts img {
     margin-top: 20px;
     margin-bottom: 10px;
-     width: 105px;
+    width: 105px;
 }
 
 .hero__contentStories {
@@ -211,152 +397,4 @@ p {
     font-size: 25px;
     width: 100%;
     text-align: justify;
-}
-
-@media only screen and (max-width: 1024px) {
-    .valores-flexContent {
-        flex-wrap: wrap;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    
-    .gridtext {
-        width: 100%;
-    }
-    
-    .content-exclusive .image-lap {
-        display: flex;
-        width: 100%;
-        margin-top: 15%;
-    }
-
-    .hero__content {
-        margin-top: 10%;
-    }
-    
-    .hero__content p {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .p-responsive {
-        width: 100%;
-    }
-    
-    .container-text-main {
-        width: 75%;
-    }
-
-    .valores-Carts {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-    }
-
-    .heroDownload h1 {
-        font-size: 25px;
-        display: flex;
-        margin-top: 10%;
-        align-items: center;
-        justify-content: center;
-    }    
-    
-    .hero__contentStories p {
-        font-size: 18px;
-        width: 100%;
-    }
-
-    .content-exclusive p {
-        padding: 15px;
-        text-align: left;
-        height: auto;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 1.5;
-    }
-
-    .hero__contentStories {
-        width: 75%;
-    }
-
-    .hero__makeStories {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-    }
-    
-    .hero__contentImg {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-
-    .hero__contentImg {
-        display: flex;
-        width: 100%;
-        height: 300px;
-    }
-
-    .heroDownload h1 {
-        font-size: 20px;
-        display: flex;
-        margin-top: 10%;
-        align-items: center;
-        justify-content: center;
-    }    
-    
-    .hero__contentStories p {
-        font-size: 19px;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) {
-
-    .valores-Carts {
-        display: flex;
-        width: 27%;
-        flex-direction: column;
-    }
-}
-
-
-
-@media only screen and (min-width: 300px) and (max-width:2400px) {
-
-    .hero__contentss{
-        text-align: center;
-        width: 250px;
-        height: 540px;
-        margin-left: 90%;
-        border-radius: 60px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .hero__content p {
-        font-size: 19px;
-    }
-}
-
-@media only screen and (min-width: 1100px) and (max-width:1450px) {
-    .hero__contentss {
-        margin-left: 2%; 
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .hero__contentss {
-        margin-left: 50%; 
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .hero__contentss {
-        margin-left: 0%; 
-    }
 }
