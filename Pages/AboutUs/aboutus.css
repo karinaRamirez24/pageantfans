@@ -402,8 +402,8 @@ h4 {
     }
     /**/
     .ceoText p{
-        letter-spacing: -0.8px;
-        text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 
     .awars-text p{
@@ -422,7 +422,7 @@ h4 {
     }
     /**/
     .ceoText p{
-        letter-spacing: -0.94px;
+        letter-spacing: -0.6px;
         text-align: left;
     }
 
@@ -438,28 +438,28 @@ h4 {
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
 @media only screen and (min-width: 455px) and (max-width: 600px) {
     .textabout {
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
     .textabout-second{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 730px) {
     .ceoText p{
-        letter-spacing: -0.94px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
@@ -470,19 +470,19 @@ h4 {
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
 @media only screen and (min-width: 800px) and (max-width: 900px) {
     .ceoText p{
-        letter-spacing: -0.9px;
+        letter-spacing: -0.5px;
         text-align: left;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .awars-text p{
-        letter-spacing: -0.7px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
@@ -494,19 +494,19 @@ h4 {
     }
 
     .awars-text p{
-        letter-spacing: -0.7px;
+        letter-spacing: -0.5px;
         text-align: left;
        font-size: 16px;
     }
 }
 @media only screen and (min-width: 1001px) and (max-width: 1600px) {
     .ceoText p{
-        letter-spacing: -0.9px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
@@ -526,7 +526,7 @@ h4 {
         text-align: left;
     }
     .textabout-second{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
 }
