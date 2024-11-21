@@ -265,12 +265,12 @@ h4 {
         text-align: justify;
     }
     .textabout{
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: -0.5px;
         text-align: justify;
     }
     .textabout-second{
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: -0.6px;
         text-align: justify;
     }
@@ -341,32 +341,32 @@ h4 {
 
 @media only screen and (min-width: 300px) and (max-width: 400px) {
     .ceoText p{
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .awars-text p{
-        font-size: 10px;
+        font-size: 14px;
     }
     .textabout {
-        font-size: 10px;
+        font-size: 14px;
     }
     .textabout-second{
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 500px) {
     .ceoText p{
-        font-size: 11px;
+        font-size: 12.5px;
     }
     .awars-text p{
-        font-size: 12px;
+        font-size: 14.5px;
     }
     .textabout {
-        font-size: 12px;
+        font-size: 14.5px;
     }
     .textabout-second{
-        font-size: 12px;
+        font-size: 14.5px;
     }
 }
 
@@ -378,18 +378,6 @@ h4 {
         font-size: 15px;
     }
     .textabout {
-        font-size: 13px;
-    }
-    .textabout-second{
-        font-size: 13px;
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 700px) {
-    .ceoText p{
-        font-size: 15px;
-    }
-    .textabout {
         font-size: 15px;
     }
     .textabout-second{
@@ -397,142 +385,155 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 800px) {
+@media only screen and (min-width: 601px) and (max-width: 1300px) {
     .ceoText p{
-        font-size: 15px;
+        font-size: 14px;
     }
     .textabout {
         font-size: 16px;
     }
     .textabout-second{
         font-size: 16px;
-    }
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-    .ceoText p{
-        font-size: 11px; 
-    }
-}
-@media only screen and (min-width: 1000px) and (max-width: 1300px) {
-    .ceoText p{
-        font-size: 13px;
     }
 }
 
 /* Espacios de las letras   */
 @media only screen and (min-width: 300px) and (max-width: 369px) {
     .textabout {
-        letter-spacing: -1px;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
     .textabout-second{
-        letter-spacing: -0.9px;
+        letter-spacing: -0.1px;
+        text-align: left;
     }
     /**/
     .ceoText p{
-        letter-spacing: -0.8px;
-        text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.6px;
-       text-align: justify;
+        letter-spacing: -1px;
+       text-align: left;
     }
 }
 @media only screen and (min-width: 370px) and (max-width: 400px) {
     .textabout {
-        letter-spacing: -1px;
+        letter-spacing: -1.05px;
+        text-align: left;
     }
     .textabout-second{
         letter-spacing: -0.7px;
+        text-align: left;
     }
     /**/
     .ceoText p{
-        letter-spacing: -0.94px;
-        text-align: justify;
+        letter-spacing: -0.6px;
+        text-align: left;
     }
 
     .awars-text p{
         letter-spacing: -0.5px;
-       text-align: justify;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
     .ceoText p{
         letter-spacing: -0.9px;
-        text-align: justify;
+        text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
-       text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 455px) and (max-width: 600px) {
     .textabout {
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
     .textabout-second{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 730px) {
     .ceoText p{
-        letter-spacing: -0.94px;
-        text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
-       text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 731px) and (max-width: 799px) {
     .ceoText p{
         letter-spacing: -0.5px;
-        text-align: justify;
+        text-align: left;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
-       text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 800px) and (max-width: 900px) {
     .ceoText p{
-        letter-spacing: -0.99px;
-        text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
+        font-size: 11px;
     }
 
     .awars-text p{
-        letter-spacing: -0.7px;
-       text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
-@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
     .ceoText p{
-        letter-spacing: -0.9px;
-        text-align: justify;
+        letter-spacing: -1px;
+        text-align: left;
+        font-size: 14px;
     }
 
     .awars-text p{
-        letter-spacing: -0.8px;
-       text-align: justify;
+        letter-spacing: -0.5px;
+        text-align: left;
+       font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1600px) {
+    .ceoText p{
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+
+    .awars-text p{
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
     .textabout {
         letter-spacing: -0.6px;
+        text-align: left;
     }
     .textabout-second{
         letter-spacing: -0.5px;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
     .textabout {
         letter-spacing: -0.6px;
+        text-align: left;
     }
     .textabout-second{
-        letter-spacing: -0.8px;
+        letter-spacing: -0.5px;
+        text-align: left;
     }
 }
