@@ -45,11 +45,6 @@ video {
     padding: 3% 0px;
 }
 
-.download-app__hero h1 {
-    color: black;
-    font-size: 60px;
-}
-
 .download-app__text-main {
     width: 50%;
     display: flex;
@@ -71,8 +66,8 @@ video {
     object-fit: cover;
 }
 
-.download-app__text h2,
-p {
+.download-app__text, .download-app__subtitle,
+.download-app__description {
     color: #545F71;
     margin-bottom: 20px;
     text-align: justify;
@@ -93,7 +88,8 @@ p {
     justify-content: center;
     align-items: left;
 }
-.download-app__text-main h1{
+.download-app__text-main .download-app__text-main-title{
+    font-size: 60px;
     text-align: left;
 }
 
@@ -114,7 +110,7 @@ p {
 
 }
 
-.download-app__exclusive-content p {
+.download-app__exclusive-content .download-app__exclusive-description {
     text-align: left;
     height: auto;
     width: 80%;
@@ -215,7 +211,7 @@ p {
     width: 700px;
 }
 
-.download-app__stories-text h1,
+.download-app__stories-text .download-app__stories-title,
 p {
     display: flex;
     justify-content: center;
@@ -225,7 +221,7 @@ p {
     text-align: left;
 }
 
-.download-app__stories-text p {
+.download-app__stories-text .download-app__stories-description {
     margin-top: 3%;
     font-size: 25px;
     width: 100%;
@@ -276,7 +272,7 @@ p {
         width: 70%;
     }
 
-    .download-app__hero h1 {
+    .download-app__hero .download-app__hero-title {
         font-size: 25px;
         display: flex;
         margin-top: 10%;
@@ -284,12 +280,12 @@ p {
         justify-content: center;
     }    
     
-    .download-app__stories-text p {
+    .download-app__stories-text .download-app__stories-description {
         font-size: 18px;
         width: 100%;
     }
 
-    .download-app__exclusive-content p {
+    .download-app__exclusive-content .download-app__exclusive-description {
         padding: 15px;
         text-align: left;
         height: auto;
@@ -321,7 +317,7 @@ p {
         height: 300px;
     }
 
-    .download-app__hero h1 {
+    .download-app__hero .download-app__hero-title {
         font-size: 20px;
         display: flex;
         margin-top: 10%;
@@ -329,7 +325,7 @@ p {
         justify-content: center;
     }    
     
-    .download-app__stories-text p {
+    .download-app__stories-text .download-app__stories-description {
         font-size: 19px;
     }
 
