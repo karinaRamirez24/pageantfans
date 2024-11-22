@@ -27,10 +27,11 @@ video {
 
 .download-app__stories {
     display: flex;
+    width: 100%;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 100%;
 }
 
 .download-app__stories-image {
@@ -212,9 +213,11 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     color: #545F71;
     text-align: left;
+    flex-direction: column;
+
 }
 
 .download-app__stories-text .download-app__stories-description {
@@ -259,6 +262,9 @@ p {
     
     .download-app__text-main {
         width: 75%;
+        gap: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .download-app__card {
@@ -297,6 +303,8 @@ p {
 
     .download-app__stories-text {
         width: 75%;
+        gap: 20px;
+        margin-bottom: 5%;
     }
 
     .download-app__stories {
@@ -319,7 +327,7 @@ p {
     }
 
     .download-app__hero .download-app__hero-title {
-        font-size: 20px;
+        font-size: 30px;
         display: flex;
         margin-top: 10%;
         align-items: center;
