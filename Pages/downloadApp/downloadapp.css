@@ -21,7 +21,7 @@ video {
     display: flex;
     width: 55%;
     font-size: 19px; 
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -71,7 +71,6 @@ video {
 .download-app__description {
     color: #545F71;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .download-app__grid {
@@ -223,7 +222,7 @@ p {
     margin-top: 3%;
     font-size: 25px;
     width: 100%;
-    text-align: justify;
+    text-align: left;
 }
 
 @media only screen and (max-width: 1024px) {
