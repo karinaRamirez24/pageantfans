@@ -47,10 +47,6 @@
     transition: all 0.4s ease-in-out;
     color: red;
     position: absolute;
-    top: -0.01px;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 0;
     overflow: hidden;
     -webkit-text-stroke: 1px red;
