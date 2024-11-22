@@ -27,8 +27,8 @@
 
 .image-second {
   padding-right: 0;
-  width: 1200px;
-  height: 690px;
+  width: 130%;
+  height: 100%;
   z-index: 4;
 }
 .partners-h2{
@@ -83,20 +83,18 @@
 @media only screen and (min-width: 901px) and (max-width: 1340px) {
   .image-first {
     width: 50%;
-    height: 40%;
+    min-height: 40%;
   }
-  .partners-cards p {
-    color: white;
-    text-align: left;
-    padding-top: 5%;
-    width: 100%;
-  }
+  .partners-cards p,
   .fanscards2 p {
     color: white;
     text-align: justify;
     padding-top: 5%;
     width: 100%;
+    display: flex;
+    align-items: flex-start;
   }
 }
+
 
 /* -------------------Animations------------------- */
