@@ -31,6 +31,9 @@
   height: 690px;
   z-index: 4;
 }
+.partners-h2{
+  padding-left: 5%;
+}
 
 /* -------------------Media elements------------------- */
 
@@ -73,6 +76,7 @@
     padding: 5% 0 8% 0;
     width: 90%;
   }
+
   
 }
 
