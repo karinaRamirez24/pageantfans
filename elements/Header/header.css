@@ -39,24 +39,27 @@
 .colorText {
   color: var(--Colors-White, #FFF);
   font-weight: 400;
+  min-width: 100%;
   transition: all 0.4s ease-in-out;
   position: relative;
+  display: inline-block; 
+}
 
-  &::before {
-    content: attr(data-item);
-    transition: all 0.4s ease-in-out;
-    color: red;
-    position: absolute;
-    width: 0;
-    overflow: hidden;
-    -webkit-text-stroke: 1px red;
-  }
+.colorText::before {
+  content: attr(data-item);
+  transition: all 0.4s ease-in-out;
+  color: red;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 0;
+  white-space: nowrap; 
+  overflow: hidden;
+  -webkit-text-stroke: 1px red;
+}
 
-  &:hover {
-    &::before {
-      width: 100%;
-    }
-  }
+.colorText:hover::before {
+  width: 100%;
 }
 
 .menu-but {
