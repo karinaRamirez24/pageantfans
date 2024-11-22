@@ -91,6 +91,7 @@ video {
 .download-app__text-main .download-app__text-main-title{
     font-size: 60px;
     text-align: left;
+    color: #545F71;
 }
 
 .shake-horizontal {
@@ -145,11 +146,6 @@ video {
 
 .download-app__content img {
     width: 300px;
-}
-
-.download-app__content h1,
-p {
-    color: #545F71;
 }
 
 .download-app__content p {
@@ -283,6 +279,10 @@ p {
     .download-app__stories-text .download-app__stories-description {
         font-size: 18px;
         width: 100%;
+    }
+
+    .download-app__text-main-title {
+        font-size: 24px !important; 
     }
 
     .download-app__exclusive-content .download-app__exclusive-description {
