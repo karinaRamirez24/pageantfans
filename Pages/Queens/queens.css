@@ -99,7 +99,21 @@
     font-size: 2.6em;
     text-align: center;
 }
+.video-container {
+    position: relative;
+    width: 50%; /* Ajusta el tamaño según sea necesario */
+    overflow: hidden;
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
 
+  .video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 /* --------------------------Media elements-------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
