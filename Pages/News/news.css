@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 6%;
+    padding-top: 20%;
 }
 
 .image-main {
@@ -75,6 +75,7 @@
     width: 350px;
     height: 430px;
     display: flex;
+    margin-top: 80px;
     margin-bottom: 5%;
 }
 .elements-section {
