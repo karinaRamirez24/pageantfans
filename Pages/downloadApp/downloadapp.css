@@ -183,14 +183,13 @@ video {
   
 .download-app__card h4 {
     color: rgb(172, 172, 172);
-    margin: 30px 45px 0px 45px;
+    margin: 80px 45px 0px 45px;
     text-align: center;
     line-height: 150%;
 }
 
 .download-app__card img{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
      width: 105px;
 }
 
@@ -223,6 +222,13 @@ p {
     font-size: 25px;
     width: 100%;
     text-align: left;
+}
+.download-app__card h5 {
+    color: rgb(77, 77, 77);
+    margin: 0px 0px;
+    margin-bottom: -70px;
+    padding-top: 10px;
+    font-size: 35px;
 }
 
 @media only screen and (max-width: 1024px) {
