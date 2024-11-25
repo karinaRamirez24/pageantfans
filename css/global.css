@@ -316,6 +316,9 @@ h2 {
   .grid-data {
     grid-template-columns: 1fr 1fr;
   }
+  .cardsData {
+    padding: 70px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -336,6 +339,9 @@ h2 {
   .grid-data {
     padding: 40px;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .cardsData {
+    padding: 70px;
   }
 }
 

@@ -103,8 +103,8 @@
     position: relative;
     width: 50%; /* Ajusta el tamaño según sea necesario */
     overflow: hidden;
-    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgb(66, 1, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle, rgb(61, 2, 2) 80%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
   }
