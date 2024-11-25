@@ -322,6 +322,18 @@ p {
     .download-app__stories-image {
         width: 75%;
     }
+    .download-app__card img{
+        margin-top: 10px;
+         width: 105px;
+    }
+    .download-app__card h4 {
+        color: rgb(172, 172, 172);
+        margin: 80px 45px 0px 45px;
+        text-align: center;
+        line-height: 150%;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -353,6 +365,7 @@ p {
         width: 27%;
         flex-direction: column;
     }
+ 
 }
 
 
