@@ -84,10 +84,10 @@
   margin-right: 15px; 
 }
 
-
 .footer-links a {
   gap: 20px;
   color: white;
+  text-decoration: none;
 }
 
 .select-footer {
@@ -111,16 +111,20 @@ option {
 
 .terms {
   text-align: center;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 10px 0px 10px;
   background-color: #000;
   font-size: 9px;
   color: var(--Colors-Gray-Gray-09, #8B898B);
 }
+
 .p-footer{
-    text-align: center;
-    font-size: 8px;
-    font-weight: 800;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 /* -------------------Media elements------------------- */
 
@@ -165,6 +169,11 @@ option {
   .footer-links a {
     margin: 5px;
     font-size: 14px;
+    text-decoration: none;
+  }
+
+  .logo-footer img {
+    width: 15rem;
   }
 
   .button-footer {
@@ -173,14 +182,24 @@ option {
     margin: 15px 0;
   }
 
-  .social-networks {
-
-    padding-left: 0;
-  }
-
   .select-footer {
     padding: 5px;
   }
+
+  .social-networks {
+    margin-top: 5%;
+    gap: 40px;
+  }
+  
+  .links {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  
+  .footer-links {
+    flex-direction: row;
+  }
+
 }
 
 @media only screen and (min-width: 800px) and (max-width:1200px) {
@@ -202,6 +221,3 @@ option {
   }
 
 }
-
-
-/* -------------------Animations------------------- */
