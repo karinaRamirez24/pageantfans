@@ -114,11 +114,11 @@
 }
 
 .video-queens {
-    width: 31.3%;
+    width: 31.2%;
 
     position: absolute;
-    top: 50%; /* Posición vertical centrada */
-    left: 48.55%; /* Posición horizontal centrada */
+    top: 50.2%; /* Posición vertical centrada */
+    left: 48.58%; /* Posición horizontal centrada */
     transform: translate(-50%, -50%); /* Ajuste para centrar exactamente */
     z-index: 2; /* Asegura que el video esté sobre la imagen */
 }
@@ -128,10 +128,16 @@
     width: 100%; 
     height: auto;/* Ajusta el tamaño del video según prefieras */
 }
+
+
 /* --------------------------Media elements-------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .cardsData{
+        padding-top: 0;
+        flex-direction: column-reverse;
+    }
     .overlay-Queens h1 {
         font-size: 3.5rem;
     }
@@ -142,6 +148,18 @@
     .queens-h2 {
         text-align: left;
         margin: 8%;
+    }
+    .QueesToptext h2 {
+        text-align: left;
+        
+    }
+    .video-container img {
+        width: 100%; /* Escala la imagen al ancho del contenedor */
+        height: auto;
+    }
+    .video-queens {
+        top: 51.5%;
+        width: 34.1%;
     }
 }
 
