@@ -402,12 +402,6 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .cardCarrucel h1 {
-    font-size: 2rem;
-  }
-}
-
 @media only screen and (min-width: 1600px) {
   .separador {
     top: 680px;
@@ -454,8 +448,9 @@ h2 {
     font-size: 1.5rem;
     margin: 8%;
   }
-  .textcardsQueens {
-    padding: 0px 0;
+  .cardCarrucel p {
+    font-size: 1rem;
+  }
 }
 }
 

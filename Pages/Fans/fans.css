@@ -5,20 +5,87 @@
     font-size: 40px;
     font-weight: bold;
     margin: 30px 0px; 
+    text-align: center;
 }
+.img-fans{
+    width: 50%;
+    padding-right: 1.5rem;
+}
+.cards-fans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  3% 10% 3% 10%;
+}
+.p-fans-first{
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+}
+.img-fans-movil{
+ width: 50%;
+}
+.p-fans{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+
+}
+
+  .cardCarrucel-fans{
+    height: auto;
+    border-radius: 30px;
+    padding: 20px;
+    opacity: 0.9;
+    background: rgba(63, 14, 13, 0.5);
+    backdrop-filter: blur(7.5px);
+    text-align: center;
+  }
+  h3{
+    color: white;
+  }
 /* --------------------------Media elements-------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .img-fans-movil{
+        width: 100%;
+       }
+    .cards-fans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+    }
+    .img-fans{
+        width: 100%;
+    }
     .h1-fans{
-        font-size: 1.6rem;
+        text-align: center;
+        font-size: 1.3rem;
     }
     h2{
         font-size: 1.5rem;
     }
+    .p-fans{
+        font-size: 1rem;
+        text-align: left;
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .img-fans{
+        width: 50%;
+    }
+    .p-fans-first{
+        margin: 0 8%;
+    }
+    .textcardsFans p{
+        margin: 0 8%;
+    }
 
 }
 
