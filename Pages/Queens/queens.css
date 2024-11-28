@@ -101,7 +101,7 @@
 }
 .video-container {
     position: relative;
-    width: 80%; /* Ajusta según necesites */
+    width: 100%; /* Ajusta según necesites */
     height: auto; /* Mantener proporción del contenido */
     display: flex;
     justify-content: center;

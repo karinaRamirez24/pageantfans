@@ -233,7 +233,7 @@ p {
     font-size: 35px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 999px) {
     .download-app__features {
         flex-wrap: wrap;
         margin-top: 10%;
@@ -247,7 +247,7 @@ p {
     
     .download-app__exclusive-content .download-app__exclusive-image {
         display: flex;
-        width: 100%;
+        width: 75%;
         margin-top: 15%;
     }
 
@@ -298,7 +298,7 @@ p {
     }
 
     .download-app__exclusive-content .download-app__exclusive-description {
-        width: 100%;
+        width: 75%;
         padding: 15px;
         text-align: left;
         height: auto;
@@ -370,13 +370,44 @@ p {
 
 
 
-@media only screen and (min-width: 300px) and (max-width:2400px) {
+@media only screen and (min-width: 1211px) and (max-width:2660px) {
 
     .download-app__video-frame{
         text-align: center;
         width: 250px;
         height: 540px;
-        margin-left: 90%;
+        margin-left: 80%;
+        border-radius: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .download-app__content p {
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1110px) {
+
+    .download-app__video-frame{
+        text-align: center;
+        width: 250px;
+        height: 540px;
+        margin-left: 40%;
+        border-radius: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .download-app__content p {
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width:1000px) {
+
+    .download-app__video-frame{
+        text-align: center;
+        width: 250px;
+        height: 540px;
         border-radius: 60px;
         overflow: hidden;
         position: relative;
@@ -387,20 +418,19 @@ p {
     }
 }
 
-@media only screen and (min-width: 1100px) and (max-width:1450px) {
-    .download-app__video-frame {
-        margin-left: 2%; 
+@media only screen and (min-width: 1111px) and (max-width:1450px) {
+    .download-app__video-frame{
+        text-align: center;
+        width: 250px;
+        height: 540px;
+        margin-left: 60%;
+        border-radius: 60px;
+        overflow: hidden;
+        position: relative;
     }
-}
 
-@media only screen and (max-width: 1100px) {
-    .download-app__video-frame {
-        margin-left: 50%; 
+    .download-app__content p {
+        font-size: 19px;
     }
-}
 
-@media only screen and (max-width: 1050px) {
-    .download-app__video-frame {
-        margin-left: 0%; 
-    }
 }
