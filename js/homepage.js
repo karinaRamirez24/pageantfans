@@ -7,6 +7,15 @@ function nextPageFans() {
         });
 }
 
+function nextPageOpening() {
+    fetch('../Pages/Opening/opening.html')
+        .then((response) => response.text())
+        .then((data) => {
+            document.getElementById('content').innerHTML = data;
+            history.pushState('', '', '/home/opening');
+        });
+}
+
 function nextPageQueens() {
     fetch('../Pages/Queens/queens.html')
         .then((response) => response.text())
