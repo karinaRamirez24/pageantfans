@@ -12,7 +12,7 @@ function nextPageOpening() {
         .then((response) => response.text())
         .then((data) => {
             document.getElementById('content').innerHTML = data;
-            history.pushState('', '', '/home/opening');
+            history.pushState('', '', '/home');
         });
 }
 

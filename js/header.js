@@ -32,7 +32,7 @@ function headersHTML(headerElement) {
     });
 
     // Navegación específica
-    elements.logohome.addEventListener('click', () => navigateTo('../Pages/Opening/opening.html', '/home/opening', elements));
+    elements.logohome.addEventListener('click', () => navigateTo('../Pages/Opening/opening.html', '/home', elements));
     elements.joinUs.addEventListener('click', () => {
         navigateTo('../Pages/Joinus/joinus.html', '/joinus', elements);
         document.getElementById('header-container').style.display = 'none';
@@ -40,7 +40,7 @@ function headersHTML(headerElement) {
     });
 
     // Cargar contenido inicial
-    navigateTo('../Pages/Opening/opening.html', '/home/opening', elements);
+    navigateTo('../Pages/Opening/opening.html', '/home', elements);
 }
 
 function toggleMenu({ borrar, topBarr, expandedMenu, contenido }) {
