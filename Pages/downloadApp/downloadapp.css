@@ -19,7 +19,7 @@ video {
 
 .download-app__description {
     display: flex;
-    width: 55%;
+    width: 100%;
     font-size: 19px; 
     justify-content: left;
     align-items: center;
@@ -78,6 +78,7 @@ video {
 .download-app__grid {
     display: flex;
     width: 100%;
+    gap: 2%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -124,7 +125,7 @@ video {
 
 .download-app__exclusive-content .download-app__exclusive-image {
     display: flex;
-    width: 80%;
+    width: 90%;
 }
 
 .download-app__diagonal {
@@ -420,7 +421,7 @@ p {
 @media only screen and (min-width: 1901px) and (max-width:2660px) {
 
     .download-app__diagonal{
-        gap: 16%;
+        gap: 13%;
     }
 
     .download-app__text-main {
@@ -496,4 +497,17 @@ p {
         font-size: 19px;
     }
 
+}
+
+@media only screen and (min-width: 1200px) and (max-width:2660px) {
+    .download-app__exclusive-content .download-app__exclusive-description {
+        width: 88%;
+        padding: 20px;
+        text-align: left;
+        height: auto;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    
 }
