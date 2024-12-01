@@ -39,7 +39,13 @@
     animation: scroll 25s linear infinite;
     width: calc(100% * 2);
 }
-
+.cardsData-queens {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
 .video-item {
     flex: 0 0 auto;
     margin: 0 20px;
@@ -88,11 +94,12 @@
     line-height: 1.5;
     text-align: left;
     overflow: hidden;
-    padding: 90px 11%;
+    padding: 90px 7%;
 }
 
 .textcardsQueens {
-    padding: 20px 4%;
+    width: 100%;
+    padding: 20px 6% 30px;
 }
 .queens-h2{
     color: #ffffff;
@@ -100,40 +107,50 @@
     text-align: center;
 }
 .video-container {
+    padding-right: 4%;
+    width: 100%;
     position: relative;
-    width: 100%; /* Ajusta según necesites */
-    height: auto; /* Mantener proporción del contenido */
+    display: inline-block; /* Esto permite que la imagen de fondo y el GIF se alineen correctamente */
+}
+
+.img-background {
+    width: 100%; /* Ajusta el tamaño de la imagen de fondo para que cubra el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen de fondo */
+}
+
+.video-queens {
+    width: 65%;
+    position: absolute;
+    top: 50%; /* Coloca el contenedor del GIF en el centro vertical */
+    left: 50%; /* Coloca el contenedor del GIF en el centro horizontal */
+    transform: translate(-50%, -50%); /* Ajusta para que esté perfectamente centrado */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.video-container img {
-    width: 90%; /* Escala la imagen al ancho del contenedor */
-    height: auto;
+
+.img-queen{
+    width: 80%; /* Aumenta el tamaño del GIF para que sea más grande que el fondo */
+    height: auto; /* Mantiene la proporción del GIF */
+    object-fit: contain; /* Asegura que el GIF mantenga sus proporciones */
+}
+.images-last{
+    width: 40%;
+    padding: 6%;
 }
 
-.video-queens {
-    width: 31.2%;
-
-    position: absolute;
-    top: 50.2%; /* Posición vertical centrada */
-    left: 48.58%; /* Posición horizontal centrada */
-    transform: translate(-50%, -50%); /* Ajuste para centrar exactamente */
-    z-index: 2; /* Asegura que el video esté sobre la imagen */
-}
-
-.video-queens video {
-    border-radius: 6px;
-    width: 100%; 
-    height: auto;/* Ajusta el tamaño del video según prefieras */
-}
 
 
 /* --------------------------Media elements-------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .cardsData-queens{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
     .cardsData{
         padding-top: 0;
         flex-direction: column-reverse;
@@ -143,7 +160,7 @@
     }
 
     .textcardsQueens {
-        padding: 30px 7%;
+        padding: 0 7%;
     }
     .queens-h2 {
         text-align: left;
@@ -154,44 +171,76 @@
         
     }
     .video-container img {
+        padding-bottom: 20%;
         width: 100%; /* Escala la imagen al ancho del contenedor */
         height: auto;
     }
     .video-queens {
-        top: 51.5%;
-        width: 34.1%;
+        width: 80%;
     }
     h3{
         font-size: 1.2rem;
-      }
+    }
+    .images-last{
+        width: 100%;
+    }
+    .texto-h{
+        padding: 12% 7% 7%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
+  
     .video-container{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .video-container img {
-        width: 100%; 
+    .video-container-img {
+        width: 80%; 
         height: auto;
+        padding-right: 6%;
     }
 
     .video-queens {
-        width: 35%;
+        width: 75%;
         position: absolute;
         top: 50.5%;
         left: 48.5%;
     }
+   
     
 }
 
-@media only screen and (min-width: 701px)  and (max-width: 800px) {
+@media only screen and (min-width: 601px)  and (max-width: 800px) {
+ 
     .texto-h {
       font-size: 1.6rem;
+    }
+    .video-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container-img {
+        width: 80%; 
+        height: auto;
+    }
+
+    .video-queens {
+        width: 75%;
+        position: absolute;
+        top: 50.5%;
+        left: 48.5%;
     }
   }
   
   @media only screen and (min-width: 801px)  and (max-width: 900px) {
+  
     .texto-h {
       font-size: 2rem;
     } 
