@@ -73,6 +73,7 @@ video {
 .download-app__description {
     color: #545F71;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .download-app__grid {
@@ -214,6 +215,7 @@ p {
     color: #545F71;
     text-align: left;
     flex-direction: column;
+    font-size: 25px;
 
 }
 

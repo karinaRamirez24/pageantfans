@@ -40,7 +40,6 @@
     width: calc(100% * 2);
 }
 .cardsData-queens {
-    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -139,17 +138,21 @@
     width: 40%;
     padding: 6%;
 }
-
+.queens-h2 {
+    text-align: left;
+    margin: 8%;
+}
 
 
 /* --------------------------Media elements-------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .cardsData-queens{
         display: flex;
         flex-direction: column-reverse;
-        padding-bottom: 0;
+        margin-top: -30px;
+        padding: 2rem;
     }
     .cardsData{
         padding-top: 0;
@@ -162,10 +165,7 @@
     .textcardsQueens {
         padding: 0 7%;
     }
-    .queens-h2 {
-        text-align: left;
-        margin: 8%;
-    }
+
     .QueesToptext h2 {
         text-align: left;
         
@@ -189,7 +189,50 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .queens-h2 {
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+    .queens-h2 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+    .queens-h2 {
+        font-size: 2.2rem;
+    }
+}
+@media only screen  and (min-width: 1101px) {
+    .queens-h2 {
+        font-size: 2.6rem;
+    }
+}
+@media only screen  and (min-width: 1700px) {
+    .queens-h2 {
+        font-size: 3.6rem;
+    }
+    h2{
+        font-size: 3.6rem;
+    }
+    h3{
+        font-size: 2.6rem;
+    }
+}
+@media only screen  and (min-width: 2000px) {
+    .queens-h2 {
+        font-size: 4.6rem;
+    }
+    h2{
+        font-size: 4.6rem;
+    }
+    h3{
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (min-width: 800px) {
   
     .video-container{
         width: 100%;
