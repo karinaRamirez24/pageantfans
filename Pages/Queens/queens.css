@@ -22,7 +22,7 @@
 
 .QueesToptext {
     text-align: right;
-    padding: 50px 15px;
+    padding: 0px 15px;
 }
 
 .QueesToptext h2{
@@ -151,7 +151,7 @@
     .cardsData-queens{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: -30px;
+        margin-top: -40px;
         padding: 2rem;
     }
     .cardsData{
@@ -185,7 +185,10 @@
         width: 100%;
     }
     .texto-h{
-        padding: 12% 7% 7%;
+        padding: 6% 7% 7%;
+    }
+    .h2-text-queen {
+        margin-top: -30px;
     }
 }
 
