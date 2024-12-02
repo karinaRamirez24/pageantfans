@@ -11,14 +11,12 @@
 .partners-cards p {
   color: #fff;
   text-align: justify;
-  padding-top: 5%;
-  padding-left: 5%;
-  width: 600px;
-  text-align: justify;
+  padding: 0 5% 2%;
+  width: 100%;
 }
 
 .image-first {
-  width: 35rem;
+  width: 50%;
 }
 
 .button-system {
@@ -26,10 +24,7 @@
 }
 
 .image-second {
-  padding-right: 0;
-  width: 130%;
-  height: 100%;
-  z-index: 4;
+  width: 100%;
 }
 .partners-h2{
   padding-left: 5%;
